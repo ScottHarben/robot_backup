@@ -1,0 +1,52 @@
+[9.366s] Invoking command in '/home/scott/alpha_ws/src/robot': PYTHONPATH=/home/scott/alpha_ws/build/robot/prefix_override:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/scott/alpha_ws/build/robot/build install --record /home/scott/alpha_ws/build/robot/install.log --single-version-externally-managed
+[11.817s] running egg_info
+[11.818s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[11.818s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[11.821s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[11.821s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[11.833s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[11.835s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[11.839s] adding license file 'LICENSE'
+[11.841s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[11.850s] running build
+[11.851s] running build_py
+[11.853s] copying robot/encoder_publisher_left.py -> /home/scott/alpha_ws/build/robot/build/lib/robot
+[11.863s] copying robot/pid_controller_right.py -> /home/scott/alpha_ws/build/robot/build/lib/robot
+[11.864s] copying robot/zzz_NOT_USED_rpm_publisher.py -> /home/scott/alpha_ws/build/robot/build/lib/robot
+[11.869s] copying robot/motor_driver.py -> /home/scott/alpha_ws/build/robot/build/lib/robot
+[11.878s] copying robot/motor_controller.py -> /home/scott/alpha_ws/build/robot/build/lib/robot
+[11.885s] copying robot/encoder_publisher.py -> /home/scott/alpha_ws/build/robot/build/lib/robot
+[11.891s] copying robot/encoder_publisher_right.py -> /home/scott/alpha_ws/build/robot/build/lib/robot
+[11.896s] copying robot/pid_controller_left.py -> /home/scott/alpha_ws/build/robot/build/lib/robot
+[11.902s] running install
+[11.905s] running install_lib
+[11.913s] copying /home/scott/alpha_ws/build/robot/build/lib/robot/encoder_publisher_left.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot
+[11.921s] copying /home/scott/alpha_ws/build/robot/build/lib/robot/pid_controller_right.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot
+[11.929s] copying /home/scott/alpha_ws/build/robot/build/lib/robot/zzz_NOT_USED_rpm_publisher.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot
+[11.936s] copying /home/scott/alpha_ws/build/robot/build/lib/robot/motor_driver.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot
+[11.939s] copying /home/scott/alpha_ws/build/robot/build/lib/robot/motor_controller.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot
+[11.940s] copying /home/scott/alpha_ws/build/robot/build/lib/robot/encoder_publisher.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot
+[11.941s] copying /home/scott/alpha_ws/build/robot/build/lib/robot/encoder_publisher_right.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot
+[11.942s] copying /home/scott/alpha_ws/build/robot/build/lib/robot/pid_controller_left.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot
+[11.946s] byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/encoder_publisher_left.py to encoder_publisher_left.cpython-310.pyc
+[11.950s] byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/pid_controller_right.py to pid_controller_right.cpython-310.pyc
+[11.953s] byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/zzz_NOT_USED_rpm_publisher.py to zzz_NOT_USED_rpm_publisher.cpython-310.pyc
+[11.955s] byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/motor_driver.py to motor_driver.cpython-310.pyc
+[11.958s] byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/motor_controller.py to motor_controller.cpython-310.pyc
+[11.962s] byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/encoder_publisher.py to encoder_publisher.cpython-310.pyc
+[11.965s] byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/encoder_publisher_right.py to encoder_publisher_right.cpython-310.pyc
+[11.969s] byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/pid_controller_left.py to pid_controller_left.cpython-310.pyc
+[11.973s] running install_data
+[12.027s] running install_egg_info
+[12.028s] removing '/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+[12.029s] Copying ../../build/robot/robot.egg-info to /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[12.030s] running install_scripts
+[12.126s] Installing encoder_publisher script to /home/scott/alpha_ws/install/robot/lib/robot
+[12.127s] Installing encoder_publisher_left script to /home/scott/alpha_ws/install/robot/lib/robot
+[12.128s] Installing encoder_publisher_right script to /home/scott/alpha_ws/install/robot/lib/robot
+[12.129s] Installing motor_controller script to /home/scott/alpha_ws/install/robot/lib/robot
+[12.130s] Installing motor_driver script to /home/scott/alpha_ws/install/robot/lib/robot
+[12.131s] Installing pid_controller_left script to /home/scott/alpha_ws/install/robot/lib/robot
+[12.131s] Installing pid_controller_right script to /home/scott/alpha_ws/install/robot/lib/robot
+[12.134s] writing list of installed files to '/home/scott/alpha_ws/build/robot/install.log'
+[13.008s] Invoked command in '/home/scott/alpha_ws/src/robot' returned '0': PYTHONPATH=/home/scott/alpha_ws/build/robot/prefix_override:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/scott/alpha_ws/build/robot/build install --record /home/scott/alpha_ws/build/robot/install.log --single-version-externally-managed

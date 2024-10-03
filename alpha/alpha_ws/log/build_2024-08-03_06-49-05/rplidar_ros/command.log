@@ -1,0 +1,2 @@
+Invoking command in '/home/scott/alpha_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/rplidar_ros -- -j4 -l4
+Invoked command in '/home/scott/alpha_ws/build/rplidar_ros' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/rplidar_ros -- -j4 -l4

@@ -1,0 +1,37 @@
+[6.511s] Invoking command in '/home/scott/alpha_ws/src/robot_description': PYTHONPATH=/home/scott/alpha_ws/build/robot_description/prefix_override:/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/scott/alpha_ws/build/robot_description/build install --record /home/scott/alpha_ws/build/robot_description/install.log --single-version-externally-managed
+[8.489s] running egg_info
+[8.491s] creating ../../build/robot_description/robot_description.egg-info
+[8.493s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[8.496s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[8.498s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[8.500s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[8.502s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[8.505s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[8.520s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[8.525s] adding license file 'LICENSE'
+[8.532s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[8.536s] running build
+[8.538s] running build_py
+[8.539s] creating /home/scott/alpha_ws/build/robot_description/build
+[8.540s] creating /home/scott/alpha_ws/build/robot_description/build/lib
+[8.541s] creating /home/scott/alpha_ws/build/robot_description/build/lib/robot_description
+[8.544s] copying robot_description/__init__.py -> /home/scott/alpha_ws/build/robot_description/build/lib/robot_description
+[8.548s] running install
+[8.551s] running install_lib
+[8.556s] creating /home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages/robot_description
+[8.557s] copying /home/scott/alpha_ws/build/robot_description/build/lib/robot_description/__init__.py -> /home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages/robot_description
+[8.561s] byte-compiling /home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages/robot_description/__init__.py to __init__.cpython-310.pyc
+[8.566s] running install_data
+[8.570s] creating /home/scott/alpha_ws/install/robot_description/share/ament_index
+[8.571s] creating /home/scott/alpha_ws/install/robot_description/share/ament_index/resource_index
+[8.572s] creating /home/scott/alpha_ws/install/robot_description/share/ament_index/resource_index/packages
+[8.572s] copying resource/robot_description -> /home/scott/alpha_ws/install/robot_description/share/ament_index/resource_index/packages
+[8.573s] copying package.xml -> /home/scott/alpha_ws/install/robot_description/share/robot_description
+[8.573s] creating /home/scott/alpha_ws/install/robot_description/share/robot_description/launch
+[8.574s] copying launch/display.launch.py -> /home/scott/alpha_ws/install/robot_description/share/robot_description/launch
+[8.580s] copying urdf/robot_description.urdf -> /home/scott/alpha_ws/install/robot_description/share/robot_description
+[8.581s] running install_egg_info
+[8.589s] Copying ../../build/robot_description/robot_description.egg-info to /home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info
+[8.599s] running install_scripts
+[8.711s] writing list of installed files to '/home/scott/alpha_ws/build/robot_description/install.log'
+[8.908s] Invoked command in '/home/scott/alpha_ws/src/robot_description' returned '0': PYTHONPATH=/home/scott/alpha_ws/build/robot_description/prefix_override:/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/scott/alpha_ws/build/robot_description/build install --record /home/scott/alpha_ws/build/robot_description/install.log --single-version-externally-managed

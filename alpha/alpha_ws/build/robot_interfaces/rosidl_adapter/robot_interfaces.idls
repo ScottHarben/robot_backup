@@ -1,0 +1,3 @@
+/home/scott/alpha_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/TickCount.idl
+/home/scott/alpha_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/WheelRPM.idl
+/home/scott/alpha_ws/build/robot_interfaces/rosidl_adapter/robot_interfaces:msg/DutyCycle.idl

@@ -1,0 +1,102 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build
+    return await extension.build(additional_hooks=additional_hooks)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build
+    available_commands = await self._get_available_commands(
+  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands
+    output = await check_output(
+  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output
+    assert not rc, f'Expected {args} to pass: {stderr_data}'
+AssertionError: Expected ['/usr/bin/python3', 'setup.py', '--help-commands'] to pass: Traceback (most recent call last):
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3016, in _dep_map
+    return self.__dep_map
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2813, in __getattr__
+    raise AttributeError(attr)
+AttributeError: _DistInfoDistribution__dep_map
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/scott/alpha_ws/src/robot_bringup/setup.py", line 7, in <module>
+    setup(
+  File "/home/scott/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup
+    return distutils.core.setup(**attrs)
+  File "/usr/lib/python3.10/distutils/core.py", line 108, in setup
+    _setup_distribution = dist = klass(attrs)
+  File "/home/scott/.local/lib/python3.10/site-packages/setuptools/dist.py", line 453, in __init__
+    _Distribution.__init__(
+  File "/usr/lib/python3.10/distutils/dist.py", line 292, in __init__
+    self.finalize_options()
+  File "/home/scott/.local/lib/python3.10/site-packages/setuptools/dist.py", line 830, in finalize_options
+    for ep in sorted(loaded, key=by_order):
+  File "/home/scott/.local/lib/python3.10/site-packages/setuptools/dist.py", line 829, in <lambda>
+    loaded = map(lambda e: e.load(), filtered)
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2449, in load
+    self.require(*args, **kwargs)
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2471, in require
+    reqs = self.dist.requires(self.extras)
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2734, in requires
+    dm = self._dep_map
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3018, in _dep_map
+    self.__dep_map = self._compute_dependencies()
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3028, in _compute_dependencies
+    reqs.extend(parse_requirements(req))
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3084, in parse_requirements
+    yield Requirement(line)
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 3094, in __init__
+    super(Requirement, self).__init__(requirement_string)
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 98, in __init__
+    req = REQUIREMENT.parseString(requirement_string)
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1644, in parseString
+    loc, tokens = self._parse( instring, 0 )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+    loc, exprtokens = e._parse( instring, loc, doActions )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3552, in parseImpl
+    ret = e._parse( instring, loc, doActions )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+    loc, exprtokens = e._parse( instring, loc, doActions )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 4005, in parseImpl
+    loc, tokens = self.expr._parse( instring, loc, doActions, callPreParse=False )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1402, in _parseNoCache
+    loc,tokens = self.parseImpl( instring, preloc, doActions )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 3417, in parseImpl
+    loc, exprtokens = e._parse( instring, loc, doActions )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1428, in _parseNoCache
+    tokens = fn( instring, tokensStart, retTokens )
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1072, in wrapper
+    ret = func(*args[limit[0]:])
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/requirements.py", line 66, in <lambda>
+    lambda s, l, t: Marker(s[t._original_start : t._original_end])
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/markers.py", line 299, in __init__
+    self._markers = _coerce_parse_result(MARKER.parseString(marker))
+  File "/home/scott/.local/lib/python3.10/site-packages/pkg_resources/_vendor/pyparsing.py", line 1608, in parseString
+    def parseString( self, instring, parseAll=False ):
+KeyboardInterrupt
+

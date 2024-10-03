@@ -1,0 +1,22 @@
+[4.008s] Invoking command in '/home/scott/alpha_ws/src/robot_bringup': PYTHONPATH=/home/scott/alpha_ws/build/robot_bringup/prefix_override:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/scott/alpha_ws/build/robot_bringup/build install --record /home/scott/alpha_ws/build/robot_bringup/install.log --single-version-externally-managed
+[5.361s] running egg_info
+[5.364s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[5.366s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[5.367s] writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+[5.368s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[5.369s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[5.378s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[5.380s] adding license file 'LICENSE'
+[5.383s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[5.384s] running build
+[5.384s] running build_py
+[5.385s] running install
+[5.386s] running install_lib
+[5.392s] running install_data
+[5.396s] copying config/nav2_params.yaml -> /home/scott/alpha_ws/install/robot_bringup/share/robot_bringup/config
+[5.397s] running install_egg_info
+[5.405s] removing '/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[5.407s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info
+[5.414s] running install_scripts
+[5.500s] writing list of installed files to '/home/scott/alpha_ws/build/robot_bringup/install.log'
+[5.632s] Invoked command in '/home/scott/alpha_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/scott/alpha_ws/build/robot_bringup/prefix_override:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/scott/alpha_ws/build/robot_bringup/build install --record /home/scott/alpha_ws/build/robot_bringup/install.log --single-version-externally-managed

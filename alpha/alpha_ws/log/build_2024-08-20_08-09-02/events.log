@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.001378] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.001887] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.002197] (-) JobUnselected: {'identifier': 'robot_interfaces'}
+[0.002557] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.003077] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.003347] (robot) JobStarted: {'identifier': 'robot'}
+[0.097583] (-) TimerEvent: {}
+[0.198659] (-) TimerEvent: {}
+[0.299691] (-) TimerEvent: {}
+[0.400571] (-) TimerEvent: {}
+[0.501391] (-) TimerEvent: {}
+[0.603146] (-) TimerEvent: {}
+[0.703883] (-) TimerEvent: {}
+[0.804780] (-) TimerEvent: {}
+[0.905557] (-) TimerEvent: {}
+[1.006414] (-) TimerEvent: {}
+[1.107191] (-) TimerEvent: {}
+[1.207903] (-) TimerEvent: {}
+[1.308758] (-) TimerEvent: {}
+[1.409588] (-) TimerEvent: {}
+[1.510343] (-) TimerEvent: {}
+[1.611082] (-) TimerEvent: {}
+[1.711753] (-) TimerEvent: {}
+[1.812440] (-) TimerEvent: {}
+[1.913145] (-) TimerEvent: {}
+[2.013952] (-) TimerEvent: {}
+[2.114703] (-) TimerEvent: {}
+[2.215457] (-) TimerEvent: {}
+[2.316213] (-) TimerEvent: {}
+[2.417094] (-) TimerEvent: {}
+[2.520419] (-) TimerEvent: {}
+[2.621683] (-) TimerEvent: {}
+[2.723160] (-) TimerEvent: {}
+[2.824947] (-) TimerEvent: {}
+[2.926589] (-) TimerEvent: {}
+[3.028398] (-) TimerEvent: {}
+[3.130297] (-) TimerEvent: {}
+[3.231036] (-) TimerEvent: {}
+[3.331745] (-) TimerEvent: {}
+[3.432498] (-) TimerEvent: {}
+[3.533259] (-) TimerEvent: {}
+[3.634015] (-) TimerEvent: {}
+[3.734895] (-) TimerEvent: {}
+[3.835728] (-) TimerEvent: {}
+[3.936570] (-) TimerEvent: {}
+[4.037427] (-) TimerEvent: {}
+[4.138850] (-) TimerEvent: {}
+[4.239874] (-) TimerEvent: {}
+[4.340773] (-) TimerEvent: {}
+[4.441662] (-) TimerEvent: {}
+[4.542588] (-) TimerEvent: {}
+[4.643460] (-) TimerEvent: {}
+[4.744350] (-) TimerEvent: {}
+[4.845270] (-) TimerEvent: {}
+[4.946115] (-) TimerEvent: {}
+[5.046953] (-) TimerEvent: {}
+[5.147829] (-) TimerEvent: {}
+[5.248744] (-) TimerEvent: {}
+[5.349744] (-) TimerEvent: {}
+[5.451507] (-) TimerEvent: {}
+[5.494128] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/scott/alpha_ws/build/robot/build', 'install', '--record', '/home/scott/alpha_ws/build/robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/scott/alpha_ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'scott', 'SSH_CLIENT': '192.168.8.181 48662 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/scott', 'OLDPWD': '/home/scott', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/scott/alpha_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'scott', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/scott/alpha_ws/build/robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.181 48662 192.168.8.124 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/scott/alpha_ws/build/robot/prefix_override:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces'}, 'shell': False}
+[5.551972] (-) TimerEvent: {}
+[5.652922] (-) TimerEvent: {}
+[5.753812] (-) TimerEvent: {}
+[5.854707] (-) TimerEvent: {}
+[5.955777] (-) TimerEvent: {}
+[6.056732] (-) TimerEvent: {}
+[6.157602] (-) TimerEvent: {}
+[6.259330] (-) TimerEvent: {}
+[6.360079] (-) TimerEvent: {}
+[6.460786] (-) TimerEvent: {}
+[6.561489] (-) TimerEvent: {}
+[6.662306] (-) TimerEvent: {}
+[6.763068] (-) TimerEvent: {}
+[6.863837] (-) TimerEvent: {}
+[6.964564] (-) TimerEvent: {}
+[7.065310] (-) TimerEvent: {}
+[7.166072] (-) TimerEvent: {}
+[7.253696] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[7.257942] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[7.260640] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[7.262782] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[7.263763] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[7.264595] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[7.266209] (-) TimerEvent: {}
+[7.276489] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[7.280351] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[7.283697] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[7.284470] (robot) StdoutLine: {'line': b'running build\n'}
+[7.285120] (robot) StdoutLine: {'line': b'running build_py\n'}
+[7.286670] (robot) StdoutLine: {'line': b'copying robot/pid_controller_right.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[7.290673] (robot) StdoutLine: {'line': b'copying robot/odom_publisher.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[7.292882] (robot) StdoutLine: {'line': b'running install\n'}
+[7.296367] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[7.301115] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/pid_controller_right.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[7.305730] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/odom_publisher.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[7.310405] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/pid_controller_right.py to pid_controller_right.cpython-310.pyc\n'}
+[7.315875] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/odom_publisher.py to odom_publisher.cpython-310.pyc\n'}
+[7.327289] (robot) StdoutLine: {'line': b'running install_data\n'}
+[7.330469] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.339707] (robot) StdoutLine: {'line': b"removing '/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.346859] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[7.352975] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[7.366383] (-) TimerEvent: {}
+[7.455418] (robot) StdoutLine: {'line': b'Installing encoder_publisher script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[7.458552] (robot) StdoutLine: {'line': b'Installing encoder_publisher_left script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[7.459395] (robot) StdoutLine: {'line': b'Installing encoder_publisher_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[7.463912] (robot) StdoutLine: {'line': b'Installing imu_publisher script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[7.464803] (robot) StdoutLine: {'line': b'Installing motor_controller script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[7.465449] (robot) StdoutLine: {'line': b'Installing motor_driver script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[7.465908] (robot) StdoutLine: {'line': b'Installing odom_publisher script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[7.466449] (-) TimerEvent: {}
+[7.467026] (robot) StdoutLine: {'line': b'Installing pid_controller_left script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[7.469910] (robot) StdoutLine: {'line': b'Installing pid_controller_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[7.471355] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/scott/alpha_ws/build/robot/install.log'\n"}
+[7.566798] (-) TimerEvent: {}
+[7.634843] (robot) CommandEnded: {'returncode': 0}
+[7.666923] (-) TimerEvent: {}
+[7.767774] (-) TimerEvent: {}
+[7.869233] (-) TimerEvent: {}
+[7.970535] (-) TimerEvent: {}
+[8.072509] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[8.079311] (-) TimerEvent: {}
+[8.079925] (-) EventReactorShutdown: {}

@@ -1,0 +1,10 @@
+  File "/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/pid_controller_right.py", line 1
+    rightimport rclpy
+                ^^^^^
+SyntaxError: invalid syntax
+
+  File "/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/pid_controller_left.py", line 17
+    UNCOMMENT IF USING PID
+              ^^
+SyntaxError: invalid syntax
+

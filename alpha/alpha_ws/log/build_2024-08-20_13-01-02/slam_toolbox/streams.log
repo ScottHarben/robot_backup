@@ -1,0 +1,8 @@
+[0.483s] Invoking command in '/home/scott/alpha_ws/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/slam_toolbox -- -j4 -l4
+[1.073s] [  1%] Built target slam_toolbox__cpp
+[1.174s] [  1%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[62.085s] [  2%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[117.615s] gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Interrupt
+[117.644s] gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Interrupt
+[117.646s] gmake: *** [Makefile:146: all] Interrupt
+[117.910s] Invoked command in '/home/scott/alpha_ws/build/slam_toolbox' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/slam_toolbox -- -j4 -l4

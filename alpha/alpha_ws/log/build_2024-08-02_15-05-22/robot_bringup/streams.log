@@ -1,0 +1,37 @@
+[8.874s] Invoking command in '/home/scott/alpha_ws/src/robot_bringup': PYTHONPATH=/home/scott/alpha_ws/build/robot_bringup/prefix_override:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/scott/alpha_ws/build/robot_bringup/build install --record /home/scott/alpha_ws/build/robot_bringup/install.log --single-version-externally-managed
+[11.008s] running egg_info
+[11.013s] creating ../../build/robot_bringup/robot_bringup.egg-info
+[11.019s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[11.020s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[11.021s] writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+[11.022s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[11.024s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[11.025s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[11.035s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[11.046s] adding license file 'LICENSE'
+[11.049s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[11.062s] running build
+[11.063s] running build_py
+[11.064s] creating /home/scott/alpha_ws/build/robot_bringup/build
+[11.066s] creating /home/scott/alpha_ws/build/robot_bringup/build/lib
+[11.067s] creating /home/scott/alpha_ws/build/robot_bringup/build/lib/robot_bringup
+[11.068s] copying robot_bringup/__init__.py -> /home/scott/alpha_ws/build/robot_bringup/build/lib/robot_bringup
+[11.068s] running install
+[11.070s] running install_lib
+[11.071s] creating /home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup
+[11.071s] copying /home/scott/alpha_ws/build/robot_bringup/build/lib/robot_bringup/__init__.py -> /home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup
+[11.072s] byte-compiling /home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup/__init__.py to __init__.cpython-310.pyc
+[11.072s] running install_data
+[11.073s] creating /home/scott/alpha_ws/install/robot_bringup/share/ament_index
+[11.073s] creating /home/scott/alpha_ws/install/robot_bringup/share/ament_index/resource_index
+[11.074s] creating /home/scott/alpha_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[11.075s] copying resource/robot_bringup -> /home/scott/alpha_ws/install/robot_bringup/share/ament_index/resource_index/packages
+[11.084s] copying package.xml -> /home/scott/alpha_ws/install/robot_bringup/share/robot_bringup
+[11.085s] creating /home/scott/alpha_ws/install/robot_bringup/share/robot_bringup/launch
+[11.086s] copying launch/robot.launch.py -> /home/scott/alpha_ws/install/robot_bringup/share/robot_bringup/launch
+[11.086s] creating /home/scott/alpha_ws/install/robot_bringup/share/robot_bringup/config
+[11.087s] running install_egg_info
+[11.088s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info
+[11.094s] running install_scripts
+[11.209s] writing list of installed files to '/home/scott/alpha_ws/build/robot_bringup/install.log'
+[12.095s] Invoked command in '/home/scott/alpha_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/scott/alpha_ws/build/robot_bringup/prefix_override:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/scott/alpha_ws/build/robot_bringup/build install --record /home/scott/alpha_ws/build/robot_bringup/install.log --single-version-externally-managed

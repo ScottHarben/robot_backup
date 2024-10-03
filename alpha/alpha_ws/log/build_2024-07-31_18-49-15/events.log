@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.002082] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002308] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.002420] (robot) JobStarted: {'identifier': 'robot'}
+[0.099025] (-) TimerEvent: {}
+[0.200660] (-) TimerEvent: {}
+[0.301843] (-) TimerEvent: {}
+[0.403676] (-) TimerEvent: {}
+[0.405631] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.419134] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[0.423418] (robot) JobEnded: {'identifier': 'robot', 'rc': 'SIGINT'}
+[0.435323] (-) EventReactorShutdown: {}

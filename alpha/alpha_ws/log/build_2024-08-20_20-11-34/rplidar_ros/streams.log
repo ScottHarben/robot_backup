@@ -1,0 +1,89 @@
+[4.693s] Invoking command in '/home/scott/alpha_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/rplidar_ros -- -j4 -l4
+[5.113s] [35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[5.674s] [  2%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[20.141s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[20.141s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[20.142s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[20.143s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[20.144s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[20.145s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[20.145s]       |                [01;35m[K^[m[K
+[20.146s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[20.146s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[20.147s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[20.148s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[20.148s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[20.149s]       |                    [01;35m[K^[m[K
+[33.886s] [  5%] [32m[1mLinking CXX executable rplidar_node[0m
+[35.618s] [ 47%] Built target rplidar_node
+[35.777s] [ 52%] Built target rplidar_client
+[35.871s] [35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[36.082s] [ 55%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[48.581s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[48.582s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[48.582s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[48.583s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[48.584s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[48.584s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[48.585s]       |                [01;35m[K^[m[K
+[48.586s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[48.586s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[48.587s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[48.588s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[48.588s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[48.589s]       |                    [01;35m[K^[m[K
+[62.175s] [ 57%] [32m[1mLinking CXX executable rplidar_composition[0m
+[63.841s] [100%] Built target rplidar_composition
+[63.902s] Invoked command in '/home/scott/alpha_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/rplidar_ros -- -j4 -l4
+[64.380s] Invoking command in '/home/scott/alpha_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/scott/alpha_ws/build/rplidar_ros
+[64.414s] -- Install configuration: ""
+[64.415s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch
+[64.416s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[64.417s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[64.417s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[64.418s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[64.418s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[64.419s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[64.420s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[64.420s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[64.421s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[64.422s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[64.422s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[64.423s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[64.423s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[64.424s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[64.424s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[64.425s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[64.425s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[64.425s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[64.426s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[64.426s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[64.427s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[64.427s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[64.428s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[64.428s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[64.429s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/rviz
+[64.429s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[64.429s] -- Installing: /home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[64.447s] -- Set runtime path of "/home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node" to ""
+[64.449s] -- Installing: /home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[64.471s] -- Set runtime path of "/home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""
+[64.472s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[64.474s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[64.475s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[64.476s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[64.477s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[64.478s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[64.478s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[64.479s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[64.479s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[64.480s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[64.481s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[64.482s] -- Installing: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[64.483s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[64.484s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[64.484s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[64.485s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[64.486s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[64.487s] -- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[64.490s] Invoked command in '/home/scott/alpha_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/scott/alpha_ws/build/rplidar_ros

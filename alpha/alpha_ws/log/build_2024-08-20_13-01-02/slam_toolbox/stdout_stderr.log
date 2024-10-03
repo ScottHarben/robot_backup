@@ -1,0 +1,6 @@
+[  1%] Built target slam_toolbox__cpp
+[  1%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[  2%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+gmake[2]: *** [lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/build.make:90: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:1045: lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

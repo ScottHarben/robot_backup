@@ -1,0 +1,22 @@
+[3.954s] Invoking command in '/home/scott/alpha_ws/src/robot_description': PYTHONPATH=/home/scott/alpha_ws/build/robot_description/prefix_override:/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/scott/alpha_ws/build/robot_description/build install --record /home/scott/alpha_ws/build/robot_description/install.log --single-version-externally-managed
+[5.296s] running egg_info
+[5.299s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[5.301s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[5.302s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[5.302s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[5.303s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[5.314s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[5.316s] adding license file 'LICENSE'
+[5.319s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[5.320s] running build
+[5.320s] running build_py
+[5.321s] running install
+[5.322s] running install_lib
+[5.328s] running install_data
+[5.331s] copying urdf/robot_description.urdf -> /home/scott/alpha_ws/install/robot_description/share/robot_description
+[5.332s] running install_egg_info
+[5.340s] removing '/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[5.342s] Copying ../../build/robot_description/robot_description.egg-info to /home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info
+[5.350s] running install_scripts
+[5.434s] writing list of installed files to '/home/scott/alpha_ws/build/robot_description/install.log'
+[5.568s] Invoked command in '/home/scott/alpha_ws/src/robot_description' returned '0': PYTHONPATH=/home/scott/alpha_ws/build/robot_description/prefix_override:/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/scott/alpha_ws/build/robot_description/build install --record /home/scott/alpha_ws/build/robot_description/install.log --single-version-externally-managed

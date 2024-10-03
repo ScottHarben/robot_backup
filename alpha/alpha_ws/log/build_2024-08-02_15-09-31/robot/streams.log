@@ -1,0 +1,31 @@
+[3.869s] Invoking command in '/home/scott/alpha_ws/src/robot': PYTHONPATH=/home/scott/alpha_ws/build/robot/prefix_override:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/scott/alpha_ws/build/robot/build install --record /home/scott/alpha_ws/build/robot/install.log --single-version-externally-managed
+[5.148s] running egg_info
+[5.151s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[5.152s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[5.153s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[5.154s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[5.155s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[5.164s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[5.167s] adding license file 'LICENSE'
+[5.170s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[5.171s] running build
+[5.172s] running build_py
+[5.174s] copying robot/encoder_publisher.py -> /home/scott/alpha_ws/build/robot/build/lib/robot
+[5.176s] running install
+[5.178s] running install_lib
+[5.183s] copying /home/scott/alpha_ws/build/robot/build/lib/robot/encoder_publisher.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot
+[5.188s] byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/encoder_publisher.py to encoder_publisher.cpython-310.pyc
+[5.192s] running install_data
+[5.194s] running install_egg_info
+[5.202s] removing '/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)
+[5.203s] Copying ../../build/robot/robot.egg-info to /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info
+[5.211s] running install_scripts
+[5.297s] Installing encoder_publisher script to /home/scott/alpha_ws/install/robot/lib/robot
+[5.298s] Installing encoder_publisher_left script to /home/scott/alpha_ws/install/robot/lib/robot
+[5.299s] Installing encoder_publisher_right script to /home/scott/alpha_ws/install/robot/lib/robot
+[5.300s] Installing motor_controller script to /home/scott/alpha_ws/install/robot/lib/robot
+[5.301s] Installing motor_driver script to /home/scott/alpha_ws/install/robot/lib/robot
+[5.302s] Installing pid_controller_left script to /home/scott/alpha_ws/install/robot/lib/robot
+[5.303s] Installing pid_controller_right script to /home/scott/alpha_ws/install/robot/lib/robot
+[5.305s] writing list of installed files to '/home/scott/alpha_ws/build/robot/install.log'
+[5.438s] Invoked command in '/home/scott/alpha_ws/src/robot' returned '0': PYTHONPATH=/home/scott/alpha_ws/build/robot/prefix_override:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/scott/alpha_ws/build/robot/build install --record /home/scott/alpha_ws/build/robot/install.log --single-version-externally-managed

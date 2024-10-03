@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001852] (-) JobUnselected: {'identifier': 'robot_interfaces'}
+[0.002566] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002920] (robot) JobStarted: {'identifier': 'robot'}
+[0.099116] (-) TimerEvent: {}
+[0.199784] (-) TimerEvent: {}
+[0.300867] (-) TimerEvent: {}
+[0.401598] (-) TimerEvent: {}
+[0.502327] (-) TimerEvent: {}
+[0.603140] (-) TimerEvent: {}
+[0.703929] (-) TimerEvent: {}
+[0.804687] (-) TimerEvent: {}
+[0.905421] (-) TimerEvent: {}
+[1.006113] (-) TimerEvent: {}
+[1.106868] (-) TimerEvent: {}
+[1.207579] (-) TimerEvent: {}
+[1.308352] (-) TimerEvent: {}
+[1.409144] (-) TimerEvent: {}
+[1.510480] (-) TimerEvent: {}
+[1.611274] (-) TimerEvent: {}
+[1.712589] (-) TimerEvent: {}
+[1.813991] (-) TimerEvent: {}
+[1.914943] (-) TimerEvent: {}
+[2.016455] (-) TimerEvent: {}
+[2.117176] (-) TimerEvent: {}
+[2.217947] (-) TimerEvent: {}
+[2.318757] (-) TimerEvent: {}
+[2.419530] (-) TimerEvent: {}
+[2.520351] (-) TimerEvent: {}
+[2.621080] (-) TimerEvent: {}
+[2.721805] (-) TimerEvent: {}
+[2.822562] (-) TimerEvent: {}
+[2.923337] (-) TimerEvent: {}
+[3.024166] (-) TimerEvent: {}
+[3.125042] (-) TimerEvent: {}
+[3.225800] (-) TimerEvent: {}
+[3.326531] (-) TimerEvent: {}
+[3.427332] (-) TimerEvent: {}
+[3.528153] (-) TimerEvent: {}
+[3.628874] (-) TimerEvent: {}
+[3.729782] (-) TimerEvent: {}
+[3.812298] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/scott/alpha_ws/build/robot/build', 'install', '--record', '/home/scott/alpha_ws/build/robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/scott/alpha_ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'scott', 'SSH_CLIENT': '10.0.0.35 57308 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/scott', 'OLDPWD': '/home/scott', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/scott/alpha_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'scott', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '11', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/scott/alpha_ws/build/robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.35 57308 10.0.0.14 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/scott/alpha_ws/build/robot/prefix_override:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/scott/alpha_ws/install/robot_interfaces'}, 'shell': False}
+[3.830028] (-) TimerEvent: {}
+[3.930976] (-) TimerEvent: {}
+[4.031734] (-) TimerEvent: {}
+[4.132498] (-) TimerEvent: {}
+[4.233358] (-) TimerEvent: {}
+[4.334322] (-) TimerEvent: {}
+[4.435107] (-) TimerEvent: {}
+[4.535879] (-) TimerEvent: {}
+[4.636601] (-) TimerEvent: {}
+[4.737392] (-) TimerEvent: {}
+[4.838131] (-) TimerEvent: {}
+[4.938898] (-) TimerEvent: {}
+[5.039627] (-) TimerEvent: {}
+[5.096331] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[5.098978] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[5.100201] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[5.101463] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[5.102211] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[5.102962] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[5.112273] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[5.113872] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.116793] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[5.117663] (robot) StdoutLine: {'line': b'running build\n'}
+[5.118370] (robot) StdoutLine: {'line': b'running build_py\n'}
+[5.120736] (robot) StdoutLine: {'line': b'running install\n'}
+[5.122106] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[5.129453] (robot) StdoutLine: {'line': b'running install_data\n'}
+[5.132115] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.139459] (robot) StdoutLine: {'line': b"removing '/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.140133] (-) TimerEvent: {}
+[5.141553] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[5.147862] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[5.233247] (robot) StdoutLine: {'line': b'Installing encoder_publisher_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[5.234285] (robot) StdoutLine: {'line': b'Installing motor_controller script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[5.235243] (robot) StdoutLine: {'line': b'Installing motor_driver script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[5.236224] (robot) StdoutLine: {'line': b'Installing pid_controller_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[5.237155] (robot) StdoutLine: {'line': b'Installing rpm_publisher_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[5.239273] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/scott/alpha_ws/build/robot/install.log'\n"}
+[5.240371] (-) TimerEvent: {}
+[5.342392] (-) TimerEvent: {}
+[5.378814] (robot) CommandEnded: {'returncode': 0}
+[5.442973] (-) TimerEvent: {}
+[5.543865] (-) TimerEvent: {}
+[5.644602] (-) TimerEvent: {}
+[5.654419] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[5.658097] (-) EventReactorShutdown: {}

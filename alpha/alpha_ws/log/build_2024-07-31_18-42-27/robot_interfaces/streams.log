@@ -1,0 +1,42 @@
+[1.829s] Invoking command in '/home/scott/alpha_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/scott/alpha_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/scott/alpha_ws/install/robot_interfaces
+[2.768s] -- The C compiler identification is GNU 11.4.0
+[3.488s] -- The CXX compiler identification is GNU 11.4.0
+[3.544s] -- Detecting C compiler ABI info
+[4.005s] -- Detecting C compiler ABI info - done
+[4.037s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.041s] -- Detecting C compile features
+[4.044s] -- Detecting C compile features - done
+[4.063s] -- Detecting CXX compiler ABI info
+[4.489s] -- Detecting CXX compiler ABI info - done
+[4.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.525s] -- Detecting CXX compile features
+[4.527s] -- Detecting CXX compile features - done
+[4.575s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[5.600s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[6.368s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.874s] -- Added test 'lint_cmake' to check CMake code style
+[6.886s] -- Added test 'xmllint' to check XML markup files
+[6.896s] -- Configuring done
+[6.921s] -- Generating done
+[6.926s] -- Build files have been written to: /home/scott/alpha_ws/build/robot_interfaces
+[6.945s] Invoked command in '/home/scott/alpha_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/scott/alpha_ws/src/robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/scott/alpha_ws/install/robot_interfaces
+[6.955s] Invoking command in '/home/scott/alpha_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/robot_interfaces -- -j4 -l4
+[7.117s] Invoked command in '/home/scott/alpha_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/robot_interfaces -- -j4 -l4
+[7.273s] Invoking command in '/home/scott/alpha_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/scott/alpha_ws/build/robot_interfaces
+[7.305s] -- Install configuration: ""
+[7.307s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[7.308s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[7.310s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[7.312s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[7.314s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[7.316s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[7.318s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[7.319s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[7.322s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[7.323s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[7.323s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+[7.326s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[7.327s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[7.331s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[7.332s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+[7.336s] Invoked command in '/home/scott/alpha_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/scott/alpha_ws/build/robot_interfaces

@@ -1,0 +1,373 @@
+[0.000000] (-) TimerEvent: {}
+[0.001933] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002650] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.003055] (robot) JobStarted: {'identifier': 'robot'}
+[0.099252] (-) TimerEvent: {}
+[0.199934] (-) TimerEvent: {}
+[0.300803] (-) TimerEvent: {}
+[0.402120] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.403511] (-) TimerEvent: {}
+[0.504680] (-) TimerEvent: {}
+[0.606075] (-) TimerEvent: {}
+[0.707382] (-) TimerEvent: {}
+[0.808839] (-) TimerEvent: {}
+[0.909643] (-) TimerEvent: {}
+[1.010502] (-) TimerEvent: {}
+[1.111268] (-) TimerEvent: {}
+[1.212055] (-) TimerEvent: {}
+[1.312865] (-) TimerEvent: {}
+[1.413593] (-) TimerEvent: {}
+[1.514359] (-) TimerEvent: {}
+[1.615127] (-) TimerEvent: {}
+[1.715877] (-) TimerEvent: {}
+[1.816612] (-) TimerEvent: {}
+[1.917376] (-) TimerEvent: {}
+[2.018362] (-) TimerEvent: {}
+[2.119466] (-) TimerEvent: {}
+[2.223404] (-) TimerEvent: {}
+[2.324417] (-) TimerEvent: {}
+[2.395521] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[2.401427] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[2.404825] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/scott/alpha_ws/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/scott/alpha_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('SSH_CLIENT', '10.0.0.35 57308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott/alpha_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/scott/alpha_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/scott/alpha_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.35 57308 10.0.0.14 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot:/opt/ros/humble')]), 'shell': False}
+[2.425075] (-) TimerEvent: {}
+[2.506043] (robot_interfaces) StderrLine: {'line': b"gmake: Warning: File 'Makefile' has modification time 27314129 s in the future\n"}
+[2.525256] (-) TimerEvent: {}
+[2.627426] (-) TimerEvent: {}
+[2.695969] (robot_interfaces) StderrLine: {'line': b"gmake[1]: Warning: File 'CMakeFiles/Makefile2' has modification time 27314128 s in the future\n"}
+[2.707445] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__cpp.dir/progress.make' has modification time 27314128 s in the future\n"}
+[2.711790] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_generator_c.dir/flags.make' has modification time 27314128 s in the future\n"}
+[2.714587] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_robot_interfaces.dir/progress.make' has modification time 27314128 s in the future\n"}
+[2.727635] (-) TimerEvent: {}
+[2.763989] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[2.773711] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[2.776296] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__cpp.dir/progress.make' has modification time 27314128 s in the future\n"}
+[2.781054] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[2.789586] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_copy_robot_interfaces.dir/progress.make' has modification time 27314128 s in the future\n"}
+[2.799816] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.816493] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[2.827834] (-) TimerEvent: {}
+[2.829764] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_generator_c.dir/flags.make' has modification time 27314128 s in the future\n"}
+[2.831245] (robot_interfaces) StdoutLine: {'line': b'[  2%] Built target robot_interfaces__cpp\n'}
+[2.858216] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/flags.make' has modification time 27314128 s in the future\n"}
+[2.860635] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 27314128 s in the future\n"}
+[2.891744] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[2.917784] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[2.926198] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.928019] (-) TimerEvent: {}
+[2.936156] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.956025] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[2.989307] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target robot_interfaces__rosidl_generator_c\n'}
+[2.991956] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/flags.make' has modification time 27314128 s in the future\n"}
+[2.998688] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_robot_interfaces\n'}
+[3.003291] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.016935] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 27314128 s in the future\n"}
+[3.023229] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 27314128 s in the future\n"}
+[3.027772] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.028508] (-) TimerEvent: {}
+[3.036572] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/flags.make' has modification time 27314128 s in the future\n"}
+[3.056177] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.094250] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.112515] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.122301] (robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[3.128771] (-) TimerEvent: {}
+[3.139856] (robot_interfaces) StdoutLine: {'line': b'[ 34%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.152650] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.162690] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.167907] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 27314128 s in the future\n"}
+[3.171029] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/flags.make' has modification time 27314128 s in the future\n"}
+[3.173278] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/flags.make' has modification time 27314128 s in the future\n"}
+[3.187555] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/flags.make' has modification time 27314128 s in the future\n"}
+[3.188696] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.208386] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.228075] (robot_interfaces) StdoutLine: {'line': b'[ 44%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.229198] (-) TimerEvent: {}
+[3.247359] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.250982] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_robot_interfaces_egg.dir/progress.make' has modification time 27314128 s in the future\n"}
+[3.283100] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.284738] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[3.311168] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.312470] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/flags.make' has modification time 27314128 s in the future\n"}
+[3.314988] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.329614] (robot_interfaces) StdoutLine: {'line': b'[ 55%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.330453] (-) TimerEvent: {}
+[3.333748] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/flags.make' has modification time 27314128 s in the future\n"}
+[3.335802] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.338066] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.348297] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/ament_cmake_python_build_robot_interfaces_egg.dir/progress.make' has modification time 27314128 s in the future\n"}
+[3.379054] (robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[3.412675] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[3.427693] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces.dir/progress.make' has modification time 27314128 s in the future\n"}
+[3.430654] (-) TimerEvent: {}
+[3.477195] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.486273] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces.dir/progress.make' has modification time 27314128 s in the future\n"}
+[3.489019] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.525484] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces\n'}
+[3.530908] (-) TimerEvent: {}
+[3.540622] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'robot_interfaces__py/CMakeFiles/robot_interfaces__py.dir/progress.make' has modification time 27314128 s in the future\n"}
+[3.587078] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.595541] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'robot_interfaces__py/CMakeFiles/robot_interfaces__py.dir/progress.make' has modification time 27314128 s in the future\n"}
+[3.599126] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.631112] (-) TimerEvent: {}
+[3.647838] (robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target robot_interfaces__py\n'}
+[3.663573] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_generator_py.dir/flags.make' has modification time 27314127 s in the future\n"}
+[3.719100] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_generator_py\x1b[0m\n'}
+[3.731296] (-) TimerEvent: {}
+[3.752631] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.766402] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_generator_py.dir/flags.make' has modification time 27314127 s in the future\n"}
+[3.790912] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.831478] (-) TimerEvent: {}
+[3.842594] (robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target robot_interfaces__rosidl_generator_py\n'}
+[3.862403] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 27314127 s in the future\n"}
+[3.869027] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 27314127 s in the future\n"}
+[3.872339] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 27314127 s in the future\n"}
+[3.917763] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.935228] (-) TimerEvent: {}
+[3.938701] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.953144] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.955183] (robot_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.960431] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.973451] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/flags.make' has modification time 27314127 s in the future\n"}
+[3.977367] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.984168] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.985769] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/flags.make' has modification time 27314127 s in the future\n"}
+[3.993281] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[3.995757] (robot_interfaces) StderrLine: {'line': b"gmake[2]: Warning: File 'CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/flags.make' has modification time 27314127 s in the future\n"}
+[4.001979] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[4.035479] (-) TimerEvent: {}
+[4.054190] (robot_interfaces) StdoutLine: {'line': b'[ 91%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.068610] (robot_interfaces) StdoutLine: {'line': b'[ 95%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.070315] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.135665] (-) TimerEvent: {}
+[4.237012] (-) TimerEvent: {}
+[4.338380] (-) TimerEvent: {}
+[4.439634] (-) TimerEvent: {}
+[4.540482] (-) TimerEvent: {}
+[4.641397] (-) TimerEvent: {}
+[4.742537] (-) TimerEvent: {}
+[4.835507] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/scott/alpha_ws/build/robot/build', 'install', '--record', '/home/scott/alpha_ws/build/robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/scott/alpha_ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'scott', 'SSH_CLIENT': '10.0.0.35 57308 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/scott', 'OLDPWD': '/home/scott/alpha_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/scott/alpha_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'scott', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '11', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/scott/alpha_ws/build/robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.35 57308 10.0.0.14 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/scott/alpha_ws/build/robot/prefix_override:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/scott/alpha_ws/install/robot_interfaces'}, 'shell': False}
+[4.846986] (-) TimerEvent: {}
+[4.948399] (-) TimerEvent: {}
+[5.006236] (robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.011444] (robot_interfaces) StdoutLine: {'line': b'writing robot_interfaces.egg-info/PKG-INFO\n'}
+[5.014920] (robot_interfaces) StdoutLine: {'line': b'writing dependency_links to robot_interfaces.egg-info/dependency_links.txt\n'}
+[5.015653] (robot_interfaces) StdoutLine: {'line': b'writing top-level names to robot_interfaces.egg-info/top_level.txt\n'}
+[5.026887] (robot_interfaces) StdoutLine: {'line': b"reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.032042] (robot_interfaces) StdoutLine: {'line': b"writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'\n"}
+[5.048706] (-) TimerEvent: {}
+[5.145536] (robot_interfaces) StderrLine: {'line': b'gmake[2]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.148864] (-) TimerEvent: {}
+[5.183642] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_robot_interfaces_egg\n'}
+[5.187771] (robot_interfaces) StderrLine: {'line': b'gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.231306] (robot_interfaces) StderrLine: {'line': b'gmake: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[5.238416] (robot_interfaces) CommandEnded: {'returncode': 0}
+[5.249031] (-) TimerEvent: {}
+[5.349884] (-) TimerEvent: {}
+[5.450973] (-) TimerEvent: {}
+[5.552368] (-) TimerEvent: {}
+[5.653954] (-) TimerEvent: {}
+[5.754925] (-) TimerEvent: {}
+[5.835930] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[5.855071] (-) TimerEvent: {}
+[5.872998] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/scott/alpha_ws/build/robot_interfaces'], 'cwd': '/home/scott/alpha_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('SSH_CLIENT', '10.0.0.35 57308 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott/alpha_ws/src'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/scott/alpha_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '11'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/scott/alpha_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.35 57308 10.0.0.14 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot:/opt/ros/humble')]), 'shell': False}
+[5.915596] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.926131] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[5.926963] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[5.927660] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[5.928215] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/tick_count.h\n'}
+[5.928825] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/duty_cycle.h\n'}
+[5.929640] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[5.930317] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__functions.c\n'}
+[5.930916] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__type_support.h\n'}
+[5.931472] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__functions.c\n'}
+[5.932156] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__struct.h\n'}
+[5.932831] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__functions.h\n'}
+[5.933810] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__type_support.h\n'}
+[5.934762] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__functions.h\n'}
+[5.935292] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__functions.h\n'}
+[5.935937] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__struct.h\n'}
+[5.936503] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__functions.c\n'}
+[5.937147] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__struct.h\n'}
+[5.937812] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__type_support.h\n'}
+[5.938894] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.939810] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/wheel_rpm.h\n'}
+[5.940447] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[5.941172] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[5.941840] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[5.942694] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[5.943289] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[5.943825] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[5.944519] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_c.h\n'}
+[5.945089] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_c.h\n'}
+[5.945583] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_fastrtps_c.h\n'}
+[5.946192] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.946753] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[5.947426] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[5.947964] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[5.948442] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.949110] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[5.949851] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__type_support.c\n'}
+[5.950537] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_c.h\n'}
+[5.951248] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_c.h\n'}
+[5.951901] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__type_support.c\n'}
+[5.952686] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__type_support.c\n'}
+[5.953210] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_introspection_c.h\n'}
+[5.953859] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[5.954537] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[5.955245] (-) TimerEvent: {}
+[5.955891] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[5.956809] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[5.957438] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/duty_cycle.hpp\n'}
+[5.958167] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/wheel_rpm.hpp\n'}
+[5.958976] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/tick_count.hpp\n'}
+[5.959608] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[5.960342] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__traits.hpp\n'}
+[5.961037] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__struct.hpp\n'}
+[5.962070] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__builder.hpp\n'}
+[5.962956] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__struct.hpp\n'}
+[5.963522] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__traits.hpp\n'}
+[5.964205] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__builder.hpp\n'}
+[5.964879] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__struct.hpp\n'}
+[5.965556] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__builder.hpp\n'}
+[5.966317] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__traits.hpp\n'}
+[5.966828] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[5.967372] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[5.967903] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[5.968426] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.968933] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/dds_fastrtps\n'}
+[5.969489] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.970197] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.970803] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.971352] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.972042] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces\n'}
+[5.972709] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg\n'}
+[5.973382] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail\n'}
+[5.974159] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.974921] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.975614] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__type_support.cpp\n'}
+[5.976326] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__type_support.cpp\n'}
+[5.977091] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.977747] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__type_support.cpp\n'}
+[5.981615] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[5.985379] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[5.987229] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[5.988032] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[5.988829] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[5.989688] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.991700] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.993579] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.995489] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.997499] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces\n'}
+[5.998660] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[5.999436] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg\n'}
+[6.000128] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_duty_cycle.py\n'}
+[6.000797] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_tick_count.py\n'}
+[6.001517] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_tick_count_s.c\n'}
+[6.002250] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_wheel_rpm.py\n'}
+[6.002980] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py\n'}
+[6.003675] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_wheel_rpm_s.c\n'}
+[6.004418] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_duty_cycle_s.c\n'}
+[6.005180] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.005798] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py\n'}
+[6.006562] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.007126] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.008079] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.009127] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so\n'}
+[6.010153] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.055465] (-) TimerEvent: {}
+[6.156273] (-) TimerEvent: {}
+[6.186689] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...\n"}
+[6.188479] (robot_interfaces) StdoutLine: {'line': b"Listing '/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...\n"}
+[6.217993] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.221942] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.224732] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[6.227605] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so\n'}
+[6.229285] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.idl\n'}
+[6.230283] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/WheelRPM.idl\n'}
+[6.231245] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.idl\n'}
+[6.232099] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.msg\n'}
+[6.232878] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/WheelRPM.msg\n'}
+[6.233538] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.msg\n'}
+[6.234373] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[6.235243] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[6.236085] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[6.236952] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[6.238022] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[6.238814] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[6.240333] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[6.241209] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[6.242307] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[6.243290] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[6.243892] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[6.245288] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[6.247850] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[6.248861] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.251559] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.252541] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.255286] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.256344] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.257123] (-) TimerEvent: {}
+[6.259719] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[6.260739] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.263398] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[6.266255] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.267907] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.271446] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.272495] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.279688] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[6.282418] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.283943] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[6.285213] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.286766] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[6.287810] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.288833] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.290078] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.291178] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.292304] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.293145] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.294058] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[6.294822] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[6.295736] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[6.302421] (robot_interfaces) CommandEnded: {'returncode': 0}
+[6.357528] (-) TimerEvent: {}
+[6.407285] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[6.410135] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[6.412870] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[6.413697] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[6.415898] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[6.416811] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[6.423873] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[6.425578] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.428665] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[6.430026] (robot) StdoutLine: {'line': b'running build\n'}
+[6.430764] (robot) StdoutLine: {'line': b'running build_py\n'}
+[6.434425] (robot) StdoutLine: {'line': b'running install\n'}
+[6.435997] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[6.443553] (robot) StdoutLine: {'line': b'running install_data\n'}
+[6.446494] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.454351] (robot) StdoutLine: {'line': b"removing '/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.456442] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[6.463545] (-) TimerEvent: {}
+[6.465639] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[6.555506] (robot) StdoutLine: {'line': b'Installing encoder_publisher_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[6.559861] (robot) StdoutLine: {'line': b'Installing motor_controller script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[6.561045] (robot) StdoutLine: {'line': b'Installing motor_driver script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[6.562089] (robot) StdoutLine: {'line': b'Installing pid_controller_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[6.562819] (robot) StdoutLine: {'line': b'Installing rpm_publisher_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[6.564073] (-) TimerEvent: {}
+[6.564929] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/scott/alpha_ws/build/robot/install.log'\n"}
+[6.664618] (-) TimerEvent: {}
+[6.767133] (-) TimerEvent: {}
+[6.830164] (robot) CommandEnded: {'returncode': 0}
+[6.867306] (-) TimerEvent: {}
+[6.970137] (-) TimerEvent: {}
+[7.102516] (-) TimerEvent: {}
+[7.160222] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[7.202718] (-) TimerEvent: {}
+[7.303595] (-) TimerEvent: {}
+[7.404415] (-) TimerEvent: {}
+[7.505329] (-) TimerEvent: {}
+[7.606900] (-) TimerEvent: {}
+[7.709110] (-) TimerEvent: {}
+[7.810534] (-) TimerEvent: {}
+[7.825947] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[7.830442] (-) EventReactorShutdown: {}

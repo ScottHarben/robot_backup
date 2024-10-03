@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/toolbox_common.dir/build.make:76: CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:693: CMakeFiles/toolbox_common.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

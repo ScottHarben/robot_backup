@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.001523] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002635] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.003277] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.003658] (robot) JobStarted: {'identifier': 'robot'}
+[0.099067] (-) TimerEvent: {}
+[0.199805] (-) TimerEvent: {}
+[0.300885] (-) TimerEvent: {}
+[0.395994] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.401069] (-) TimerEvent: {}
+[0.502048] (-) TimerEvent: {}
+[0.603329] (-) TimerEvent: {}
+[0.704852] (-) TimerEvent: {}
+[0.776160] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.805071] (-) TimerEvent: {}
+[0.905978] (-) TimerEvent: {}
+[1.007370] (-) TimerEvent: {}
+[1.108831] (-) TimerEvent: {}
+[1.209606] (-) TimerEvent: {}
+[1.310397] (-) TimerEvent: {}
+[1.411248] (-) TimerEvent: {}
+[1.512080] (-) TimerEvent: {}
+[1.613078] (-) TimerEvent: {}
+[1.713820] (-) TimerEvent: {}
+[1.814597] (-) TimerEvent: {}
+[1.915329] (-) TimerEvent: {}
+[2.016080] (-) TimerEvent: {}
+[2.116876] (-) TimerEvent: {}
+[2.217630] (-) TimerEvent: {}
+[2.318418] (-) TimerEvent: {}
+[2.419397] (-) TimerEvent: {}
+[2.520624] (-) TimerEvent: {}
+[2.621552] (-) TimerEvent: {}
+[2.722756] (-) TimerEvent: {}
+[2.824141] (-) TimerEvent: {}
+[2.924995] (-) TimerEvent: {}
+[3.025916] (-) TimerEvent: {}
+[3.126746] (-) TimerEvent: {}
+[3.227705] (-) TimerEvent: {}
+[3.329059] (-) TimerEvent: {}
+[3.429799] (-) TimerEvent: {}
+[3.530583] (-) TimerEvent: {}
+[3.631315] (-) TimerEvent: {}
+[3.732051] (-) TimerEvent: {}
+[3.832917] (-) TimerEvent: {}
+[3.933744] (-) TimerEvent: {}
+[4.034613] (-) TimerEvent: {}
+[4.133223] (robot_bringup) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 241, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 288, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[4.138207] (-) TimerEvent: {}
+[4.138657] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 1}
+[4.140968] (robot) JobEnded: {'identifier': 'robot', 'rc': 'SIGINT'}
+[4.142781] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 'SIGINT'}
+[4.148815] (-) EventReactorShutdown: {}

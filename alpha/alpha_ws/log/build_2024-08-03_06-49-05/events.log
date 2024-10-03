@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.001699] (-) JobUnselected: {'identifier': 'robot'}
+[0.002356] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.002764] (-) JobUnselected: {'identifier': 'robot_interfaces'}
+[0.003193] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.003460] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[0.098844] (-) TimerEvent: {}
+[0.200390] (-) TimerEvent: {}
+[0.301498] (-) TimerEvent: {}
+[0.390458] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[0.396621] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[0.400875] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/scott/alpha_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/scott/alpha_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1985'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/scott/alpha_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'scott'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/scott/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hal:@/tmp/.ICE-unix/1937,unix/hal:/tmp/.ICE-unix/1937'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4be12bd3_1f13_4e64_878f_78ab2375151f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.E4NGR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/scott/alpha_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble')]), 'shell': False}
+[0.406603] (-) TimerEvent: {}
+[0.507675] (-) TimerEvent: {}
+[0.609386] (-) TimerEvent: {}
+[0.710860] (-) TimerEvent: {}
+[0.812036] (-) TimerEvent: {}
+[0.913173] (-) TimerEvent: {}
+[1.014263] (-) TimerEvent: {}
+[1.115912] (-) TimerEvent: {}
+[1.144940] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_node\x1b[0m\n'}
+[1.216094] (-) TimerEvent: {}
+[1.236178] (rplidar_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[1.316295] (-) TimerEvent: {}
+[1.417255] (-) TimerEvent: {}
+[1.518530] (-) TimerEvent: {}
+[1.619456] (-) TimerEvent: {}
+[1.720496] (-) TimerEvent: {}
+[1.821287] (-) TimerEvent: {}
+[1.922115] (-) TimerEvent: {}
+[2.022911] (-) TimerEvent: {}
+[2.123751] (-) TimerEvent: {}
+[2.224582] (-) TimerEvent: {}
+[2.325435] (-) TimerEvent: {}
+[2.426234] (-) TimerEvent: {}
+[2.527143] (-) TimerEvent: {}
+[2.628398] (-) TimerEvent: {}
+[2.729198] (-) TimerEvent: {}
+[2.830033] (-) TimerEvent: {}
+[2.930859] (-) TimerEvent: {}
+[3.031802] (-) TimerEvent: {}
+[3.132621] (-) TimerEvent: {}
+[3.233499] (-) TimerEvent: {}
+[3.334321] (-) TimerEvent: {}
+[3.435204] (-) TimerEvent: {}
+[3.536117] (-) TimerEvent: {}
+[3.636965] (-) TimerEvent: {}
+[3.737876] (-) TimerEvent: {}
+[3.838691] (-) TimerEvent: {}
+[3.939613] (-) TimerEvent: {}
+[4.040470] (-) TimerEvent: {}
+[4.141306] (-) TimerEvent: {}
+[4.242165] (-) TimerEvent: {}
+[4.343113] (-) TimerEvent: {}
+[4.443973] (-) TimerEvent: {}
+[4.544908] (-) TimerEvent: {}
+[4.645866] (-) TimerEvent: {}
+[4.746818] (-) TimerEvent: {}
+[4.847836] (-) TimerEvent: {}
+[4.948762] (-) TimerEvent: {}
+[5.049698] (-) TimerEvent: {}
+[5.150625] (-) TimerEvent: {}
+[5.251529] (-) TimerEvent: {}
+[5.352653] (-) TimerEvent: {}
+[5.453977] (-) TimerEvent: {}
+[5.555321] (-) TimerEvent: {}
+[5.656222] (-) TimerEvent: {}
+[5.757207] (-) TimerEvent: {}
+[5.858159] (-) TimerEvent: {}
+[5.959084] (-) TimerEvent: {}
+[6.060022] (-) TimerEvent: {}
+[6.161008] (-) TimerEvent: {}
+[6.261997] (-) TimerEvent: {}
+[6.363060] (-) TimerEvent: {}
+[6.463931] (-) TimerEvent: {}
+[6.564786] (-) TimerEvent: {}
+[6.665703] (-) TimerEvent: {}
+[6.766674] (-) TimerEvent: {}
+[6.867549] (-) TimerEvent: {}
+[6.968500] (-) TimerEvent: {}
+[7.069453] (-) TimerEvent: {}
+[7.170342] (-) TimerEvent: {}
+[7.271263] (-) TimerEvent: {}
+[7.372246] (-) TimerEvent: {}
+[7.473264] (-) TimerEvent: {}
+[7.574194] (-) TimerEvent: {}
+[7.675145] (-) TimerEvent: {}
+[7.776138] (-) TimerEvent: {}
+[7.877068] (-) TimerEvent: {}
+[7.978049] (-) TimerEvent: {}
+[8.079008] (-) TimerEvent: {}
+[8.179967] (-) TimerEvent: {}
+[8.280865] (-) TimerEvent: {}
+[8.381843] (-) TimerEvent: {}
+[8.482819] (-) TimerEvent: {}
+[8.583748] (-) TimerEvent: {}
+[8.684735] (-) TimerEvent: {}
+[8.785685] (-) TimerEvent: {}
+[8.886675] (-) TimerEvent: {}
+[8.987587] (-) TimerEvent: {}
+[9.088549] (-) TimerEvent: {}
+[9.189506] (-) TimerEvent: {}
+[9.290470] (-) TimerEvent: {}
+[9.391375] (-) TimerEvent: {}
+[9.492404] (-) TimerEvent: {}
+[9.593448] (-) TimerEvent: {}
+[9.694370] (-) TimerEvent: {}
+[9.795246] (-) TimerEvent: {}
+[9.896173] (-) TimerEvent: {}
+[9.997164] (-) TimerEvent: {}
+[10.098101] (-) TimerEvent: {}
+[10.199009] (-) TimerEvent: {}
+[10.299935] (-) TimerEvent: {}
+[10.400912] (-) TimerEvent: {}
+[10.501832] (-) TimerEvent: {}
+[10.602713] (-) TimerEvent: {}
+[10.703609] (-) TimerEvent: {}
+[10.804553] (-) TimerEvent: {}
+[10.905514] (-) TimerEvent: {}
+[11.006442] (-) TimerEvent: {}
+[11.107578] (-) TimerEvent: {}
+[11.208508] (-) TimerEvent: {}
+[11.309496] (-) TimerEvent: {}
+[11.410366] (-) TimerEvent: {}
+[11.511266] (-) TimerEvent: {}
+[11.612375] (-) TimerEvent: {}
+[11.713261] (-) TimerEvent: {}
+[11.814220] (-) TimerEvent: {}
+[11.915124] (-) TimerEvent: {}
+[12.016093] (-) TimerEvent: {}
+[12.117074] (-) TimerEvent: {}
+[12.218277] (-) TimerEvent: {}
+[12.319299] (-) TimerEvent: {}
+[12.420225] (-) TimerEvent: {}
+[12.521171] (-) TimerEvent: {}
+[12.622113] (-) TimerEvent: {}
+[12.723053] (-) TimerEvent: {}
+[12.823951] (-) TimerEvent: {}
+[12.924855] (-) TimerEvent: {}
+[13.025831] (-) TimerEvent: {}
+[13.126674] (-) TimerEvent: {}
+[13.227667] (-) TimerEvent: {}
+[13.328620] (-) TimerEvent: {}
+[13.429638] (-) TimerEvent: {}
+[13.530573] (-) TimerEvent: {}
+[13.631514] (-) TimerEvent: {}
+[13.732457] (-) TimerEvent: {}
+[13.833459] (-) TimerEvent: {}
+[13.934362] (-) TimerEvent: {}
+[14.035264] (-) TimerEvent: {}
+[14.136174] (-) TimerEvent: {}
+[14.237108] (-) TimerEvent: {}
+[14.330967] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[14.333192] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[14.333917] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[14.334414] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[14.334895] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.335341] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.335776] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.336223] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[14.336680] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[14.337113] (-) TimerEvent: {}
+[14.337734] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[14.338371] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[14.338890] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[14.339382] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[14.437362] (-) TimerEvent: {}
+[14.538537] (-) TimerEvent: {}
+[14.639920] (-) TimerEvent: {}
+[14.740837] (-) TimerEvent: {}
+[14.841871] (-) TimerEvent: {}
+[14.942737] (-) TimerEvent: {}
+[15.043667] (-) TimerEvent: {}
+[15.144677] (-) TimerEvent: {}
+[15.245633] (-) TimerEvent: {}
+[15.346646] (-) TimerEvent: {}
+[15.447584] (-) TimerEvent: {}
+[15.548566] (-) TimerEvent: {}
+[15.649556] (-) TimerEvent: {}
+[15.750448] (-) TimerEvent: {}
+[15.851344] (-) TimerEvent: {}
+[15.952268] (-) TimerEvent: {}
+[16.053198] (-) TimerEvent: {}
+[16.154115] (-) TimerEvent: {}
+[16.255028] (-) TimerEvent: {}
+[16.355927] (-) TimerEvent: {}
+[16.456852] (-) TimerEvent: {}
+[16.557904] (-) TimerEvent: {}
+[16.659132] (-) TimerEvent: {}
+[16.760129] (-) TimerEvent: {}
+[16.861065] (-) TimerEvent: {}
+[16.962192] (-) TimerEvent: {}
+[17.063141] (-) TimerEvent: {}
+[17.164096] (-) TimerEvent: {}
+[17.265006] (-) TimerEvent: {}
+[17.365995] (-) TimerEvent: {}
+[17.466883] (-) TimerEvent: {}
+[17.567797] (-) TimerEvent: {}
+[17.668773] (-) TimerEvent: {}
+[17.769730] (-) TimerEvent: {}
+[17.870653] (-) TimerEvent: {}
+[17.971593] (-) TimerEvent: {}
+[18.072565] (-) TimerEvent: {}
+[18.173647] (-) TimerEvent: {}
+[18.274565] (-) TimerEvent: {}
+[18.375492] (-) TimerEvent: {}
+[18.476317] (-) TimerEvent: {}
+[18.577238] (-) TimerEvent: {}
+[18.678131] (-) TimerEvent: {}
+[18.779142] (-) TimerEvent: {}
+[18.880591] (-) TimerEvent: {}
+[18.981636] (-) TimerEvent: {}
+[19.082929] (-) TimerEvent: {}
+[19.184036] (-) TimerEvent: {}
+[19.285066] (-) TimerEvent: {}
+[19.386298] (-) TimerEvent: {}
+[19.487350] (-) TimerEvent: {}
+[19.588373] (-) TimerEvent: {}
+[19.689302] (-) TimerEvent: {}
+[19.790575] (-) TimerEvent: {}
+[19.891552] (-) TimerEvent: {}
+[19.992483] (-) TimerEvent: {}
+[20.093378] (-) TimerEvent: {}
+[20.195034] (-) TimerEvent: {}
+[20.295963] (-) TimerEvent: {}
+[20.396821] (-) TimerEvent: {}
+[20.497837] (-) TimerEvent: {}
+[20.598736] (-) TimerEvent: {}
+[20.699640] (-) TimerEvent: {}
+[20.800580] (-) TimerEvent: {}
+[20.901900] (-) TimerEvent: {}
+[21.002866] (-) TimerEvent: {}
+[21.103793] (-) TimerEvent: {}
+[21.204809] (-) TimerEvent: {}
+[21.306088] (-) TimerEvent: {}
+[21.394701] (rplidar_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rplidar_node.dir/build.make:76: CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o] Interrupt\n'}
+[21.395910] (rplidar_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/rplidar_node.dir/all] Interrupt\n'}
+[21.402699] (rplidar_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[21.406336] (-) TimerEvent: {}
+[21.507884] (-) TimerEvent: {}
+[21.523220] (rplidar_ros) CommandEnded: {'returncode': -2}
+[21.608084] (-) TimerEvent: {}
+[21.708907] (-) TimerEvent: {}
+[21.809861] (-) TimerEvent: {}
+[21.910782] (-) TimerEvent: {}
+[22.011491] (-) TimerEvent: {}
+[22.112331] (-) TimerEvent: {}
+[22.214653] (-) TimerEvent: {}
+[22.316088] (-) TimerEvent: {}
+[22.417272] (-) TimerEvent: {}
+[22.439134] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 'SIGINT'}
+[22.453379] (-) EventReactorShutdown: {}

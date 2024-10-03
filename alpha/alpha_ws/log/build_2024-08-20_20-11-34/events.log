@@ -1,0 +1,839 @@
+[0.000000] (-) TimerEvent: {}
+[0.001090] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.002144] (-) JobUnselected: {'identifier': 'robot_interfaces'}
+[0.002927] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.003360] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.003843] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.004197] (robot) JobStarted: {'identifier': 'robot'}
+[0.098933] (-) TimerEvent: {}
+[0.200011] (-) TimerEvent: {}
+[0.301026] (-) TimerEvent: {}
+[0.403386] (-) TimerEvent: {}
+[0.504694] (-) TimerEvent: {}
+[0.545935] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.604993] (-) TimerEvent: {}
+[0.706274] (-) TimerEvent: {}
+[0.808565] (-) TimerEvent: {}
+[0.909646] (-) TimerEvent: {}
+[1.010536] (-) TimerEvent: {}
+[1.018912] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[1.110673] (-) TimerEvent: {}
+[1.212483] (-) TimerEvent: {}
+[1.313515] (-) TimerEvent: {}
+[1.414525] (-) TimerEvent: {}
+[1.515695] (-) TimerEvent: {}
+[1.616635] (-) TimerEvent: {}
+[1.717566] (-) TimerEvent: {}
+[1.818471] (-) TimerEvent: {}
+[1.919385] (-) TimerEvent: {}
+[2.020144] (-) TimerEvent: {}
+[2.121104] (-) TimerEvent: {}
+[2.222289] (-) TimerEvent: {}
+[2.323194] (-) TimerEvent: {}
+[2.424032] (-) TimerEvent: {}
+[2.524832] (-) TimerEvent: {}
+[2.625639] (-) TimerEvent: {}
+[2.726540] (-) TimerEvent: {}
+[2.827551] (-) TimerEvent: {}
+[2.928498] (-) TimerEvent: {}
+[3.029348] (-) TimerEvent: {}
+[3.130275] (-) TimerEvent: {}
+[3.231702] (-) TimerEvent: {}
+[3.334113] (-) TimerEvent: {}
+[3.435882] (-) TimerEvent: {}
+[3.537476] (-) TimerEvent: {}
+[3.638512] (-) TimerEvent: {}
+[3.740507] (-) TimerEvent: {}
+[3.841666] (-) TimerEvent: {}
+[3.942620] (-) TimerEvent: {}
+[4.043907] (-) TimerEvent: {}
+[4.144886] (-) TimerEvent: {}
+[4.245634] (-) TimerEvent: {}
+[4.346700] (-) TimerEvent: {}
+[4.447687] (-) TimerEvent: {}
+[4.548469] (-) TimerEvent: {}
+[4.649236] (-) TimerEvent: {}
+[4.750854] (-) TimerEvent: {}
+[4.851693] (-) TimerEvent: {}
+[4.952554] (-) TimerEvent: {}
+[5.053575] (-) TimerEvent: {}
+[5.155371] (-) TimerEvent: {}
+[5.257177] (-) TimerEvent: {}
+[5.359336] (-) TimerEvent: {}
+[5.461851] (-) TimerEvent: {}
+[5.564045] (-) TimerEvent: {}
+[5.665833] (-) TimerEvent: {}
+[5.696904] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[5.701685] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[5.704970] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/scott/alpha_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/scott/alpha_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('SSH_CLIENT', '192.168.8.181 53034 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/scott/alpha_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/scott/alpha_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.181 53034 192.168.8.124 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble')]), 'shell': False}
+[5.766292] (-) TimerEvent: {}
+[5.867587] (-) TimerEvent: {}
+[5.969689] (-) TimerEvent: {}
+[6.071200] (-) TimerEvent: {}
+[6.127343] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_node\x1b[0m\n'}
+[6.171827] (-) TimerEvent: {}
+[6.273901] (-) TimerEvent: {}
+[6.375538] (-) TimerEvent: {}
+[6.478155] (-) TimerEvent: {}
+[6.579231] (-) TimerEvent: {}
+[6.680718] (-) TimerEvent: {}
+[6.691400] (rplidar_ros) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[6.780897] (-) TimerEvent: {}
+[6.883116] (-) TimerEvent: {}
+[6.984954] (-) TimerEvent: {}
+[7.087008] (-) TimerEvent: {}
+[7.198983] (-) TimerEvent: {}
+[7.302933] (-) TimerEvent: {}
+[7.406939] (-) TimerEvent: {}
+[7.510946] (-) TimerEvent: {}
+[7.612386] (-) TimerEvent: {}
+[7.714618] (-) TimerEvent: {}
+[7.816197] (-) TimerEvent: {}
+[7.917488] (-) TimerEvent: {}
+[8.018957] (-) TimerEvent: {}
+[8.120296] (-) TimerEvent: {}
+[8.222712] (-) TimerEvent: {}
+[8.325306] (-) TimerEvent: {}
+[8.430424] (-) TimerEvent: {}
+[8.533845] (-) TimerEvent: {}
+[8.580314] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/scott/alpha_ws/build/robot/build', 'install', '--record', '/home/scott/alpha_ws/build/robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/scott/alpha_ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'scott', 'SSH_CLIENT': '192.168.8.181 53034 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/scott', 'OLDPWD': '/home/scott', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/scott/alpha_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'scott', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/scott/alpha_ws/build/robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.181 53034 192.168.8.124 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/scott/alpha_ws/build/robot/prefix_override:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces'}, 'shell': False}
+[8.601369] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/scott/alpha_ws/build/robot_bringup/build', 'install', '--record', '/home/scott/alpha_ws/build/robot_bringup/install.log', '--single-version-externally-managed'], 'cwd': '/home/scott/alpha_ws/src/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'scott', 'SSH_CLIENT': '192.168.8.181 53034 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/scott', 'OLDPWD': '/home/scott', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/scott/alpha_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'scott', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/scott/alpha_ws/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.181 53034 192.168.8.124 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/scott/alpha_ws/build/robot_bringup/prefix_override:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces'}, 'shell': False}
+[8.634141] (-) TimerEvent: {}
+[8.736785] (-) TimerEvent: {}
+[8.840407] (-) TimerEvent: {}
+[8.942740] (-) TimerEvent: {}
+[9.044981] (-) TimerEvent: {}
+[9.146374] (-) TimerEvent: {}
+[9.248811] (-) TimerEvent: {}
+[9.352667] (-) TimerEvent: {}
+[9.454944] (-) TimerEvent: {}
+[9.558935] (-) TimerEvent: {}
+[9.666960] (-) TimerEvent: {}
+[9.771058] (-) TimerEvent: {}
+[9.873975] (-) TimerEvent: {}
+[9.978411] (-) TimerEvent: {}
+[10.090563] (-) TimerEvent: {}
+[10.193176] (-) TimerEvent: {}
+[10.294639] (-) TimerEvent: {}
+[10.396199] (-) TimerEvent: {}
+[10.497861] (-) TimerEvent: {}
+[10.599603] (-) TimerEvent: {}
+[10.701308] (-) TimerEvent: {}
+[10.803113] (-) TimerEvent: {}
+[10.863545] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[10.867847] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[10.872138] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[10.878819] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[10.882340] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[10.886637] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[10.892017] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[10.895409] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[10.900615] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[10.904110] (-) TimerEvent: {}
+[10.910253] (robot) StdoutLine: {'line': b'running build\n'}
+[10.922667] (robot) StdoutLine: {'line': b'running build_py\n'}
+[10.927783] (robot) StdoutLine: {'line': b'copying robot/encoder_publisher_left.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[10.931976] (robot) StdoutLine: {'line': b'copying robot/pid_controller_right.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[10.933646] (robot) StdoutLine: {'line': b'copying robot/imu_publisher.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[10.934377] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[10.935406] (robot) StdoutLine: {'line': b'copying robot/motor_controller.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[10.936045] (robot) StdoutLine: {'line': b'copying robot/encoder_publisher.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[10.936817] (robot) StdoutLine: {'line': b'copying robot/encoder_publisher_right.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[10.937589] (robot) StdoutLine: {'line': b'copying robot/pid_controller_left.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[10.938058] (robot) StdoutLine: {'line': b'copying robot/odom_publisher.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[10.938712] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[10.939476] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[10.940586] (robot_bringup) StdoutLine: {'line': b'writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt\n'}
+[10.941338] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[10.942869] (robot) StdoutLine: {'line': b'running install\n'}
+[10.944234] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[10.945419] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[10.946452] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/encoder_publisher_left.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[10.947638] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/pid_controller_right.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[10.951566] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/imu_publisher.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[10.952208] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/motor_controller.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[10.953210] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/encoder_publisher.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[10.953940] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/encoder_publisher_right.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[10.955380] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/pid_controller_left.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[10.956236] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[10.957461] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/odom_publisher.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[10.958532] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/encoder_publisher_left.py to encoder_publisher_left.cpython-310.pyc\n'}
+[10.959563] (robot_bringup) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[10.960481] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/pid_controller_right.py to pid_controller_right.cpython-310.pyc\n'}
+[10.961609] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[10.962834] (robot_bringup) StdoutLine: {'line': b'running build\n'}
+[10.963645] (robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[10.964751] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/imu_publisher.py to imu_publisher.cpython-310.pyc\n'}
+[10.965878] (robot_bringup) StdoutLine: {'line': b'running install\n'}
+[10.966966] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/motor_controller.py to motor_controller.cpython-310.pyc\n'}
+[10.967921] (robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[10.968870] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/encoder_publisher.py to encoder_publisher.cpython-310.pyc\n'}
+[10.969641] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/encoder_publisher_right.py to encoder_publisher_right.cpython-310.pyc\n'}
+[10.972278] (robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[10.973215] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/pid_controller_left.py to pid_controller_left.cpython-310.pyc\n'}
+[10.975655] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/odom_publisher.py to odom_publisher.cpython-310.pyc\n'}
+[10.978112] (robot_bringup) StdoutLine: {'line': b'copying config/ekf_params.yaml -> /home/scott/alpha_ws/install/robot_bringup/share/robot_bringup/config\n'}
+[10.981431] (robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.998957] (robot_bringup) StdoutLine: {'line': b"removing '/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.004698] (-) TimerEvent: {}
+[11.018431] (robot_bringup) StdoutLine: {'line': b'Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages/robot_bringup-0.0.0-py3.10.egg-info\n'}
+[11.021389] (robot) StdoutLine: {'line': b'running install_data\n'}
+[11.025886] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[11.030513] (robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[11.041740] (robot) StdoutLine: {'line': b"removing '/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[11.058297] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[11.070963] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[11.105124] (-) TimerEvent: {}
+[11.163427] (robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/scott/alpha_ws/build/robot_bringup/install.log'\n"}
+[11.205453] (-) TimerEvent: {}
+[11.265329] (robot) StdoutLine: {'line': b'Installing encoder_publisher script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[11.279120] (robot) StdoutLine: {'line': b'Installing encoder_publisher_left script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[11.294224] (robot) StdoutLine: {'line': b'Installing encoder_publisher_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[11.314517] (-) TimerEvent: {}
+[11.319192] (robot) StdoutLine: {'line': b'Installing imu_publisher script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[11.325706] (robot) StdoutLine: {'line': b'Installing motor_controller script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[11.339364] (robot) StdoutLine: {'line': b'Installing motor_driver script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[11.347522] (robot) StdoutLine: {'line': b'Installing odom_publisher script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[11.362964] (robot) StdoutLine: {'line': b'Installing pid_controller_left script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[11.371161] (robot) StdoutLine: {'line': b'Installing pid_controller_right script to /home/scott/alpha_ws/install/robot/lib/robot\n'}
+[11.378525] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/scott/alpha_ws/build/robot/install.log'\n"}
+[11.386011] (robot_bringup) CommandEnded: {'returncode': 0}
+[11.419007] (-) TimerEvent: {}
+[11.520759] (-) TimerEvent: {}
+[11.621776] (-) TimerEvent: {}
+[11.722988] (-) TimerEvent: {}
+[11.825781] (-) TimerEvent: {}
+[11.927113] (-) TimerEvent: {}
+[12.023804] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[12.027321] (-) TimerEvent: {}
+[12.030106] (robot) CommandEnded: {'returncode': 0}
+[12.127617] (-) TimerEvent: {}
+[12.229416] (-) TimerEvent: {}
+[12.330922] (-) TimerEvent: {}
+[12.432644] (-) TimerEvent: {}
+[12.533972] (-) TimerEvent: {}
+[12.567210] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[12.634180] (-) TimerEvent: {}
+[12.734993] (-) TimerEvent: {}
+[12.835877] (-) TimerEvent: {}
+[12.936895] (-) TimerEvent: {}
+[13.037918] (-) TimerEvent: {}
+[13.138919] (-) TimerEvent: {}
+[13.239771] (-) TimerEvent: {}
+[13.341511] (-) TimerEvent: {}
+[13.442447] (-) TimerEvent: {}
+[13.543394] (-) TimerEvent: {}
+[13.645183] (-) TimerEvent: {}
+[13.746148] (-) TimerEvent: {}
+[13.847309] (-) TimerEvent: {}
+[13.948326] (-) TimerEvent: {}
+[14.049676] (-) TimerEvent: {}
+[14.150963] (-) TimerEvent: {}
+[14.252962] (-) TimerEvent: {}
+[14.354427] (-) TimerEvent: {}
+[14.455961] (-) TimerEvent: {}
+[14.556926] (-) TimerEvent: {}
+[14.657817] (-) TimerEvent: {}
+[14.758963] (-) TimerEvent: {}
+[14.859888] (-) TimerEvent: {}
+[14.960758] (-) TimerEvent: {}
+[15.061713] (-) TimerEvent: {}
+[15.162671] (-) TimerEvent: {}
+[15.263787] (-) TimerEvent: {}
+[15.364618] (-) TimerEvent: {}
+[15.465636] (-) TimerEvent: {}
+[15.567094] (-) TimerEvent: {}
+[15.667949] (-) TimerEvent: {}
+[15.768903] (-) TimerEvent: {}
+[15.869963] (-) TimerEvent: {}
+[15.970902] (-) TimerEvent: {}
+[16.071805] (-) TimerEvent: {}
+[16.173468] (-) TimerEvent: {}
+[16.275156] (-) TimerEvent: {}
+[16.376428] (-) TimerEvent: {}
+[16.477332] (-) TimerEvent: {}
+[16.578316] (-) TimerEvent: {}
+[16.679610] (-) TimerEvent: {}
+[16.780527] (-) TimerEvent: {}
+[16.881380] (-) TimerEvent: {}
+[16.982248] (-) TimerEvent: {}
+[17.083262] (-) TimerEvent: {}
+[17.184212] (-) TimerEvent: {}
+[17.285086] (-) TimerEvent: {}
+[17.386252] (-) TimerEvent: {}
+[17.487091] (-) TimerEvent: {}
+[17.588160] (-) TimerEvent: {}
+[17.689142] (-) TimerEvent: {}
+[17.790047] (-) TimerEvent: {}
+[17.890960] (-) TimerEvent: {}
+[17.991804] (-) TimerEvent: {}
+[18.092740] (-) TimerEvent: {}
+[18.193710] (-) TimerEvent: {}
+[18.294665] (-) TimerEvent: {}
+[18.395549] (-) TimerEvent: {}
+[18.496481] (-) TimerEvent: {}
+[18.597443] (-) TimerEvent: {}
+[18.698331] (-) TimerEvent: {}
+[18.799342] (-) TimerEvent: {}
+[18.900254] (-) TimerEvent: {}
+[19.001260] (-) TimerEvent: {}
+[19.102283] (-) TimerEvent: {}
+[19.203915] (-) TimerEvent: {}
+[19.304855] (-) TimerEvent: {}
+[19.405801] (-) TimerEvent: {}
+[19.506741] (-) TimerEvent: {}
+[19.607789] (-) TimerEvent: {}
+[19.708720] (-) TimerEvent: {}
+[19.809628] (-) TimerEvent: {}
+[19.910575] (-) TimerEvent: {}
+[20.011664] (-) TimerEvent: {}
+[20.112604] (-) TimerEvent: {}
+[20.213603] (-) TimerEvent: {}
+[20.314791] (-) TimerEvent: {}
+[20.415691] (-) TimerEvent: {}
+[20.516566] (-) TimerEvent: {}
+[20.617419] (-) TimerEvent: {}
+[20.718258] (-) TimerEvent: {}
+[20.819292] (-) TimerEvent: {}
+[20.920279] (-) TimerEvent: {}
+[21.021247] (-) TimerEvent: {}
+[21.122120] (-) TimerEvent: {}
+[21.159863] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[21.160796] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[21.161421] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[21.162090] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[21.163237] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.163943] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.164539] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.165141] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[21.165785] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[21.166351] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[21.167152] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.167796] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[21.168396] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[21.222333] (-) TimerEvent: {}
+[21.323631] (-) TimerEvent: {}
+[21.425038] (-) TimerEvent: {}
+[21.525882] (-) TimerEvent: {}
+[21.626848] (-) TimerEvent: {}
+[21.727695] (-) TimerEvent: {}
+[21.828608] (-) TimerEvent: {}
+[21.929523] (-) TimerEvent: {}
+[22.030514] (-) TimerEvent: {}
+[22.131392] (-) TimerEvent: {}
+[22.232290] (-) TimerEvent: {}
+[22.333153] (-) TimerEvent: {}
+[22.434123] (-) TimerEvent: {}
+[22.535358] (-) TimerEvent: {}
+[22.636237] (-) TimerEvent: {}
+[22.737208] (-) TimerEvent: {}
+[22.838245] (-) TimerEvent: {}
+[22.939168] (-) TimerEvent: {}
+[23.040478] (-) TimerEvent: {}
+[23.141500] (-) TimerEvent: {}
+[23.243035] (-) TimerEvent: {}
+[23.343920] (-) TimerEvent: {}
+[23.444829] (-) TimerEvent: {}
+[23.545856] (-) TimerEvent: {}
+[23.647694] (-) TimerEvent: {}
+[23.748562] (-) TimerEvent: {}
+[23.849398] (-) TimerEvent: {}
+[23.950489] (-) TimerEvent: {}
+[24.051564] (-) TimerEvent: {}
+[24.152517] (-) TimerEvent: {}
+[24.253518] (-) TimerEvent: {}
+[24.354511] (-) TimerEvent: {}
+[24.455595] (-) TimerEvent: {}
+[24.556464] (-) TimerEvent: {}
+[24.657458] (-) TimerEvent: {}
+[24.758592] (-) TimerEvent: {}
+[24.859470] (-) TimerEvent: {}
+[24.960333] (-) TimerEvent: {}
+[25.061201] (-) TimerEvent: {}
+[25.162389] (-) TimerEvent: {}
+[25.264239] (-) TimerEvent: {}
+[25.365152] (-) TimerEvent: {}
+[25.465976] (-) TimerEvent: {}
+[25.566841] (-) TimerEvent: {}
+[25.667634] (-) TimerEvent: {}
+[25.768594] (-) TimerEvent: {}
+[25.869835] (-) TimerEvent: {}
+[25.970725] (-) TimerEvent: {}
+[26.071677] (-) TimerEvent: {}
+[26.172521] (-) TimerEvent: {}
+[26.273417] (-) TimerEvent: {}
+[26.374313] (-) TimerEvent: {}
+[26.476335] (-) TimerEvent: {}
+[26.577427] (-) TimerEvent: {}
+[26.678521] (-) TimerEvent: {}
+[26.779632] (-) TimerEvent: {}
+[26.880540] (-) TimerEvent: {}
+[26.981517] (-) TimerEvent: {}
+[27.082400] (-) TimerEvent: {}
+[27.183386] (-) TimerEvent: {}
+[27.284233] (-) TimerEvent: {}
+[27.385211] (-) TimerEvent: {}
+[27.486105] (-) TimerEvent: {}
+[27.586988] (-) TimerEvent: {}
+[27.687931] (-) TimerEvent: {}
+[27.788877] (-) TimerEvent: {}
+[27.889891] (-) TimerEvent: {}
+[27.991362] (-) TimerEvent: {}
+[28.092278] (-) TimerEvent: {}
+[28.193138] (-) TimerEvent: {}
+[28.294065] (-) TimerEvent: {}
+[28.395195] (-) TimerEvent: {}
+[28.496223] (-) TimerEvent: {}
+[28.597671] (-) TimerEvent: {}
+[28.699396] (-) TimerEvent: {}
+[28.802030] (-) TimerEvent: {}
+[28.902892] (-) TimerEvent: {}
+[29.004107] (-) TimerEvent: {}
+[29.107193] (-) TimerEvent: {}
+[29.208120] (-) TimerEvent: {}
+[29.308995] (-) TimerEvent: {}
+[29.409854] (-) TimerEvent: {}
+[29.511973] (-) TimerEvent: {}
+[29.612847] (-) TimerEvent: {}
+[29.713839] (-) TimerEvent: {}
+[29.814838] (-) TimerEvent: {}
+[29.915724] (-) TimerEvent: {}
+[30.016615] (-) TimerEvent: {}
+[30.117599] (-) TimerEvent: {}
+[30.219104] (-) TimerEvent: {}
+[30.319950] (-) TimerEvent: {}
+[30.420823] (-) TimerEvent: {}
+[30.521764] (-) TimerEvent: {}
+[30.622872] (-) TimerEvent: {}
+[30.723885] (-) TimerEvent: {}
+[30.824809] (-) TimerEvent: {}
+[30.925675] (-) TimerEvent: {}
+[31.026934] (-) TimerEvent: {}
+[31.127768] (-) TimerEvent: {}
+[31.228695] (-) TimerEvent: {}
+[31.329822] (-) TimerEvent: {}
+[31.430724] (-) TimerEvent: {}
+[31.531784] (-) TimerEvent: {}
+[31.632716] (-) TimerEvent: {}
+[31.733596] (-) TimerEvent: {}
+[31.834962] (-) TimerEvent: {}
+[31.936258] (-) TimerEvent: {}
+[32.037170] (-) TimerEvent: {}
+[32.137999] (-) TimerEvent: {}
+[32.238904] (-) TimerEvent: {}
+[32.339841] (-) TimerEvent: {}
+[32.440862] (-) TimerEvent: {}
+[32.541678] (-) TimerEvent: {}
+[32.642605] (-) TimerEvent: {}
+[32.745050] (-) TimerEvent: {}
+[32.845939] (-) TimerEvent: {}
+[32.947355] (-) TimerEvent: {}
+[33.048721] (-) TimerEvent: {}
+[33.150151] (-) TimerEvent: {}
+[33.251671] (-) TimerEvent: {}
+[33.352605] (-) TimerEvent: {}
+[33.453585] (-) TimerEvent: {}
+[33.554403] (-) TimerEvent: {}
+[33.655287] (-) TimerEvent: {}
+[33.756095] (-) TimerEvent: {}
+[33.856941] (-) TimerEvent: {}
+[33.957796] (-) TimerEvent: {}
+[34.058670] (-) TimerEvent: {}
+[34.159686] (-) TimerEvent: {}
+[34.260507] (-) TimerEvent: {}
+[34.361952] (-) TimerEvent: {}
+[34.463506] (-) TimerEvent: {}
+[34.565249] (-) TimerEvent: {}
+[34.666956] (-) TimerEvent: {}
+[34.767996] (-) TimerEvent: {}
+[34.868924] (-) TimerEvent: {}
+[34.905080] (rplidar_ros) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking CXX executable rplidar_node\x1b[0m\n'}
+[34.969120] (-) TimerEvent: {}
+[35.069899] (-) TimerEvent: {}
+[35.171530] (-) TimerEvent: {}
+[35.272603] (-) TimerEvent: {}
+[35.374059] (-) TimerEvent: {}
+[35.475341] (-) TimerEvent: {}
+[35.576387] (-) TimerEvent: {}
+[35.677699] (-) TimerEvent: {}
+[35.781450] (-) TimerEvent: {}
+[35.882488] (-) TimerEvent: {}
+[35.983447] (-) TimerEvent: {}
+[36.084286] (-) TimerEvent: {}
+[36.185150] (-) TimerEvent: {}
+[36.288448] (-) TimerEvent: {}
+[36.390327] (-) TimerEvent: {}
+[36.493455] (-) TimerEvent: {}
+[36.594337] (-) TimerEvent: {}
+[36.637324] (rplidar_ros) StdoutLine: {'line': b'[ 47%] Built target rplidar_node\n'}
+[36.694550] (-) TimerEvent: {}
+[36.794616] (rplidar_ros) StdoutLine: {'line': b'[ 52%] Built target rplidar_client\n'}
+[36.797084] (-) TimerEvent: {}
+[36.890033] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[36.897354] (-) TimerEvent: {}
+[36.998283] (-) TimerEvent: {}
+[37.099058] (-) TimerEvent: {}
+[37.100782] (rplidar_ros) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o\x1b[0m\n'}
+[37.199243] (-) TimerEvent: {}
+[37.300004] (-) TimerEvent: {}
+[37.400798] (-) TimerEvent: {}
+[37.501647] (-) TimerEvent: {}
+[37.602385] (-) TimerEvent: {}
+[37.703246] (-) TimerEvent: {}
+[37.804004] (-) TimerEvent: {}
+[37.904970] (-) TimerEvent: {}
+[38.006101] (-) TimerEvent: {}
+[38.106930] (-) TimerEvent: {}
+[38.207708] (-) TimerEvent: {}
+[38.308479] (-) TimerEvent: {}
+[38.409274] (-) TimerEvent: {}
+[38.510113] (-) TimerEvent: {}
+[38.611296] (-) TimerEvent: {}
+[38.712278] (-) TimerEvent: {}
+[38.813053] (-) TimerEvent: {}
+[38.913868] (-) TimerEvent: {}
+[39.014647] (-) TimerEvent: {}
+[39.115561] (-) TimerEvent: {}
+[39.216419] (-) TimerEvent: {}
+[39.317282] (-) TimerEvent: {}
+[39.418411] (-) TimerEvent: {}
+[39.519447] (-) TimerEvent: {}
+[39.620379] (-) TimerEvent: {}
+[39.721333] (-) TimerEvent: {}
+[39.822547] (-) TimerEvent: {}
+[39.923510] (-) TimerEvent: {}
+[40.024608] (-) TimerEvent: {}
+[40.127347] (-) TimerEvent: {}
+[40.228301] (-) TimerEvent: {}
+[40.329115] (-) TimerEvent: {}
+[40.430027] (-) TimerEvent: {}
+[40.531238] (-) TimerEvent: {}
+[40.632224] (-) TimerEvent: {}
+[40.733381] (-) TimerEvent: {}
+[40.834554] (-) TimerEvent: {}
+[40.935773] (-) TimerEvent: {}
+[41.036698] (-) TimerEvent: {}
+[41.137868] (-) TimerEvent: {}
+[41.239552] (-) TimerEvent: {}
+[41.340381] (-) TimerEvent: {}
+[41.441263] (-) TimerEvent: {}
+[41.542146] (-) TimerEvent: {}
+[41.643090] (-) TimerEvent: {}
+[41.744192] (-) TimerEvent: {}
+[41.845569] (-) TimerEvent: {}
+[41.946476] (-) TimerEvent: {}
+[42.047517] (-) TimerEvent: {}
+[42.148311] (-) TimerEvent: {}
+[42.249242] (-) TimerEvent: {}
+[42.350625] (-) TimerEvent: {}
+[42.451630] (-) TimerEvent: {}
+[42.552612] (-) TimerEvent: {}
+[42.653481] (-) TimerEvent: {}
+[42.754941] (-) TimerEvent: {}
+[42.855899] (-) TimerEvent: {}
+[42.956872] (-) TimerEvent: {}
+[43.057838] (-) TimerEvent: {}
+[43.158691] (-) TimerEvent: {}
+[43.259641] (-) TimerEvent: {}
+[43.360561] (-) TimerEvent: {}
+[43.461693] (-) TimerEvent: {}
+[43.562543] (-) TimerEvent: {}
+[43.663498] (-) TimerEvent: {}
+[43.764958] (-) TimerEvent: {}
+[43.865839] (-) TimerEvent: {}
+[43.966814] (-) TimerEvent: {}
+[44.067730] (-) TimerEvent: {}
+[44.168701] (-) TimerEvent: {}
+[44.269589] (-) TimerEvent: {}
+[44.370432] (-) TimerEvent: {}
+[44.471462] (-) TimerEvent: {}
+[44.572885] (-) TimerEvent: {}
+[44.673844] (-) TimerEvent: {}
+[44.774877] (-) TimerEvent: {}
+[44.876030] (-) TimerEvent: {}
+[44.977517] (-) TimerEvent: {}
+[45.078358] (-) TimerEvent: {}
+[45.180091] (-) TimerEvent: {}
+[45.281679] (-) TimerEvent: {}
+[45.382582] (-) TimerEvent: {}
+[45.483458] (-) TimerEvent: {}
+[45.584391] (-) TimerEvent: {}
+[45.685607] (-) TimerEvent: {}
+[45.786536] (-) TimerEvent: {}
+[45.887608] (-) TimerEvent: {}
+[45.988507] (-) TimerEvent: {}
+[46.089491] (-) TimerEvent: {}
+[46.190534] (-) TimerEvent: {}
+[46.291495] (-) TimerEvent: {}
+[46.392336] (-) TimerEvent: {}
+[46.493259] (-) TimerEvent: {}
+[46.594108] (-) TimerEvent: {}
+[46.695168] (-) TimerEvent: {}
+[46.796675] (-) TimerEvent: {}
+[46.897584] (-) TimerEvent: {}
+[46.999162] (-) TimerEvent: {}
+[47.100065] (-) TimerEvent: {}
+[47.200933] (-) TimerEvent: {}
+[47.301868] (-) TimerEvent: {}
+[47.402919] (-) TimerEvent: {}
+[47.503871] (-) TimerEvent: {}
+[47.604744] (-) TimerEvent: {}
+[47.705592] (-) TimerEvent: {}
+[47.806507] (-) TimerEvent: {}
+[47.907727] (-) TimerEvent: {}
+[48.008593] (-) TimerEvent: {}
+[48.109428] (-) TimerEvent: {}
+[48.210293] (-) TimerEvent: {}
+[48.311361] (-) TimerEvent: {}
+[48.412332] (-) TimerEvent: {}
+[48.513289] (-) TimerEvent: {}
+[48.614670] (-) TimerEvent: {}
+[48.716396] (-) TimerEvent: {}
+[48.817726] (-) TimerEvent: {}
+[48.918960] (-) TimerEvent: {}
+[49.022458] (-) TimerEvent: {}
+[49.123425] (-) TimerEvent: {}
+[49.224302] (-) TimerEvent: {}
+[49.325173] (-) TimerEvent: {}
+[49.426070] (-) TimerEvent: {}
+[49.527494] (-) TimerEvent: {}
+[49.599638] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[49.600806] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[49.601552] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[49.602174] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[49.602848] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[49.603848] (rplidar_ros) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[49.604482] (rplidar_ros) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[49.605121] (rplidar_ros) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[49.605755] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[49.606350] (rplidar_ros) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[49.607118] (rplidar_ros) StderrLine: {'line': b'\x1b[01m\x1b[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[49.607803] (rplidar_ros) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[49.608403] (rplidar_ros) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[49.627648] (-) TimerEvent: {}
+[49.728934] (-) TimerEvent: {}
+[49.830417] (-) TimerEvent: {}
+[49.931477] (-) TimerEvent: {}
+[50.033748] (-) TimerEvent: {}
+[50.134637] (-) TimerEvent: {}
+[50.235707] (-) TimerEvent: {}
+[50.336745] (-) TimerEvent: {}
+[50.437799] (-) TimerEvent: {}
+[50.538796] (-) TimerEvent: {}
+[50.639937] (-) TimerEvent: {}
+[50.740953] (-) TimerEvent: {}
+[50.841772] (-) TimerEvent: {}
+[50.942610] (-) TimerEvent: {}
+[51.043570] (-) TimerEvent: {}
+[51.144699] (-) TimerEvent: {}
+[51.245546] (-) TimerEvent: {}
+[51.346384] (-) TimerEvent: {}
+[51.447319] (-) TimerEvent: {}
+[51.548231] (-) TimerEvent: {}
+[51.649178] (-) TimerEvent: {}
+[51.750228] (-) TimerEvent: {}
+[51.851501] (-) TimerEvent: {}
+[51.952947] (-) TimerEvent: {}
+[52.054116] (-) TimerEvent: {}
+[52.155098] (-) TimerEvent: {}
+[52.256550] (-) TimerEvent: {}
+[52.357443] (-) TimerEvent: {}
+[52.458280] (-) TimerEvent: {}
+[52.559210] (-) TimerEvent: {}
+[52.660214] (-) TimerEvent: {}
+[52.761812] (-) TimerEvent: {}
+[52.863906] (-) TimerEvent: {}
+[52.964758] (-) TimerEvent: {}
+[53.065628] (-) TimerEvent: {}
+[53.166474] (-) TimerEvent: {}
+[53.267482] (-) TimerEvent: {}
+[53.368624] (-) TimerEvent: {}
+[53.469448] (-) TimerEvent: {}
+[53.570288] (-) TimerEvent: {}
+[53.671296] (-) TimerEvent: {}
+[53.773179] (-) TimerEvent: {}
+[53.874269] (-) TimerEvent: {}
+[53.975528] (-) TimerEvent: {}
+[54.077063] (-) TimerEvent: {}
+[54.178929] (-) TimerEvent: {}
+[54.279876] (-) TimerEvent: {}
+[54.380965] (-) TimerEvent: {}
+[54.482453] (-) TimerEvent: {}
+[54.583445] (-) TimerEvent: {}
+[54.684606] (-) TimerEvent: {}
+[54.785505] (-) TimerEvent: {}
+[54.886347] (-) TimerEvent: {}
+[54.987250] (-) TimerEvent: {}
+[55.088428] (-) TimerEvent: {}
+[55.189363] (-) TimerEvent: {}
+[55.290229] (-) TimerEvent: {}
+[55.391208] (-) TimerEvent: {}
+[55.492043] (-) TimerEvent: {}
+[55.593018] (-) TimerEvent: {}
+[55.693829] (-) TimerEvent: {}
+[55.794979] (-) TimerEvent: {}
+[55.896071] (-) TimerEvent: {}
+[55.997111] (-) TimerEvent: {}
+[56.098816] (-) TimerEvent: {}
+[56.199703] (-) TimerEvent: {}
+[56.300773] (-) TimerEvent: {}
+[56.401683] (-) TimerEvent: {}
+[56.502588] (-) TimerEvent: {}
+[56.603471] (-) TimerEvent: {}
+[56.704412] (-) TimerEvent: {}
+[56.805295] (-) TimerEvent: {}
+[56.906149] (-) TimerEvent: {}
+[57.008061] (-) TimerEvent: {}
+[57.109062] (-) TimerEvent: {}
+[57.210015] (-) TimerEvent: {}
+[57.311696] (-) TimerEvent: {}
+[57.412886] (-) TimerEvent: {}
+[57.514419] (-) TimerEvent: {}
+[57.615482] (-) TimerEvent: {}
+[57.716784] (-) TimerEvent: {}
+[57.817676] (-) TimerEvent: {}
+[57.918608] (-) TimerEvent: {}
+[58.019735] (-) TimerEvent: {}
+[58.120626] (-) TimerEvent: {}
+[58.221576] (-) TimerEvent: {}
+[58.323234] (-) TimerEvent: {}
+[58.424978] (-) TimerEvent: {}
+[58.525913] (-) TimerEvent: {}
+[58.626863] (-) TimerEvent: {}
+[58.727762] (-) TimerEvent: {}
+[58.828748] (-) TimerEvent: {}
+[58.929636] (-) TimerEvent: {}
+[59.030479] (-) TimerEvent: {}
+[59.131379] (-) TimerEvent: {}
+[59.232210] (-) TimerEvent: {}
+[59.333142] (-) TimerEvent: {}
+[59.434155] (-) TimerEvent: {}
+[59.535100] (-) TimerEvent: {}
+[59.636300] (-) TimerEvent: {}
+[59.737170] (-) TimerEvent: {}
+[59.838198] (-) TimerEvent: {}
+[59.939625] (-) TimerEvent: {}
+[60.040494] (-) TimerEvent: {}
+[60.141420] (-) TimerEvent: {}
+[60.242345] (-) TimerEvent: {}
+[60.343369] (-) TimerEvent: {}
+[60.444297] (-) TimerEvent: {}
+[60.545488] (-) TimerEvent: {}
+[60.647033] (-) TimerEvent: {}
+[60.748270] (-) TimerEvent: {}
+[60.849111] (-) TimerEvent: {}
+[60.950075] (-) TimerEvent: {}
+[61.051347] (-) TimerEvent: {}
+[61.152200] (-) TimerEvent: {}
+[61.253129] (-) TimerEvent: {}
+[61.354036] (-) TimerEvent: {}
+[61.454916] (-) TimerEvent: {}
+[61.555766] (-) TimerEvent: {}
+[61.656669] (-) TimerEvent: {}
+[61.757924] (-) TimerEvent: {}
+[61.859175] (-) TimerEvent: {}
+[61.959988] (-) TimerEvent: {}
+[62.061010] (-) TimerEvent: {}
+[62.162487] (-) TimerEvent: {}
+[62.263375] (-) TimerEvent: {}
+[62.364273] (-) TimerEvent: {}
+[62.465149] (-) TimerEvent: {}
+[62.566008] (-) TimerEvent: {}
+[62.666881] (-) TimerEvent: {}
+[62.767822] (-) TimerEvent: {}
+[62.868810] (-) TimerEvent: {}
+[62.970236] (-) TimerEvent: {}
+[63.072070] (-) TimerEvent: {}
+[63.173531] (-) TimerEvent: {}
+[63.194159] (rplidar_ros) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable rplidar_composition\x1b[0m\n'}
+[63.273730] (-) TimerEvent: {}
+[63.374685] (-) TimerEvent: {}
+[63.475763] (-) TimerEvent: {}
+[63.576850] (-) TimerEvent: {}
+[63.678101] (-) TimerEvent: {}
+[63.779273] (-) TimerEvent: {}
+[63.880646] (-) TimerEvent: {}
+[63.983187] (-) TimerEvent: {}
+[64.086172] (-) TimerEvent: {}
+[64.187341] (-) TimerEvent: {}
+[64.288387] (-) TimerEvent: {}
+[64.389798] (-) TimerEvent: {}
+[64.491036] (-) TimerEvent: {}
+[64.591810] (-) TimerEvent: {}
+[64.692695] (-) TimerEvent: {}
+[64.793479] (-) TimerEvent: {}
+[64.859910] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[64.893648] (-) TimerEvent: {}
+[64.916761] (rplidar_ros) CommandEnded: {'returncode': 0}
+[64.993971] (-) TimerEvent: {}
+[65.095752] (-) TimerEvent: {}
+[65.197380] (-) TimerEvent: {}
+[65.299220] (-) TimerEvent: {}
+[65.343950] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[65.393681] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/scott/alpha_ws/build/rplidar_ros'], 'cwd': '/home/scott/alpha_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('SSH_CLIENT', '192.168.8.181 53034 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/scott/alpha_ws/install/robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/scott/alpha_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '5'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/scott/alpha_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.8.181 53034 192.168.8.124 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages:/home/scott/alpha_ws/install/robot_description/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot_bringup/lib/python3.10/site-packages:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/scott/alpha_ws/install/rplidar_ros:/home/scott/alpha_ws/install/robot_interfaces:/home/scott/alpha_ws/install/robot_description:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble')]), 'shell': False}
+[65.401642] (-) TimerEvent: {}
+[65.433679] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[65.434435] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch\n'}
+[65.435264] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[65.435958] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[65.436730] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[65.437290] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[65.437891] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[65.438441] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[65.439094] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[65.439844] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[65.440475] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[65.440986] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[65.441734] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[65.442311] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[65.442806] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[65.443239] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[65.443642] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[65.444186] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[65.444610] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[65.445033] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[65.445442] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[65.445828] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[65.446212] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[65.446577] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[65.447331] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[65.447768] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[65.448165] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/rviz\n'}
+[65.448540] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[65.448922] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[65.466647] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node" to ""\n'}
+[65.468043] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[65.490482] (rplidar_ros) StdoutLine: {'line': b'-- Set runtime path of "/home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition" to ""\n'}
+[65.491834] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[65.493519] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[65.494371] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[65.495575] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[65.496340] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[65.497099] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[65.497986] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[65.498448] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[65.498891] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[65.499567] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[65.500332] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[65.501165] (rplidar_ros) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[65.501808] (-) TimerEvent: {}
+[65.502322] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[65.503124] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[65.503791] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[65.504488] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[65.505154] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[65.505819] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date: /home/scott/alpha_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[65.508616] (rplidar_ros) CommandEnded: {'returncode': 0}
+[65.602037] (-) TimerEvent: {}
+[65.707328] (-) TimerEvent: {}
+[65.808596] (-) TimerEvent: {}
+[65.909465] (-) TimerEvent: {}
+[66.010934] (-) TimerEvent: {}
+[66.112472] (-) TimerEvent: {}
+[66.213988] (-) TimerEvent: {}
+[66.315237] (-) TimerEvent: {}
+[66.417279] (-) TimerEvent: {}
+[66.521414] (-) TimerEvent: {}
+[66.624152] (-) TimerEvent: {}
+[66.690641] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[66.696194] (-) EventReactorShutdown: {}

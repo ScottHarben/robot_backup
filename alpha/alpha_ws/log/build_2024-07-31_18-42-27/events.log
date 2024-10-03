@@ -1,0 +1,169 @@
+[0.000000] (-) TimerEvent: {}
+[0.002090] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.002931] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.003377] (robot) JobStarted: {'identifier': 'robot'}
+[0.099477] (-) TimerEvent: {}
+[0.200635] (-) TimerEvent: {}
+[0.301857] (-) TimerEvent: {}
+[0.335971] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.402346] (-) TimerEvent: {}
+[0.503453] (-) TimerEvent: {}
+[0.604247] (-) TimerEvent: {}
+[0.705182] (-) TimerEvent: {}
+[0.806186] (-) TimerEvent: {}
+[0.907082] (-) TimerEvent: {}
+[1.008040] (-) TimerEvent: {}
+[1.108933] (-) TimerEvent: {}
+[1.209880] (-) TimerEvent: {}
+[1.310894] (-) TimerEvent: {}
+[1.411758] (-) TimerEvent: {}
+[1.512635] (-) TimerEvent: {}
+[1.613647] (-) TimerEvent: {}
+[1.714581] (-) TimerEvent: {}
+[1.815864] (-) TimerEvent: {}
+[1.916802] (-) TimerEvent: {}
+[2.018091] (-) TimerEvent: {}
+[2.120176] (-) TimerEvent: {}
+[2.159313] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[2.160285] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/scott/alpha_ws/src/robot_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/scott/alpha_ws/install/robot_interfaces'], 'cwd': '/home/scott/alpha_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('SSH_CLIENT', '10.0.0.35 51318 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott/alpha_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '14'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/scott/alpha_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.35 51318 10.0.0.14 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.220440] (-) TimerEvent: {}
+[2.322209] (-) TimerEvent: {}
+[2.423999] (-) TimerEvent: {}
+[2.525683] (-) TimerEvent: {}
+[2.626646] (-) TimerEvent: {}
+[2.728132] (-) TimerEvent: {}
+[2.829381] (-) TimerEvent: {}
+[2.930374] (-) TimerEvent: {}
+[3.031795] (-) TimerEvent: {}
+[3.102970] (robot_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[3.131965] (-) TimerEvent: {}
+[3.233343] (-) TimerEvent: {}
+[3.334802] (-) TimerEvent: {}
+[3.435677] (-) TimerEvent: {}
+[3.536466] (-) TimerEvent: {}
+[3.637312] (-) TimerEvent: {}
+[3.739040] (-) TimerEvent: {}
+[3.823305] (robot_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.839246] (-) TimerEvent: {}
+[3.879732] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.943516] (-) TimerEvent: {}
+[4.044524] (-) TimerEvent: {}
+[4.145740] (-) TimerEvent: {}
+[4.248159] (-) TimerEvent: {}
+[4.331798] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/scott/alpha_ws/build/robot/build', 'install', '--record', '/home/scott/alpha_ws/build/robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/scott/alpha_ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'scott', 'SSH_CLIENT': '10.0.0.35 51318 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/scott', 'OLDPWD': '/home/scott/alpha_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'scott', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '14', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/scott/alpha_ws/build/robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.35 51318 10.0.0.14 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/scott/alpha_ws/build/robot/prefix_override:/home/scott/alpha_ws/install/robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.340657] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.348358] (-) TimerEvent: {}
+[4.372763] (robot_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.375971] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.379257] (robot_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.398225] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.448620] (-) TimerEvent: {}
+[4.549551] (-) TimerEvent: {}
+[4.651716] (-) TimerEvent: {}
+[4.754027] (-) TimerEvent: {}
+[4.825070] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.854201] (-) TimerEvent: {}
+[4.859282] (robot_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.860855] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.863009] (robot_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.910035] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.954389] (-) TimerEvent: {}
+[5.055230] (-) TimerEvent: {}
+[5.156932] (-) TimerEvent: {}
+[5.258970] (-) TimerEvent: {}
+[5.360355] (-) TimerEvent: {}
+[5.462141] (-) TimerEvent: {}
+[5.564087] (-) TimerEvent: {}
+[5.666358] (-) TimerEvent: {}
+[5.768662] (-) TimerEvent: {}
+[5.862805] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[5.865286] (robot) StdoutLine: {'line': b'creating ../../build/robot/robot.egg-info\n'}
+[5.866419] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[5.867678] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[5.868631] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[5.869527] (-) TimerEvent: {}
+[5.871526] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[5.872523] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[5.873521] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[5.882261] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[5.883394] (robot) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.886236] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[5.888663] (robot) StdoutLine: {'line': b'running build\n'}
+[5.891382] (robot) StdoutLine: {'line': b'running build_py\n'}
+[5.893054] (robot) StdoutLine: {'line': b'creating /home/scott/alpha_ws/build/robot/build\n'}
+[5.903309] (robot) StdoutLine: {'line': b'creating /home/scott/alpha_ws/build/robot/build/lib\n'}
+[5.907200] (robot) StdoutLine: {'line': b'creating /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[5.909722] (robot) StdoutLine: {'line': b'copying robot/__init__.py -> /home/scott/alpha_ws/build/robot/build/lib/robot\n'}
+[5.910725] (robot) StdoutLine: {'line': b'running install\n'}
+[5.911305] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[5.912587] (robot) StdoutLine: {'line': b'creating /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[5.915504] (robot) StdoutLine: {'line': b'copying /home/scott/alpha_ws/build/robot/build/lib/robot/__init__.py -> /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot\n'}
+[5.918881] (robot) StdoutLine: {'line': b'byte-compiling /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot/__init__.py to __init__.cpython-310.pyc\n'}
+[5.920616] (robot) StdoutLine: {'line': b'running install_data\n'}
+[5.921465] (robot) StdoutLine: {'line': b'creating /home/scott/alpha_ws/install/robot/share/ament_index\n'}
+[5.924007] (robot) StdoutLine: {'line': b'creating /home/scott/alpha_ws/install/robot/share/ament_index/resource_index\n'}
+[5.927496] (robot) StdoutLine: {'line': b'creating /home/scott/alpha_ws/install/robot/share/ament_index/resource_index/packages\n'}
+[5.929242] (robot) StdoutLine: {'line': b'copying resource/robot -> /home/scott/alpha_ws/install/robot/share/ament_index/resource_index/packages\n'}
+[5.929749] (robot) StdoutLine: {'line': b'copying package.xml -> /home/scott/alpha_ws/install/robot/share/robot\n'}
+[5.931426] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.935222] (robot_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.935936] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/scott/alpha_ws/install/robot/lib/python3.10/site-packages/robot-0.0.0-py3.10.egg-info\n'}
+[5.936524] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[5.969746] (-) TimerEvent: {}
+[6.023387] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/scott/alpha_ws/build/robot/install.log'\n"}
+[6.070111] (-) TimerEvent: {}
+[6.171743] (-) TimerEvent: {}
+[6.173834] (robot) CommandEnded: {'returncode': 0}
+[6.272043] (-) TimerEvent: {}
+[6.374452] (-) TimerEvent: {}
+[6.476740] (-) TimerEvent: {}
+[6.519680] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[6.576946] (-) TimerEvent: {}
+[6.677765] (-) TimerEvent: {}
+[6.703136] (robot_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[6.778063] (-) TimerEvent: {}
+[6.879255] (-) TimerEvent: {}
+[6.980349] (-) TimerEvent: {}
+[7.081547] (-) TimerEvent: {}
+[7.182389] (-) TimerEvent: {}
+[7.209065] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.221272] (robot_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.231903] (robot_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.256205] (robot_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[7.261652] (robot_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/scott/alpha_ws/build/robot_interfaces\n'}
+[7.279281] (robot_interfaces) CommandEnded: {'returncode': 0}
+[7.289350] (-) TimerEvent: {}
+[7.290034] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[7.290266] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/scott/alpha_ws/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/scott/alpha_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('SSH_CLIENT', '10.0.0.35 51318 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott/alpha_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '14'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/scott/alpha_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.35 51318 10.0.0.14 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.389709] (-) TimerEvent: {}
+[7.452065] (robot_interfaces) CommandEnded: {'returncode': 0}
+[7.490129] (-) TimerEvent: {}
+[7.566294] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[7.590313] (-) TimerEvent: {}
+[7.602634] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/scott/alpha_ws/build/robot_interfaces'], 'cwd': '/home/scott/alpha_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'scott'), ('SSH_CLIENT', '10.0.0.35 51318 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/scott'), ('OLDPWD', '/home/scott/alpha_ws/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'scott'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '14'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/scott/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/scott/alpha_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.35 51318 10.0.0.14 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.640347] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.642163] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[7.643817] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[7.645965] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[7.647639] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.649161] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[7.651423] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[7.653106] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[7.654233] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[7.657734] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[7.658636] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[7.659135] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[7.661664] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[7.662378] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[7.666225] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[7.667118] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[7.670351] (robot_interfaces) CommandEnded: {'returncode': 0}
+[7.690573] (-) TimerEvent: {}
+[7.791922] (-) TimerEvent: {}
+[7.893379] (-) TimerEvent: {}
+[7.994212] (-) TimerEvent: {}
+[8.099065] (-) TimerEvent: {}
+[8.199771] (-) TimerEvent: {}
+[8.301558] (-) TimerEvent: {}
+[8.352801] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[8.356549] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/scott/alpha_ws/src/robot_interfaces:msg/TickCount.msg",
+    "/home/scott/alpha_ws/src/robot_interfaces:msg/WheelRPM.msg",
+    "/home/scott/alpha_ws/src/robot_interfaces:msg/DutyCycle.msg"
+  ]
+}

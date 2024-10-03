@@ -1,0 +1,180 @@
+[4.617s] Invoking command in '/home/scott/alpha_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/robot_interfaces -- -j4 -l4
+[5.472s] [  2%] Built target robot_interfaces__cpp
+[5.541s] [  2%] Built target ament_cmake_python_copy_robot_interfaces
+[5.608s] [ 12%] Built target robot_interfaces__rosidl_generator_c
+[5.851s] [ 23%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.923s] [ 42%] Built target robot_interfaces__rosidl_typesupport_cpp
+[5.934s] [ 44%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[6.158s] [ 55%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[6.221s] [ 65%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[6.274s] [ 76%] Built target robot_interfaces__rosidl_typesupport_c
+[6.629s] [ 76%] Built target robot_interfaces
+[6.899s] [ 78%] Built target robot_interfaces__py
+[7.245s] [ 87%] Built target robot_interfaces__rosidl_generator_py
+[7.529s] [ 91%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.534s] [ 95%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.604s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[8.593s] running egg_info
+[8.599s] writing robot_interfaces.egg-info/PKG-INFO
+[8.605s] writing dependency_links to robot_interfaces.egg-info/dependency_links.txt
+[8.606s] writing top-level names to robot_interfaces.egg-info/top_level.txt
+[8.623s] reading manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[8.632s] writing manifest file 'robot_interfaces.egg-info/SOURCES.txt'
+[8.828s] [100%] Built target ament_cmake_python_build_robot_interfaces_egg
+[8.953s] Invoked command in '/home/scott/alpha_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/robot_interfaces -- -j4 -l4
+[9.872s] Invoking command in '/home/scott/alpha_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/scott/alpha_ws/build/robot_interfaces
+[9.925s] -- Install configuration: ""
+[9.944s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[9.944s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[9.945s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[9.955s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/tick_count.h
+[9.956s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/duty_cycle.h
+[9.957s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[9.957s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__functions.c
+[9.958s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__type_support.h
+[9.958s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__functions.c
+[9.965s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__struct.h
+[9.966s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__functions.h
+[9.967s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__type_support.h
+[9.967s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__functions.h
+[9.968s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__functions.h
+[9.969s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__struct.h
+[9.970s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__functions.c
+[9.970s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__struct.h
+[9.971s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__type_support.h
+[9.984s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[9.987s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/wheel_rpm.h
+[9.988s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[9.989s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[9.990s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[9.990s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.007s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.013s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[10.022s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_c.h
+[10.034s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_c.h
+[10.040s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_fastrtps_c.h
+[10.047s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.051s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.054s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.064s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.082s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.084s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[10.089s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__type_support.c
+[10.093s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_c.h
+[10.097s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_c.h
+[10.101s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__type_support.c
+[10.101s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__type_support.c
+[10.102s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_introspection_c.h
+[10.103s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[10.103s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[10.104s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.104s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.105s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/duty_cycle.hpp
+[10.106s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/wheel_rpm.hpp
+[10.106s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/tick_count.hpp
+[10.107s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[10.107s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__traits.hpp
+[10.108s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__struct.hpp
+[10.109s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__builder.hpp
+[10.110s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__struct.hpp
+[10.110s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__traits.hpp
+[10.110s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__builder.hpp
+[10.111s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__struct.hpp
+[10.111s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__builder.hpp
+[10.112s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__traits.hpp
+[10.113s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.113s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.114s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[10.115s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_fastrtps_cpp.hpp
+[10.115s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/dds_fastrtps
+[10.116s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_cpp.hpp
+[10.117s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_cpp.hpp
+[10.118s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.119s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.120s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces
+[10.121s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg
+[10.133s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail
+[10.137s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_introspection_cpp.hpp
+[10.138s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_cpp.hpp
+[10.139s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__type_support.cpp
+[10.140s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/wheel_rpm__type_support.cpp
+[10.141s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_cpp.hpp
+[10.141s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/include/robot_interfaces/robot_interfaces/msg/detail/duty_cycle__type_support.cpp
+[10.158s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.163s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[10.167s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[10.170s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[10.172s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info
+[10.175s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.185s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.195s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[10.205s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[10.215s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces
+[10.218s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[10.220s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg
+[10.224s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_duty_cycle.py
+[10.225s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_tick_count.py
+[10.228s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_tick_count_s.c
+[10.242s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_wheel_rpm.py
+[10.243s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/__init__.py
+[10.244s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_wheel_rpm_s.c
+[10.246s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg/_duty_cycle_s.c
+[10.247s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.252s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/__init__.py
+[10.253s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.254s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.255s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.261s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/librobot_interfaces__rosidl_generator_py.so
+[10.262s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.528s] Listing '/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces'...
+[10.536s] Listing '/home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/msg'...
+[10.580s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.588s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.600s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/local/lib/python3.10/dist-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.609s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_py.so
+[10.614s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.idl
+[10.617s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/WheelRPM.idl
+[10.620s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.idl
+[10.623s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.msg
+[10.625s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/WheelRPM.msg
+[10.627s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.msg
+[10.630s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[10.633s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[10.636s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[10.638s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[10.641s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[10.644s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[10.646s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[10.648s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[10.651s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[10.653s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[10.655s] -- Installing: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+[10.663s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[10.668s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport.cmake
+[10.671s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.677s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.680s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.686s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.689s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.692s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[10.696s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.703s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_cppExport.cmake
+[10.710s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.721s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.727s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.739s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.741s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[10.742s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.751s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport.cmake
+[10.759s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/export_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.768s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.788s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.791s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.792s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.793s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.793s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.794s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.794s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[10.795s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[10.795s] -- Up-to-date: /home/scott/alpha_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+[10.815s] Invoked command in '/home/scott/alpha_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --install /home/scott/alpha_ws/build/robot_interfaces

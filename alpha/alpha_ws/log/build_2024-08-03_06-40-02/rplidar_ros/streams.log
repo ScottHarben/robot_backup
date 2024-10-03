@@ -1,0 +1,111 @@
+[0.354s] Invoking command in '/home/scott/alpha_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake /home/scott/alpha_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/scott/alpha_ws/install/rplidar_ros
+[1.376s] -- The C compiler identification is GNU 11.4.0
+[2.159s] -- The CXX compiler identification is GNU 11.4.0
+[2.211s] -- Detecting C compiler ABI info
+[2.616s] -- Detecting C compiler ABI info - done
+[2.646s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.648s] -- Detecting C compile features
+[2.652s] -- Detecting C compile features - done
+[2.672s] -- Detecting CXX compiler ABI info
+[3.107s] -- Detecting CXX compiler ABI info - done
+[3.138s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.139s] -- Detecting CXX compile features
+[3.141s] -- Detecting CXX compile features - done
+[3.194s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.224s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.009s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[5.537s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.603s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.695s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.822s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.559s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.599s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.422s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.732s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.258s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.383s] -- Looking for pthread.h
+[8.816s] -- Looking for pthread.h - found
+[8.819s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.205s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.211s] -- Found Threads: TRUE  
+[10.106s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[10.756s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[11.237s] -- Configuring done
+[11.362s] -- Generating done
+[11.371s] -- Build files have been written to: /home/scott/alpha_ws/build/rplidar_ros
+[11.416s] Invoked command in '/home/scott/alpha_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake /home/scott/alpha_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/scott/alpha_ws/install/rplidar_ros
+[11.427s] Invoking command in '/home/scott/alpha_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/scott/alpha_ws/install/robot_bringup:/home/scott/alpha_ws/install/robot:/opt/ros/humble /usr/bin/cmake --build /home/scott/alpha_ws/build/rplidar_ros -- -j4 -l4
+[11.677s] [  2%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[11.680s] [  5%] [32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o[0m
+[11.689s] [  7%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[11.694s] [ 10%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[15.636s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[15.637s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.638s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[15.639s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[15.640s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[15.641s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.650s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[15.651s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[15.652s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[15.653s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.653s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[15.654s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[15.656s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[15.656s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[15.657s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[15.658s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[15.658s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::cancelOperation()[m[K’:
+[15.666s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:427:5:[m[K [01;35m[Kwarning: [m[Kvalue computed is not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[15.667s]   427 |     [01;35m[K(int)::write(_selfpipe[1], "x", 1)[m[K;
+[15.668s]       |     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.842s] [ 13%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[21.144s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[21.156s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[21.160s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[21.164s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[21.168s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.171s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[21.186s]       |                [01;35m[K^[m[K
+[21.190s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[21.194s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[21.197s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[21.201s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[21.205s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[21.209s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.222s]       |                    [01;35m[K^[m[K
+[21.877s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/src/arch/linux/arch_linux.h:42[m[K,
+[21.881s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:41[m[K,
+[21.884s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[21.887s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:[m[K In member function ‘[01m[Kvirtual u_result rp::arch::net::DGramSocketImpl::sendTo(const rp::net::SocketAddress*, const void*, size_t)[m[K’:
+[21.891s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:733:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[21.898s]   733 |             assert([01;35m[Kans == len[m[K);
+[21.901s]       |                    [01;35m[K~~~~^~~~~~[m[K
+[24.554s] [ 15%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[170.544s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[170.578s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[170.579s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[170.582s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[170.583s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[170.586s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[170.587s]       |                [01;35m[K^[m[K
+[170.589s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[170.589s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[170.591s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[170.591s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[170.592s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[170.593s]       |                    [01;35m[K^[m[K
+[178.735s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:41[m[K,
+[178.737s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[178.737s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[178.738s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[178.739s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[178.740s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[178.741s]       |                [01;35m[K^[m[K
+[179.960s] In file included from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[179.961s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[179.962s]                  from [01m[K/home/scott/alpha_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[179.962s] [01m[K/home/scott/alpha_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[179.963s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[179.964s]       |                    [01;35m[K^[m[K
