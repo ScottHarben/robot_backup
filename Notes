@@ -1,0 +1,35 @@
+-- give new user same rights as pi--
+cd /dev
+sudo chmod og+rwx gpio*
+
+
+
+
+--RTX Connext issue--
+sudo apt-get install ros-foxy-rmw-connext-cpp
+
+
+
+
+--teleop
+sudo apt install ros-foxy-teleop-twist-keyboard
+
+
+
+!!!!
+Humble !!!!
+ls -l /dev/i2c-1                 This will show you the groups assigned to this interface, and should include 'dialout')
+sudo adduser $(whoami) dialout   This will add your user account to the dialout group
+getent group dialout             This should show your user account name as a member of dialout group, e.g. dialout:x:20:pascal
+!!!!
+
+
+
+Nano pwm..................................................
+# Enable Pin 32 / PWM0
+sudo busybox devmem 0x700031fc 32 0x45
+sudo busybox devmem 0x6000d504 32 0x2
+
+# Enable Pin 33 / PWM2
+sudo busybox devmem 0x70003248 32 0x46
+sudo busybox devmem 0x6000d100 32 0x00

@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.001064] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.001352] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.001982] (robot) JobStarted: {'identifier': 'robot'}
+[0.084581] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.104708] (-) TimerEvent: {}
+[0.205414] (-) TimerEvent: {}
+[0.306294] (-) TimerEvent: {}
+[0.407055] (-) TimerEvent: {}
+[0.508269] (-) TimerEvent: {}
+[0.609366] (-) TimerEvent: {}
+[0.709987] (-) TimerEvent: {}
+[0.810587] (-) TimerEvent: {}
+[0.911536] (-) TimerEvent: {}
+[1.012186] (-) TimerEvent: {}
+[1.114182] (-) TimerEvent: {}
+[1.136083] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[1.141001] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[1.144342] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/beta_ws/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/jetson/beta_ws/build/robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '8609'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/beta_ws/install/robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '32.7.2'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '8367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/beta_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1420623039757'), ('JOURNAL_STREAM', '8:46075'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/8644,unix/nano:/tmp/.ICE-unix/8644'), ('INVOCATION_ID', 'd52396b3b7b449e28bad2e68a8c73d2a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae44f055_3d36_4faa_ab60_ba1ae99f5c89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/beta_ws/install/robot_interfaces:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/beta_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:/home/jetson/beta_ws/install/beta/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '4.6.2'), ('CMAKE_PREFIX_PATH', '/home/jetson/beta_ws/install/robot_interfaces:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[1.214473] (-) TimerEvent: {}
+[1.315277] (-) TimerEvent: {}
+[1.415985] (-) TimerEvent: {}
+[1.453145] (robot_interfaces) StdoutLine: {'line': b'[  2%] Built target robot_interfaces__cpp\n'}
+[1.516129] (-) TimerEvent: {}
+[1.571746] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target robot_interfaces__rosidl_generator_c\n'}
+[1.616289] (-) TimerEvent: {}
+[1.707918] (robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[1.716511] (-) TimerEvent: {}
+[1.718473] (robot_interfaces) StdoutLine: {'line': b'[ 33%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.744496] (robot_interfaces) StdoutLine: {'line': b'[ 43%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.816679] (-) TimerEvent: {}
+[1.827585] (robot_interfaces) StdoutLine: {'line': b'[ 53%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[1.897975] (robot_interfaces) StdoutLine: {'line': b'[ 64%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.916849] (-) TimerEvent: {}
+[1.938979] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[2.016999] (-) TimerEvent: {}
+[2.020408] (robot_interfaces) StdoutLine: {'line': b'[ 74%] Built target robot_interfaces\n'}
+[2.111899] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces__py\n'}
+[2.117144] (-) TimerEvent: {}
+[2.218213] (-) TimerEvent: {}
+[2.306383] (robot_interfaces) StdoutLine: {'line': b'[ 84%] Built target robot_interfaces__python\n'}
+[2.318424] (-) TimerEvent: {}
+[2.419170] (-) TimerEvent: {}
+[2.519990] (-) TimerEvent: {}
+[2.563311] (robot_interfaces) StdoutLine: {'line': b'[ 89%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.580175] (robot_interfaces) StdoutLine: {'line': b'[ 94%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[2.585364] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[2.620155] (-) TimerEvent: {}
+[2.650505] (robot_interfaces) CommandEnded: {'returncode': 0}
+[2.720355] (-) TimerEvent: {}
+[2.821568] (-) TimerEvent: {}
+[2.922250] (-) TimerEvent: {}
+[3.023599] (-) TimerEvent: {}
+[3.108439] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[3.123816] (-) TimerEvent: {}
+[3.148761] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/beta_ws/build/robot_interfaces'], 'cwd': '/home/jetson/beta_ws/build/robot_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '8609'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/beta_ws/install/robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '32.7.2'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '8367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jetson/beta_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1420623039757'), ('JOURNAL_STREAM', '8:46075'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'jetson'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nano:@/tmp/.ICE-unix/8644,unix/nano:/tmp/.ICE-unix/8644'), ('INVOCATION_ID', 'd52396b3b7b449e28bad2e68a8c73d2a'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ae44f055_3d36_4faa_ab60_ba1ae99f5c89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('GNOME_TERMINAL_SERVICE', ':1.89'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jetson/beta_ws/install/robot_interfaces:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/beta_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:/home/jetson/beta_ws/install/beta/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', '4.6.2'), ('CMAKE_PREFIX_PATH', '/home/jetson/beta_ws/install/robot_interfaces:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[3.193785] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.194708] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[3.195239] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces\n'}
+[3.195732] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg\n'}
+[3.196310] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/duty_cycle.h\n'}
+[3.196746] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/tick_count.h\n'}
+[3.197141] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail\n'}
+[3.197550] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__functions.h\n'}
+[3.202230] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__functions.h\n'}
+[3.203631] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.h\n'}
+[3.207803] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__struct.h\n'}
+[3.211426] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__functions.c\n'}
+[3.216792] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.h\n'}
+[3.217661] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__struct.h\n'}
+[3.218193] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__functions.c\n'}
+[3.218570] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.218989] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[3.219642] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[3.220224] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[3.221868] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces\n'}
+[3.222275] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg\n'}
+[3.222585] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.222870] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail\n'}
+[3.223144] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_c.h\n'}
+[3.223419] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_c.h\n'}
+[3.223902] (-) TimerEvent: {}
+[3.224990] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.226267] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces\n'}
+[3.226831] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg\n'}
+[3.227397] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.227984] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail\n'}
+[3.228691] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.229981] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.230539] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/dds_fastrtps\n'}
+[3.231828] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.233841] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces\n'}
+[3.236059] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg\n'}
+[3.236704] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail\n'}
+[3.237254] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.c\n'}
+[3.237769] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_c.h\n'}
+[3.238179] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.c\n'}
+[3.238579] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_c.h\n'}
+[3.238972] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.241365] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.245135] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[3.245899] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces\n'}
+[3.247795] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg\n'}
+[3.249869] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/tick_count.hpp\n'}
+[3.250482] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.250969] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/duty_cycle.hpp\n'}
+[3.251433] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail\n'}
+[3.253739] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__traits.hpp\n'}
+[3.254207] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__struct.hpp\n'}
+[3.254607] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__traits.hpp\n'}
+[3.255062] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__builder.hpp\n'}
+[3.255578] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.hpp\n'}
+[3.256026] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__struct.hpp\n'}
+[3.256423] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.hpp\n'}
+[3.258957] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__builder.hpp\n'}
+[3.262579] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces\n'}
+[3.263841] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg\n'}
+[3.264310] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail\n'}
+[3.264692] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.cpp\n'}
+[3.265068] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.265389] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.265703] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.cpp\n'}
+[3.266058] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.266354] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.266730] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[3.267147] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[3.267632] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/__init__.py\n'}
+[3.324071] (-) TimerEvent: {}
+[3.424746] (-) TimerEvent: {}
+[3.445111] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg\n'}
+[3.445963] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/__init__.py\n'}
+[3.446409] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_duty_cycle.py\n'}
+[3.446841] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_tick_count.py\n'}
+[3.447252] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_duty_cycle_s.c\n'}
+[3.447748] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_tick_count_s.c\n'}
+[3.448907] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.459159] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.462230] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[3.463193] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__python.so\n'}
+[3.466873] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.idl\n'}
+[3.467393] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.idl\n'}
+[3.476113] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.msg\n'}
+[3.477058] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.msg\n'}
+[3.479536] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[3.481420] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[3.482243] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[3.484546] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.486216] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[3.486936] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[3.489456] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[3.494040] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[3.494514] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[3.494945] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[3.495374] (robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[3.495924] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[3.496492] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.496989] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.497463] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.497965] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.498441] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.498870] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.499273] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.499730] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.500145] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.500567] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.501031] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.501462] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.501866] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.502250] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.502627] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.503042] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.508846] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.513776] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.517994] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[3.519018] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[3.519712] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[3.520708] (robot_interfaces) CommandEnded: {'returncode': 0}
+[3.524956] (-) TimerEvent: {}
+[3.628496] (-) TimerEvent: {}
+[3.649072] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/jetson/beta_ws/build/robot/build', 'install', '--record', '/home/jetson/beta_ws/build/robot/install.log', '--install-scripts', '$base/lib/robot', '--single-version-externally-managed'], 'cwd': '/home/jetson/beta_ws/src/robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '8609', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jetson/beta_ws/install/robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '32.7.2', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '8367', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jetson/beta_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420623039757', 'JOURNAL_STREAM': '8:46075', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/8644,unix/nano:/tmp/.ICE-unix/8644', 'INVOCATION_ID': 'd52396b3b7b449e28bad2e68a8c73d2a', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/ae44f055_3d36_4faa_ab60_ba1ae99f5c89', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'GNOME_TERMINAL_SERVICE': ':1.89', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jetson/beta_ws/install/robot_interfaces:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/beta_ws/build/robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/beta_ws/build/robot/prefix_override:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:/home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:/home/jetson/beta_ws/install/beta/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '4.6.2', 'CMAKE_PREFIX_PATH': '/home/jetson/beta_ws/install/robot_interfaces', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[3.728677] (-) TimerEvent: {}
+[3.829680] (-) TimerEvent: {}
+[3.930932] (-) TimerEvent: {}
+[4.031900] (-) TimerEvent: {}
+[4.133404] (-) TimerEvent: {}
+[4.182920] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[4.233576] (-) TimerEvent: {}
+[4.334679] (-) TimerEvent: {}
+[4.435283] (-) TimerEvent: {}
+[4.535940] (-) TimerEvent: {}
+[4.636636] (-) TimerEvent: {}
+[4.686897] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[4.689497] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[4.691108] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[4.691853] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[4.692552] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[4.693030] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[4.736783] (-) TimerEvent: {}
+[4.835745] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[4.836903] (-) TimerEvent: {}
+[4.839898] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[4.841565] (robot) StdoutLine: {'line': b'running build\n'}
+[4.842248] (robot) StdoutLine: {'line': b'running build_py\n'}
+[4.842753] (robot) StdoutLine: {'line': b'copying robot/motor_controller.py -> /home/jetson/beta_ws/build/robot/build/lib/robot\n'}
+[4.843389] (robot) StdoutLine: {'line': b'running install\n'}
+[4.846435] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[4.850181] (robot) StdoutLine: {'line': b'copying /home/jetson/beta_ws/build/robot/build/lib/robot/motor_controller.py -> /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot\n'}
+[4.852555] (robot) StdoutLine: {'line': b'byte-compiling /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot/motor_controller.py to motor_controller.cpython-38.pyc\n'}
+[4.858434] (robot) StdoutLine: {'line': b'running install_data\n'}
+[4.860672] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.866896] (robot) StdoutLine: {'line': b"removing '/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[4.868125] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info\n'}
+[4.873384] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[4.937017] (-) TimerEvent: {}
+[4.938747] (robot) StdoutLine: {'line': b'Installing motor_controller script to /home/jetson/beta_ws/install/robot/lib/robot\n'}
+[4.940798] (robot) StdoutLine: {'line': b'Installing motor_driver script to /home/jetson/beta_ws/install/robot/lib/robot\n'}
+[4.941474] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/beta_ws/build/robot/install.log'\n"}
+[5.037186] (-) TimerEvent: {}
+[5.044137] (robot) CommandEnded: {'returncode': 0}
+[5.082396] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[5.084779] (-) EventReactorShutdown: {}

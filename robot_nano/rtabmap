@@ -1,0 +1,32 @@
+return launch.LaunchDescription([            
+      IncludeLaunchDescription(
+          PythonLaunchDescriptionSource([
+              PathJoinSubstitution([
+                  FindPackageShare('rtabmap_launch'),
+                  'launch',
+                  'rtabmap.launch.py'
+              ])
+          ]),
+          launch_arguments={
+              'visual_odometry': 'false',
+              'frame_id': 'base_link',
+              'subscribe_scan': 'false',
+              'subscribe_depth': 'false',
+              'subscribe_rgbd': 'true',
+              'approx_sync': 'false',
+              'odom_topic': '/odom',
+              'qos': '2',
+              'use_sim_time': 'false',
+              'rviz': 'true',
+              'rtabmapviz': 'false',
+              'rgb_topic': '/camera/color/image_raw',
+              'depth_topic': '/camera/depth/image_rect_raw',
+              'camera_info_topic': '/camera/color/camera_info'
+          }.items()
+      )
+      
+      
+ros2 launch rtabmap_launch rtabmap.launch.py visual_odometry:=false frame_id:=base_footprint odom_topic:=/odometry/filtered args:="-d" rgb_topic:=/camera/color/image_raw depth_topic:=/camera/depth/image_rect_raw camera_info_topic:=/camera/color/camera_info approx_sync:=true qos:=2 rviz:=true rtabmapviz:=true
+
+ros2 launch rtabmap_launch rtabmap.launch.py visual_odometry:=false frame_id:=base_footprint odom_topic:=/odometry/filtered localization:=true rgb_topic:=/camera/color/image_raw depth_topic:=/camera/depth/image_rect_raw camera_info_topic:=/camera/color/camera_info approx_sync:=true qos:=2 rviz:=true rtabmapviz:=true
+

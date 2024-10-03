@@ -1,0 +1,118 @@
+ros2 run tf2_tools view_frames.py
+rtabmap-databaseViewer .ros/rtabmap.db
+scp nano:/home/jetson/.ros/office1.db /home/scott/.ros
+
+******************************************************
+Stereo odom
+******************************************************
+ros2 run realsense2_camera realsense2_camera_node --ros-args -p enable_gyro:=false -p enable_accel:=false -p enable_infra1:=true -p enable_infra2:=true -p enable_sync:=true -p depth_module.emitter_enabled:=0 -p enable_depth:=false -p enable_color:=false --remap /infra1/image_rect_raw:=/left/image_rect --remap /infra1/camera_info:=/left/camera_info --remap /infra2/image_rect_raw:=/right/image_rect --remap /infra2/camera_info:=right/camera_info
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link camera_link
+
+ros2 run rtabmap_odom stereo_odometry
+
+rviz2 -d /home/scott/.rviz2/rtabmap_stereo.rviz
+
+
+******************************************************
+Stereo slam
+******************************************************
+ros2 run realsense2_camera realsense2_camera_node --ros-args -p enable_gyro:=true -p enable_accel:=true -p unite_imu_method:=1 -p enable_infra1:=true -p enable_infra2:=true -p enable_sync:=true -p depth_module.emitter_enabled:=0 -p enable_depth:=false -p enable_color:=false --remap /infra1/image_rect_raw:=/left/image_rect --remap /infra1/camera_info:=/left/camera_info --remap /infra2/image_rect_raw:=/right/image_rect --remap /infra2/camera_info:=right/camera_info --remap /imu:=imu/data_raw
+
+ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args -p use_mag:=false -p world_frame:='enu' -p publish_tf:=false --remap /imu/data:=imu
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 camera_gyro_optical_frame camera_imu_optical_frame
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link camera_link
+
+ros2 run rtabmap_odom stereo_odometry --ros-args -p approx_sync_max_interval:=0.015
+
+ros2 run rtabmap_slam rtabmap -d --ros-args -p frame_id:=camera_link -p subscribe_stereo:=true -p subscribe_odom_info:=true -p wait_imu_to_init:=true -p database_path:=~/.ros/office1.db
+
+rviz2 -d /home/scott/.rviz2/rtabmap_stereo.rviz
+
+rtabmap-databaseViewer ~/.ros/rtabmap.db
+
+
+
+
+******************************************************
+Infra odom
+******************************************************
+ros2 run realsense2_camera realsense2_camera_node --ros-args -p enable_gyro:=false -p enable_accel:=false -p enable_infra1:=true -p enable_infra2:=true -p enable_sync:=true -p depth_module.emitter_enabled:=0 -p enable_depth:=true -p enable_color:=false --remap /infra1/image_rect_raw:=rgb/image --remap /infra1/camera_info:=rgb/camera_info --remap /depth/image_rect_raw:=depth/image
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link camera_link
+
+ros2 run rtabmap_odom rgbd_odometry --ros-args -p approx_sync_max_interval:=0.015
+
+rviz2 -d /home/scott/.rviz2/rtabmap_rgbd.rviz
+
+
+******************************************************
+Infra slam
+******************************************************
+ros2 run realsense2_camera realsense2_camera_node --ros-args -p enable_gyro:=true -p enable_accel:=true -p unite_imu_method:=1 -p enable_infra1:=true -p enable_infra2:=true -p enable_sync:=true -p depth_module.emitter_enabled:=0 -p enable_depth:=true -p enable_color:=false --remap /infra1/image_rect_raw:=rgb/image --remap /infra1/camera_info:=rgb/camera_info --remap /depth/image_rect_raw:=depth/image --remap /imu:=imu/data_raw
+
+ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args -p use_mag:=false -p world_frame:='enu' -p publish_tf:=false --remap /imu/data:=imu
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 camera_gyro_optical_frame camera_imu_optical_frame
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link camera_link
+
+ros2 run rtabmap_odom rgbd_odometry --ros-args -p approx_sync_max_interval:=0.015
+
+ros2 run rtabmap_slam rtabmap --ros-args -p frame_id:=camera_link -p subscribe_depth:=true -p subscribe_odom_info:=true -p wait_imu_to_init:=true -p approx_sync:=true
+
+rviz2 -d /home/scott/.rviz2/rtabmap_rgbd.rviz
+
+
+******************************************************
+Rgbd odom
+******************************************************
+ros2 run realsense2_camera realsense2_camera_node --ros-args -p enable_gyro:=false -p enable_accel:=false -p unite_imu_method:=0 -p enable_infra1:=false -p enable_infra2:=false -p enable_sync:=false -p depth_module.emitter_enabled:=1 -p enable_depth:=true -p align_depth.enable:=true -p enable_color:=true --remap /color/image_raw:=rgb/image --remap /color/camera_info:=rgb/camera_info --remap /aligned_depth_to_color/image_raw:=depth/image
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link camera_link
+
+ros2 run rtabmap_odom rgbd_odometry --ros-args -p approx_sync_max_interval:=0.015
+
+rviz2 -d /home/scott/.rviz2/rtabmap_rgbd.rviz
+
+
+******************************************************
+Rgbd slam
+******************************************************
+ros2 run realsense2_camera realsense2_camera_node --ros-args -p enable_gyro:=true -p enable_accel:=true -p unite_imu_method:=1 -p enable_infra1:=true -p enable_infra2:=true -p enable_sync:=true -p depth_module.emitter_enabled:=1 -p enable_depth:=true -p align_depth.enable:=true -p enable_color:=true --remap /color/image_raw:=rgb/image --remap /color/camera_info:=rgb/camera_info --remap /depth/image_rect_raw:=depth/image --remap /imu:=imu/data_raw -p initial_reset:=true
+
+ros2 run imu_filter_madgwick imu_filter_madgwick_node --ros-args -p use_mag:=false -p world_frame:='enu' -p publish_tf:=false --remap /imu/data:=imu
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link camera_link
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 camera_gyro_optical_frame camera_imu_optical_frame
+
+ros2 run rtabmap_util point_cloud_xyz --ros-args -p approx_sync:=false --remap depth/image:=/depth/image_rect_raw --remap cloud:=/cloud_from_depth
+
+ros2 run rtabmap_util pointcloud_to_depthimage --ros-args -p decimation:=2 -p fixed_frame_id:=camera_link -p fill_holes_size:=1 --remap camera_info:=/camera/color/camera_info --remap cloud:=/camera/cloud_from_depth --remap image_raw:=/camera/realigned_depth_to_color/image_raw
+
+ros2 run rtabmap_slam rtabmap -d --ros-args --remap imu:=/imu/dat
+
+rviz2 -d /home/scott/.rviz2/rtabmap_rgbd.rviz
+
+
+******************************************************
+PointCloud
+******************************************************
+ros2 launch realsense2_camera rs_launch.py depth_module.depth_profile:=1280x720x30 pointcloud.enable:=true
+
+
+*************************************
+pointcloud_to_laserscan test
+*************************************
+ros2 run realsense2_camera realsense2_camera_node --ros-args -p enable_infra1:=true -p enable_infra2:=true -p enable_sync:=true -p depth_module.emitter_enabled:=1 -p enable_depth:=true -p enable_color:=true -p initial_reset:=true -p pointcloud.enable:=true --remap /depth/color/points:=cloud_in
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 1 map cloud
+
+ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 cloud camera_link
+
+ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -p target_frame:=camera_link
+
+ros2 topic echo scan

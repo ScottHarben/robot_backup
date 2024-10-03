@@ -1,0 +1,9 @@
+pigpio
+********************************************************
+https://abyz.me.uk/rpi/pigpio/download.html
+sudo apt install python-is-python3
+
+pip install issue
+********************************************************
+Certificates are time sensitive!!!
+https://pip.pypa.io/en/stable/installation/

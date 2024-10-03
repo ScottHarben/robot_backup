@@ -1,0 +1,36 @@
+[2.529s] Invoking command in '/home/jetson/beta_ws/src/robot_description': PYTHONPATH=/home/jetson/beta_ws/build/robot_description/prefix_override:/home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/jetson/beta_ws/build/robot_description/build install --record /home/jetson/beta_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed
+[3.280s] running egg_info
+[3.283s] creating ../../build/robot_description/robot_description.egg-info
+[3.283s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[3.284s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[3.285s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[3.285s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[3.285s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[3.295s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[3.416s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[3.419s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[3.420s] running build
+[3.421s] running build_py
+[3.421s] creating /home/jetson/beta_ws/build/robot_description/build
+[3.421s] creating /home/jetson/beta_ws/build/robot_description/build/lib
+[3.422s] creating /home/jetson/beta_ws/build/robot_description/build/lib/robot_description
+[3.423s] copying robot_description/__init__.py -> /home/jetson/beta_ws/build/robot_description/build/lib/robot_description
+[3.423s] running install
+[3.425s] running install_lib
+[3.428s] creating /home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages/robot_description
+[3.429s] copying /home/jetson/beta_ws/build/robot_description/build/lib/robot_description/__init__.py -> /home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages/robot_description
+[3.430s] byte-compiling /home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages/robot_description/__init__.py to __init__.cpython-38.pyc
+[3.434s] running install_data
+[3.436s] creating /home/jetson/beta_ws/install/robot_description/share/ament_index
+[3.436s] creating /home/jetson/beta_ws/install/robot_description/share/ament_index/resource_index
+[3.437s] creating /home/jetson/beta_ws/install/robot_description/share/ament_index/resource_index/packages
+[3.437s] copying resource/robot_description -> /home/jetson/beta_ws/install/robot_description/share/ament_index/resource_index/packages
+[3.437s] copying package.xml -> /home/jetson/beta_ws/install/robot_description/share/robot_description
+[3.438s] creating /home/jetson/beta_ws/install/robot_description/share/robot_description/launch
+[3.438s] copying launch/display.launch.py -> /home/jetson/beta_ws/install/robot_description/share/robot_description/launch
+[3.438s] copying urdf/robot_description.urdf -> /home/jetson/beta_ws/install/robot_description/share/robot_description
+[3.438s] running install_egg_info
+[3.443s] Copying ../../build/robot_description/robot_description.egg-info to /home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info
+[3.446s] running install_scripts
+[3.500s] writing list of installed files to '/home/jetson/beta_ws/build/robot_description/install.log'
+[3.590s] Invoked command in '/home/jetson/beta_ws/src/robot_description' returned '0': PYTHONPATH=/home/jetson/beta_ws/build/robot_description/prefix_override:/home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/jetson/beta_ws/build/robot_description/build install --record /home/jetson/beta_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed

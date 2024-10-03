@@ -1,0 +1,25 @@
+[4.295s] Invoking command in '/home/jetson/ros2_ws/build/robot': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros2_ws/build/robot/build --no-deps install_data
+[5.295s] running develop
+[5.906s] running egg_info
+[5.911s] writing robot.egg-info/PKG-INFO
+[5.911s] writing dependency_links to robot.egg-info/dependency_links.txt
+[5.912s] writing entry points to robot.egg-info/entry_points.txt
+[5.913s] writing requirements to robot.egg-info/requires.txt
+[5.913s] writing top-level names to robot.egg-info/top_level.txt
+[6.054s] reading manifest file 'robot.egg-info/SOURCES.txt'
+[6.057s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[6.214s] running build_ext
+[6.215s] Creating /home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages/robot.egg-link (link to .)
+[6.220s] Installing encoder_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.223s] Installing encoder_publisher_left script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.226s] Installing encoder_publisher_right script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.229s] Installing imu_controller script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.232s] Installing motor_controller script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.235s] Installing motor_driver script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.237s] Installing odom_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.239s] Installing pid_controller script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.242s] Installing rpm_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.245s] 
+[6.247s] Installed /home/jetson/ros2_ws/build/robot
+[6.248s] running install_data
+[6.387s] Invoked command in '/home/jetson/ros2_ws/build/robot' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros2_ws/build/robot/build --no-deps install_data

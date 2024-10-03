@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/jetson/v2_ros2_ws/build/robot_interfaces/CMakeCache.txt is different than the directory /home/jetson/ros2_ws/build/robot_interfaces where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+make[2]: *** No rule to make target '/home/jetson/ros2_ws/src/robot_interfaces/msg/WheelRPM.msg', needed by 'CMakeFiles/robot_interfaces'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:359: CMakeFiles/robot_interfaces.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

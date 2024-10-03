@@ -1,0 +1,4 @@
+[console_scripts]
+motor_controller = robot.motor_controller:main
+motor_driver = robot.motor_driver:main
+

@@ -1,0 +1,9 @@
+ros2 launch rtabmap_launch rtabmap.launch.py visual_odometry:=false odom_topic:=/odometry/filtered args:="-d" rgb_topic:=/camera/color/image_raw depth_topic:=/camera/depth/image_rect_raw camera_info_topic:=/camera/color/camera_info approx_sync:=true qos:=2 rviz:=true rtabmapviz:=true frame_id:=base_link
+
+ros2 launch rtabmap_launch rtabmap.launch.py visual_odometry:=false odom_topic:=/odometry/filtered localization:=true rgb_topic:=/camera/color/image_raw depth_topic:=/camera/depth/image_rect_raw camera_info_topic:=/camera/color/camera_info approx_sync:=true qos:=2 rviz:=true rtabmapviz:=true frame_id:=base_link
+
+ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_rect_raw -r /depth_camera_info:=/camera/depth/camera_info
+
+ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r cloud_in:=/camera/depth/color/points -p target_frame:=camera_link
+
+ros2 launch nav2_bringup bringup_launch.py use_sim_time:=False autostart:=True map:=map.png

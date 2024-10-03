@@ -1,0 +1,33 @@
+[4.533s] Invoking command in '/home/jetson/ros2_ws/src/robot_description': PYTHONPATH=/home/jetson/ros2_ws/build/robot_description/prefix_override:/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/jetson/ros2_ws/build/robot_description/build install --record /home/jetson/ros2_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed
+[5.497s] running egg_info
+[5.500s] creating ../../build/robot_description/robot_description.egg-info
+[5.502s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[5.502s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[5.508s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[5.508s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[5.509s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[5.514s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[5.649s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[5.652s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[5.653s] running build
+[5.654s] running build_py
+[5.654s] creating /home/jetson/ros2_ws/build/robot_description/build
+[5.655s] creating /home/jetson/ros2_ws/build/robot_description/build/lib
+[5.656s] creating /home/jetson/ros2_ws/build/robot_description/build/lib/robot_description
+[5.656s] copying robot_description/__init__.py -> /home/jetson/ros2_ws/build/robot_description/build/lib/robot_description
+[5.657s] running install
+[5.661s] running install_lib
+[5.669s] creating /home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description
+[5.670s] copying /home/jetson/ros2_ws/build/robot_description/build/lib/robot_description/__init__.py -> /home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description
+[5.672s] byte-compiling /home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description/__init__.py to __init__.cpython-38.pyc
+[5.676s] running install_data
+[5.678s] creating /home/jetson/ros2_ws/install/robot_description/share/ament_index
+[5.679s] creating /home/jetson/ros2_ws/install/robot_description/share/ament_index/resource_index
+[5.680s] creating /home/jetson/ros2_ws/install/robot_description/share/ament_index/resource_index/packages
+[5.680s] copying resource/robot_description -> /home/jetson/ros2_ws/install/robot_description/share/ament_index/resource_index/packages
+[5.680s] copying package.xml -> /home/jetson/ros2_ws/install/robot_description/share/robot_description
+[5.681s] running install_egg_info
+[5.701s] Copying ../../build/robot_description/robot_description.egg-info to /home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info
+[5.705s] running install_scripts
+[5.790s] writing list of installed files to '/home/jetson/ros2_ws/build/robot_description/install.log'
+[5.990s] Invoked command in '/home/jetson/ros2_ws/src/robot_description' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot_description/prefix_override:/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/jetson/ros2_ws/build/robot_description/build install --record /home/jetson/ros2_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed

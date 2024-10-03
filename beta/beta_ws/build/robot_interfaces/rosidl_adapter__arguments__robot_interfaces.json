@@ -1,0 +1,7 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/jetson/beta_ws/src/robot_interfaces:msg/DutyCycle.msg",
+    "/home/jetson/beta_ws/src/robot_interfaces:msg/TickCount.msg"
+  ]
+}

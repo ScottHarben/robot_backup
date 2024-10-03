@@ -1,0 +1,24 @@
+[4.063s] Invoking command in '/home/jetson/ros2_ws/build/robot_bringup': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros2_ws/build/robot_bringup/build
+[5.041s] running develop
+[5.718s] Invoked command in '/home/jetson/ros2_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros2_ws/build/robot_bringup/build
+[5.720s] Invoking command in '/home/jetson/ros2_ws/src/robot_bringup': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/jetson/ros2_ws/build/robot_bringup/build install --record /home/jetson/ros2_ws/build/robot_bringup/install.log --single-version-externally-managed
+[6.579s] running egg_info
+[6.582s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[6.583s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[6.584s] writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+[6.584s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[6.585s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[6.724s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[6.728s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[6.729s] running build
+[6.729s] running build_py
+[6.731s] running install
+[6.734s] running install_lib
+[6.740s] running install_data
+[6.743s] copying launch/nano_indoor.launch.py -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+[6.745s] running install_egg_info
+[6.751s] removing '/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info' (and everything under it)
+[6.753s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info
+[6.757s] running install_scripts
+[6.820s] writing list of installed files to '/home/jetson/ros2_ws/build/robot_bringup/install.log'
+[6.937s] Invoked command in '/home/jetson/ros2_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/jetson/ros2_ws/build/robot_bringup/build install --record /home/jetson/ros2_ws/build/robot_bringup/install.log --single-version-externally-managed

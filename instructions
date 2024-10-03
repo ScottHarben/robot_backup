@@ -1,0 +1,168 @@
+--install Foxy
+	https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Binary.html
+
+--configure environment
+	https://docs.ros.org/en/foxy/Tutorials/Configuring-ROS2-Environment.html
+
+--create workspace
+	https://docs.ros.org/en/foxy/Tutorials/Workspace/Creating-A-Workspace.html
+
+--create robot package
+	https://docs.ros.org/en/foxy/Tutorials/Creating-Your-First-ROS2-Package.html
+
+	--add python scripts
+		imu
+		motor (add to .bashrc: (cd /dev && sudo chmod og_rwx gpio*))
+		encoder
+		odom
+	
+	--update setup.py
+		'console_scripts': [
+		    "imu = robot.imu:main",
+		    "motor = robot.motor:main",
+		    "encoder = robot.encoder:main",
+		    "odom = robot.odom:main"
+		],
+	
+	--update package.xml
+		<depend>rclpy</depend>
+	
+	--build from workspace
+		colcon build --packages-select robot
+	
+        --test node (imu)
+        	terminal 1: ros2 run robot imu
+        	terminal 2: ros2 topic echo imu_pub
+        	
+--create robot_interface package
+	from https://roboticsbackend.com/ros2-create-custom-message/
+	
+	cd ~/dev_ws/src/
+	ros2 pkg create robot_interfaces
+	cd ~/ros2_ws/src/robot_interfaces/
+	rm -rf include/
+	rm -rf src/
+	mkdir msg
+	mkdir srv
+
+	--add to package.xml
+		<build_depend>rosidl_default_generators</build_depend>
+		<exec_depend>rosidl_default_runtime</exec_depend>
+		<member_of_group>rosidl_interface_packages</member_of_group>
+		
+	--add to CMakeLists.txt
+		find_package(rosidl_default_generators REQUIRED)
+		rosidl_generate_interfaces(${PROJECT_NAME}
+		  "msg/DualEncoder.msg"
+		)
+		
+	--add custom message
+		cd ~/dev_ws/src/robot_interfaces/msg/
+		nano DualEncoder.msg
+		
+		--add lines
+			int64 left_count
+			int64 right_count
+			
+	--build robot_interfaces from workspace
+		colcon build --packages-select robot_interfaces
+		
+	--add dependency to robot package.xml
+		<depend>robot_interfaces</depend>
+		
+	--build robot from workspace
+		colcon build --packages-select robot
+		
+	--build robot_interfaces from workspace
+		colcon build --packages-select robot_interfaces
+	
+	source install/setup.bash (add to .bashrc)
+	
+	--test node (encoder)
+		terminal 1: ros2 run robot encoder
+        	terminal 2: ros2 topic echo encoder_pub
+        	
+--create robot_bringup package
+	from https://roboticsbackend.com/ros2-launch-file-example/
+	
+	cd ~/dev_ws/src/
+	ros2 pkg create robot_bringup
+	cd ~/ros2_ws/src/robot_bringup/
+	cd robot_bringup/
+	rm -rf include/
+	rm -rf src/
+	mkdir launch
+	
+	--add robot.launch.py
+		robot.launch.py
+	
+	--add to robot_bringup CMakeLists.txt
+		install(DIRECTORY
+		  launch
+		  DESTINATION share/${PROJECT_NAME}
+		)
+	
+	--build robot_bringup from workspace
+		colcon build --packages-select robot_bringup
+		
+	--test launch
+		comment out robot_localization from launch for testing
+		open a new terminal
+		ros2 launch robot_bringup robot.launch.py
+		
+--install robot localization
+	sudo apt install ros-foxy-robot-localization
+	
+	--add params to robot_bringup
+		cd ~/dev_ws/src/robo_bringup/
+		mkdir params
+		
+	--add ekf_params to robot_bringup
+		ekf_params.yaml
+	
+	--add to robot_bringup CMakeLists.txt
+		install(DIRECTORY
+		  launch
+		  params
+		  DESTINATION share/${PROJECT_NAME}
+		)
+		
+	--uncomment robot_localization from launch file in robot_bringup
+	
+	--build all from workspace
+		colcon build	
+	
+	--test node (ekf_node)
+		open a new terminal
+		ros2 launch robot_bringup robot.launch.py
+		
+--install rplidar_ros
+	https://github.com/Slamtec/rplidar_ros/tree/ros2
+	
+	--check fixed_frame, reliability and durability
+		ros2 topic info -v /scan
+		frame_id: laser
+		
+	--ros2 launch rplidar_ros2 rplidar_launch.py
+		
+--install slam_toolbox
+	apt install ros-foxy-slam-toolbox
+	build workspace
+	
+	--add custom launch file to robot_brinup
+	--add custom params to robot_bringup
+	
+--create static transform (until URDF is created)
+	ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 base_link laser
+	
+--create URDF
+	https://navigation.ros.org/setup_guides/urdf/setup_urdf.html
+	
+	
+	
+	
+	
+	
+	
+	
+	

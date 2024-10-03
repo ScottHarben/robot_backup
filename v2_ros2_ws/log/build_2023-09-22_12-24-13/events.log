@@ -1,0 +1,451 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.000654] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.004771] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.010940] (robot_interfaces) JobQueued: {'identifier': 'robot_interfaces', 'dependencies': OrderedDict()}
+[0.011092] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.011197] (robot) JobStarted: {'identifier': 'robot'}
+[0.063985] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.096466] (-) TimerEvent: {}
+[0.119101] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.170696] (robot_interfaces) JobStarted: {'identifier': 'robot_interfaces'}
+[0.199802] (-) TimerEvent: {}
+[0.301964] (-) TimerEvent: {}
+[0.402870] (-) TimerEvent: {}
+[0.503585] (-) TimerEvent: {}
+[0.604314] (-) TimerEvent: {}
+[0.704953] (-) TimerEvent: {}
+[0.805613] (-) TimerEvent: {}
+[0.909379] (-) TimerEvent: {}
+[1.010224] (-) TimerEvent: {}
+[1.112471] (-) TimerEvent: {}
+[1.213353] (-) TimerEvent: {}
+[1.313976] (-) TimerEvent: {}
+[1.415254] (-) TimerEvent: {}
+[1.516196] (-) TimerEvent: {}
+[1.616834] (-) TimerEvent: {}
+[1.717763] (-) TimerEvent: {}
+[1.819940] (-) TimerEvent: {}
+[1.920816] (-) TimerEvent: {}
+[2.021447] (-) TimerEvent: {}
+[2.122077] (-) TimerEvent: {}
+[2.222687] (-) TimerEvent: {}
+[2.323294] (-) TimerEvent: {}
+[2.423949] (-) TimerEvent: {}
+[2.524546] (-) TimerEvent: {}
+[2.625173] (-) TimerEvent: {}
+[2.727634] (-) TimerEvent: {}
+[2.829424] (-) TimerEvent: {}
+[2.930037] (-) TimerEvent: {}
+[3.030778] (-) TimerEvent: {}
+[3.132297] (-) TimerEvent: {}
+[3.233720] (-) TimerEvent: {}
+[3.334971] (-) TimerEvent: {}
+[3.435880] (-) TimerEvent: {}
+[3.537225] (-) TimerEvent: {}
+[3.642384] (-) TimerEvent: {}
+[3.744013] (-) TimerEvent: {}
+[3.850255] (-) TimerEvent: {}
+[3.893438] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'cmake'}
+[3.896014] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'build'}
+[3.898902] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/robot_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros2_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '10.0.0.35 47440 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ros2_ws/src'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '32.7.2'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1420623039757'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/ros2_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.35 47440 10.0.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.2'), ('JETSON_P_NUMBER', 'p3448-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.950526] (-) TimerEvent: {}
+[4.051555] (-) TimerEvent: {}
+[4.152403] (-) TimerEvent: {}
+[4.253088] (-) TimerEvent: {}
+[4.350993] (robot_interfaces) StdoutLine: {'line': b'[  2%] Built target robot_interfaces__cpp\n'}
+[4.353271] (-) TimerEvent: {}
+[4.457640] (-) TimerEvent: {}
+[4.558284] (-) TimerEvent: {}
+[4.576270] (robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target robot_interfaces__rosidl_generator_c\n'}
+[4.658668] (-) TimerEvent: {}
+[4.759752] (-) TimerEvent: {}
+[4.860653] (-) TimerEvent: {}
+[4.885725] (robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target robot_interfaces__rosidl_typesupport_cpp\n'}
+[4.960808] (-) TimerEvent: {}
+[5.061659] (-) TimerEvent: {}
+[5.168893] (-) TimerEvent: {}
+[5.199423] (robot_interfaces) StdoutLine: {'line': b'[ 34%] Built target robot_interfaces__rosidl_typesupport_c\n'}
+[5.269054] (-) TimerEvent: {}
+[5.369702] (-) TimerEvent: {}
+[5.471395] (-) TimerEvent: {}
+[5.502375] (robot_interfaces) StdoutLine: {'line': b'[ 44%] Built target robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.571518] (-) TimerEvent: {}
+[5.672433] (-) TimerEvent: {}
+[5.773132] (-) TimerEvent: {}
+[5.828520] (robot_interfaces) StdoutLine: {'line': b'[ 55%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.873304] (-) TimerEvent: {}
+[5.975062] (-) TimerEvent: {}
+[6.079070] (-) TimerEvent: {}
+[6.121993] (robot_interfaces) StdoutLine: {'line': b'[ 65%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.179296] (-) TimerEvent: {}
+[6.281980] (-) TimerEvent: {}
+[6.382662] (-) TimerEvent: {}
+[6.485133] (-) TimerEvent: {}
+[6.503203] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.586126] (-) TimerEvent: {}
+[6.687610] (-) TimerEvent: {}
+[6.789800] (-) TimerEvent: {}
+[6.792814] (robot_interfaces) StdoutLine: {'line': b'[ 76%] Built target robot_interfaces\n'}
+[6.890067] (-) TimerEvent: {}
+[6.991041] (-) TimerEvent: {}
+[7.000103] (robot_interfaces) StdoutLine: {'line': b'[ 78%] Built target robot_interfaces__py\n'}
+[7.091416] (-) TimerEvent: {}
+[7.192851] (-) TimerEvent: {}
+[7.294412] (-) TimerEvent: {}
+[7.398452] (-) TimerEvent: {}
+[7.405756] (robot_interfaces) StdoutLine: {'line': b'[ 87%] Built target robot_interfaces__python\n'}
+[7.498894] (-) TimerEvent: {}
+[7.599763] (-) TimerEvent: {}
+[7.685350] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/jetson/ros2_ws/build/robot_bringup/build'], 'cwd': '/home/jetson/ros2_ws/build/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '10.0.0.35 47440 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ros2_ws/src', 'SSH_TTY': '/dev/pts/4', 'JETSON_L4T': '32.7.2', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420623039757', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/ros2_ws/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.35 47440 10.0.0.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6.2', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[7.699974] (-) TimerEvent: {}
+[7.801254] (-) TimerEvent: {}
+[7.817822] (robot_interfaces) StdoutLine: {'line': b'[ 91%] Built target robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.885746] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/jetson/ros2_ws/build/robot/build'], 'cwd': '/home/jetson/ros2_ws/build/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '10.0.0.35 47440 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ros2_ws/src', 'SSH_TTY': '/dev/pts/4', 'JETSON_L4T': '32.7.2', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420623039757', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/ros2_ws/build/robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.35 47440 10.0.0.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6.2', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[7.901430] (-) TimerEvent: {}
+[7.927761] (robot_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/jetson/ros2_ws/build/robot_description/build'], 'cwd': '/home/jetson/ros2_ws/build/robot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '10.0.0.35 47440 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ros2_ws/src', 'SSH_TTY': '/dev/pts/4', 'JETSON_L4T': '32.7.2', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420623039757', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/ros2_ws/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.35 47440 10.0.0.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/robot_description/prefix_override:/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6.2', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[8.001692] (-) TimerEvent: {}
+[8.102480] (-) TimerEvent: {}
+[8.192055] (robot_interfaces) StdoutLine: {'line': b'[ 95%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.202639] (-) TimerEvent: {}
+[8.303514] (-) TimerEvent: {}
+[8.404469] (-) TimerEvent: {}
+[8.444359] (robot_interfaces) StdoutLine: {'line': b'[100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.504619] (-) TimerEvent: {}
+[8.536501] (robot_interfaces) CommandEnded: {'returncode': 0}
+[8.604841] (-) TimerEvent: {}
+[8.706830] (-) TimerEvent: {}
+[8.808578] (-) TimerEvent: {}
+[8.909540] (-) TimerEvent: {}
+[9.010475] (-) TimerEvent: {}
+[9.111460] (-) TimerEvent: {}
+[9.213546] (-) TimerEvent: {}
+[9.319497] (-) TimerEvent: {}
+[9.420248] (-) TimerEvent: {}
+[9.521042] (-) TimerEvent: {}
+[9.621718] (-) TimerEvent: {}
+[9.722395] (-) TimerEvent: {}
+[9.801665] (robot_bringup) StdoutLine: {'line': b'running develop\n'}
+[9.822535] (-) TimerEvent: {}
+[9.924264] (-) TimerEvent: {}
+[10.026158] (-) TimerEvent: {}
+[10.121162] (robot) StdoutLine: {'line': b'running develop\n'}
+[10.126330] (-) TimerEvent: {}
+[10.227062] (-) TimerEvent: {}
+[10.328031] (-) TimerEvent: {}
+[10.429312] (-) TimerEvent: {}
+[10.530855] (-) TimerEvent: {}
+[10.631740] (-) TimerEvent: {}
+[10.679794] (robot_interfaces) JobProgress: {'identifier': 'robot_interfaces', 'progress': 'install'}
+[10.732067] (-) TimerEvent: {}
+[10.735286] (robot_description) StdoutLine: {'line': b'running develop\n'}
+[10.800678] (robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/robot_interfaces'], 'cwd': '/home/jetson/ros2_ws/build/robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '10.0.0.35 47440 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ros2_ws/src'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '32.7.2'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1420623039757'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/ros2_ws/build/robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.35 47440 10.0.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.2'), ('JETSON_P_NUMBER', 'p3448-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.832300] (-) TimerEvent: {}
+[10.904243] (robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.909590] (robot_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.912845] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces\n'}
+[10.921731] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__functions.h\n'}
+[10.922856] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__struct.h\n'}
+[10.927282] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.h\n'}
+[10.929706] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__functions.h\n'}
+[10.930262] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__struct.h\n'}
+[10.931271] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.h\n'}
+[10.932426] (-) TimerEvent: {}
+[10.944136] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__functions.h\n'}
+[10.944912] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__struct.h\n'}
+[10.945636] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__type_support.h\n'}
+[10.946396] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__functions.h\n'}
+[10.950746] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__struct.h\n'}
+[10.952514] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__type_support.h\n'}
+[10.958253] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/duty_cycle.h\n'}
+[10.958678] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.959043] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/tick_count.h\n'}
+[10.959418] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/wheel_rpm.h\n'}
+[10.959853] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/wheel_velocity.h\n'}
+[10.962297] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh\n'}
+[10.962834] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv\n'}
+[10.966019] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_c.h\n'}
+[10.967519] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_c.h\n'}
+[10.972272] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_fastrtps_c.h\n'}
+[10.976327] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__rosidl_typesupport_fastrtps_c.h\n'}
+[10.977019] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.986005] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[10.989400] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.991862] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.992812] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.993377] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.993748] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.995769] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.012943] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_c.h\n'}
+[11.013762] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_c.h\n'}
+[11.014263] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_introspection_c.h\n'}
+[11.014672] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__rosidl_typesupport_introspection_c.h\n'}
+[11.015358] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.016088] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__builder.hpp\n'}
+[11.022941] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__struct.hpp\n'}
+[11.024773] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__traits.hpp\n'}
+[11.026292] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.hpp\n'}
+[11.027988] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__builder.hpp\n'}
+[11.028776] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__struct.hpp\n'}
+[11.029496] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__traits.hpp\n'}
+[11.030306] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.hpp\n'}
+[11.031677] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__builder.hpp\n'}
+[11.032720] (-) TimerEvent: {}
+[11.039599] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__struct.hpp\n'}
+[11.040176] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__traits.hpp\n'}
+[11.042670] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__type_support.hpp\n'}
+[11.043197] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__builder.hpp\n'}
+[11.052497] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__struct.hpp\n'}
+[11.052856] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__traits.hpp\n'}
+[11.053155] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__type_support.hpp\n'}
+[11.053482] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/duty_cycle.hpp\n'}
+[11.053830] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.059059] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/tick_count.hpp\n'}
+[11.059662] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/wheel_rpm.hpp\n'}
+[11.060057] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/wheel_velocity.hpp\n'}
+[11.062751] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.065164] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.069244] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.070011] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.078077] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh\n'}
+[11.080532] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv\n'}
+[11.081725] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/__init__.py\n'}
+[11.089133] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/__init__.py\n'}
+[11.089674] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_duty_cycle.py\n'}
+[11.092547] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_tick_count.py\n'}
+[11.093099] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_wheel_rpm.py\n'}
+[11.093472] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_wheel_velocity.py\n'}
+[11.100359] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.102154] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.104428] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[11.108267] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__python.so\n'}
+[11.112802] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.idl\n'}
+[11.114371] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/WheelRPM.idl\n'}
+[11.117396] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.idl\n'}
+[11.119710] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.msg\n'}
+[11.123979] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/WheelRPM.msg\n'}
+[11.125372] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.msg\n'}
+[11.129483] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces\n'}
+[11.131619] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces\n'}
+[11.132867] (-) TimerEvent: {}
+[11.138425] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh\n'}
+[11.141251] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[11.142174] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh\n'}
+[11.147653] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv\n'}
+[11.149759] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash\n'}
+[11.151750] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh\n'}
+[11.159691] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh\n'}
+[11.161826] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv\n'}
+[11.163652] (robot_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.dsv\n'}
+[11.233021] (-) TimerEvent: {}
+[11.296184] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces\n'}
+[11.297130] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[11.298646] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.299283] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.301991] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.303046] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.308285] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.309459] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.313532] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake\n'}
+[11.314110] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake\n'}
+[11.315842] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.xml\n'}
+[11.318073] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so\n'}
+[11.323465] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[11.325289] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so\n'}
+[11.333257] (-) TimerEvent: {}
+[11.334861] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[11.338376] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so\n'}
+[11.433429] (-) TimerEvent: {}
+[11.534909] (-) TimerEvent: {}
+[11.640345] (-) TimerEvent: {}
+[11.669222] (robot_bringup) CommandEnded: {'returncode': 0}
+[11.673012] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/jetson/ros2_ws/build/robot_bringup/build', 'install', '--record', '/home/jetson/ros2_ws/build/robot_bringup/install.log', '--single-version-externally-managed'], 'cwd': '/home/jetson/ros2_ws/src/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '10.0.0.35 47440 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ros2_ws/src', 'SSH_TTY': '/dev/pts/4', 'JETSON_L4T': '32.7.2', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420623039757', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/ros2_ws/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.35 47440 10.0.0.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6.2', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[11.711559] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[11.712898] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.715315] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.722154] (robot) CommandEnded: {'returncode': 0}
+[11.723500] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/jetson/ros2_ws/build/robot/build', 'install', '--record', '/home/jetson/ros2_ws/build/robot/install.log', '--single-version-externally-managed'], 'cwd': '/home/jetson/ros2_ws/src/robot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '10.0.0.35 47440 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ros2_ws/src', 'SSH_TTY': '/dev/pts/4', 'JETSON_L4T': '32.7.2', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420623039757', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/ros2_ws/build/robot', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.35 47440 10.0.0.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6.2', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[11.724948] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.725383] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[11.725788] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.726205] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[11.726918] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.745782] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.749050] (-) TimerEvent: {}
+[11.751756] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[11.752313] (robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.781564] (robot_interfaces) CommandEnded: {'returncode': 0}
+[11.848855] (-) TimerEvent: {}
+[11.950274] (-) TimerEvent: {}
+[12.051800] (-) TimerEvent: {}
+[12.152991] (-) TimerEvent: {}
+[12.253963] (-) TimerEvent: {}
+[12.355073] (-) TimerEvent: {}
+[12.399725] (robot_description) CommandEnded: {'returncode': 0}
+[12.401365] (robot_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_description', 'build', '--build-base', '/home/jetson/ros2_ws/build/robot_description/build', 'install', '--record', '/home/jetson/ros2_ws/build/robot_description/install.log', '--single-version-externally-managed'], 'cwd': '/home/jetson/ros2_ws/src/robot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '10.0.0.35 47440 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/ros2_ws/src', 'SSH_TTY': '/dev/pts/4', 'JETSON_L4T': '32.7.2', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420623039757', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '9', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/ros2_ws/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.35 47440 10.0.0.15 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/ros2_ws/build/robot_description/prefix_override:/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6.2', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[12.455288] (-) TimerEvent: {}
+[12.557583] (-) TimerEvent: {}
+[12.658275] (-) TimerEvent: {}
+[12.760195] (-) TimerEvent: {}
+[12.860894] (-) TimerEvent: {}
+[12.961582] (-) TimerEvent: {}
+[13.062223] (-) TimerEvent: {}
+[13.163611] (-) TimerEvent: {}
+[13.264533] (-) TimerEvent: {}
+[13.365905] (-) TimerEvent: {}
+[13.468802] (-) TimerEvent: {}
+[13.569777] (-) TimerEvent: {}
+[13.670478] (-) TimerEvent: {}
+[13.775131] (-) TimerEvent: {}
+[13.894736] (-) TimerEvent: {}
+[13.998667] (-) TimerEvent: {}
+[14.001708] (robot_interfaces) JobEnded: {'identifier': 'robot_interfaces', 'rc': 0}
+[14.004031] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[14.031823] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[14.032394] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[14.039556] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[14.043440] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[14.044333] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[14.044981] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[14.050278] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[14.052168] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[14.052963] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[14.057480] (robot_bringup) StdoutLine: {'line': b'writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt\n'}
+[14.058609] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[14.059748] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[14.099147] (-) TimerEvent: {}
+[14.104067] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[14.108393] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[14.109554] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/ros2_ws/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/home/jetson/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '10.0.0.35 47440 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ros2_ws/src'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '32.7.2'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1420623039757'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.35 47440 10.0.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.2'), ('JETSON_P_NUMBER', 'p3448-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[14.199429] (-) TimerEvent: {}
+[14.301316] (-) TimerEvent: {}
+[14.376340] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[14.380100] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[14.383296] (robot_bringup) StdoutLine: {'line': b'running build\n'}
+[14.386502] (robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[14.390494] (robot_bringup) StdoutLine: {'line': b'running install\n'}
+[14.396317] (robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[14.401450] (-) TimerEvent: {}
+[14.408610] (robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[14.417131] (robot_bringup) StdoutLine: {'line': b'copying config/nav2_params.yaml -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/config\n'}
+[14.417754] (robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.434213] (robot_bringup) StdoutLine: {'line': b"removing '/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[14.434961] (robot_bringup) StdoutLine: {'line': b'Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info\n'}
+[14.442158] (robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[14.499246] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[14.501597] (-) TimerEvent: {}
+[14.506160] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[14.511800] (robot) StdoutLine: {'line': b'running build\n'}
+[14.512819] (robot) StdoutLine: {'line': b'running build_py\n'}
+[14.522778] (robot) StdoutLine: {'line': b'running install\n'}
+[14.528934] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[14.543559] (robot) StdoutLine: {'line': b'running install_data\n'}
+[14.550136] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.565169] (robot) StdoutLine: {'line': b"removing '/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[14.569884] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info\n'}
+[14.579993] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[14.596794] (robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/robot_bringup/install.log'\n"}
+[14.603122] (-) TimerEvent: {}
+[14.679323] (robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[14.685256] (robot_description) StdoutLine: {'line': b'writing ../../build/robot_description/robot_description.egg-info/PKG-INFO\n'}
+[14.686827] (robot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt\n'}
+[14.689575] (robot_description) StdoutLine: {'line': b'writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt\n'}
+[14.690219] (robot_description) StdoutLine: {'line': b'writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt\n'}
+[14.691122] (robot_description) StdoutLine: {'line': b'writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt\n'}
+[14.703290] (-) TimerEvent: {}
+[14.780550] (robot) StdoutLine: {'line': b'Installing encoder_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot\n'}
+[14.792628] (robot_bringup) CommandEnded: {'returncode': 0}
+[14.805713] (-) TimerEvent: {}
+[14.806826] (robot) StdoutLine: {'line': b'Installing encoder_publisher_left script to /home/jetson/ros2_ws/install/robot/lib/robot\n'}
+[14.807423] (robot) StdoutLine: {'line': b'Installing encoder_publisher_right script to /home/jetson/ros2_ws/install/robot/lib/robot\n'}
+[14.808067] (robot) StdoutLine: {'line': b'Installing imu_controller script to /home/jetson/ros2_ws/install/robot/lib/robot\n'}
+[14.808564] (robot) StdoutLine: {'line': b'Installing motor_controller script to /home/jetson/ros2_ws/install/robot/lib/robot\n'}
+[14.832857] (robot) StdoutLine: {'line': b'Installing motor_driver script to /home/jetson/ros2_ws/install/robot/lib/robot\n'}
+[14.833432] (robot) StdoutLine: {'line': b'Installing odom_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot\n'}
+[14.833784] (robot) StdoutLine: {'line': b'Installing pid_controller script to /home/jetson/ros2_ws/install/robot/lib/robot\n'}
+[14.834570] (robot) StdoutLine: {'line': b'Installing rpm_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot\n'}
+[14.834921] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/robot/install.log'\n"}
+[14.866665] (rplidar_ros) StdoutLine: {'line': b'[  7%] Built target rplidar_client\n'}
+[14.913146] (-) TimerEvent: {}
+[14.933964] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[15.001705] (robot_description) StdoutLine: {'line': b"reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[15.010768] (robot_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[15.011628] (robot_description) StdoutLine: {'line': b'running build\n'}
+[15.012165] (robot_description) StdoutLine: {'line': b'running build_py\n'}
+[15.013205] (robot_description) StdoutLine: {'line': b'running install\n'}
+[15.013762] (-) TimerEvent: {}
+[15.018634] (robot_description) StdoutLine: {'line': b'running install_lib\n'}
+[15.033152] (robot) CommandEnded: {'returncode': 0}
+[15.039694] (robot_description) StdoutLine: {'line': b'running install_data\n'}
+[15.064271] (robot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.064835] (robot_description) StdoutLine: {'line': b"removing '/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[15.065224] (robot_description) StdoutLine: {'line': b'Copying ../../build/robot_description/robot_description.egg-info to /home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info\n'}
+[15.076439] (robot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[15.113998] (-) TimerEvent: {}
+[15.124137] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[15.133976] (rplidar_ros) StdoutLine: {'line': b'[ 53%] Built target rplidar_node\n'}
+[15.175132] (robot_description) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/ros2_ws/build/robot_description/install.log'\n"}
+[15.214201] (-) TimerEvent: {}
+[15.290404] (robot_description) CommandEnded: {'returncode': 0}
+[15.319407] (-) TimerEvent: {}
+[15.367067] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[15.382316] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[15.419583] (-) TimerEvent: {}
+[15.430572] (rplidar_ros) CommandEnded: {'returncode': 0}
+[15.519807] (-) TimerEvent: {}
+[15.620598] (-) TimerEvent: {}
+[15.645241] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[15.649032] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/ros2_ws/build/rplidar_ros'], 'cwd': '/home/jetson/ros2_ws/build/rplidar_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '10.0.0.35 47440 22'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson/ros2_ws/src'), ('SSH_TTY', '/dev/pts/4'), ('JETSON_L4T', '32.7.2'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'en_US.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1420623039757'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('PAPERSIZE', 'letter'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/ros2_ws/build/rplidar_ros'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '10.0.0.35 47440 10.0.0.15 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6.2'), ('JETSON_P_NUMBER', 'p3448-0000'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[15.696932] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.699842] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.700541] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[15.701194] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[15.702322] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[15.702986] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[15.703588] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[15.704482] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[15.705068] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[15.707246] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[15.707688] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[15.708048] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[15.722629] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[15.723295] (-) TimerEvent: {}
+[15.724926] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[15.725578] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[15.730383] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[15.733111] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[15.733482] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[15.733801] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[15.735498] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[15.742909] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[15.743457] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[15.743876] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[15.745143] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[15.747658] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[15.748116] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[15.752014] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[15.752540] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[15.752916] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[15.757485] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[15.758015] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[15.758418] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[15.758845] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[15.760798] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[15.766797] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[15.767538] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[15.769965] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[15.771226] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[15.771873] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[15.772425] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[15.773338] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.774377] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.775309] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[15.776032] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[15.778131] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[15.792250] (rplidar_ros) CommandEnded: {'returncode': 0}
+[15.824064] (-) TimerEvent: {}
+[15.924786] (-) TimerEvent: {}
+[16.025553] (-) TimerEvent: {}
+[16.124165] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[16.129317] (-) TimerEvent: {}
+[16.129620] (-) EventReactorShutdown: {}

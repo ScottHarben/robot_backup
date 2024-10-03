@@ -1,0 +1,24 @@
+running develop
+running egg_info
+writing robot_bringup.egg-info/PKG-INFO
+writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+writing entry points to robot_bringup.egg-info/entry_points.txt
+writing requirements to robot_bringup.egg-info/requires.txt
+writing top-level names to robot_bringup.egg-info/top_level.txt
+reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages/robot-bringup.egg-link (link to .)
+
+Installed /home/jetson/ros2_ws/build/robot_bringup
+running install_data
+copying resource/robot_bringup -> /home/jetson/ros2_ws/install/robot_bringup/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup
+copying launch/teleop.launch.py -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+copying launch/marvin.launch.py -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+copying launch/rtabmap.launch.py -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+copying launch/nano_indoor.launch.py -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+copying launch/nano.launch.py -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+copying launch/realsense.launch.py -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+copying launch/slam_toolbox.launch.py -> /home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/launch
+error: can't copy 'launch/robot.launch.py': doesn't exist or not a regular file

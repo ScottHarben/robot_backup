@@ -1,0 +1,23 @@
+start marvin first to for time sync
+
+start hal
+
+********************************
+hal
+********************************
+sudo pigpiod
+
+cd ~/alpha_ws
+
+ros2 launch robot_bringup alpha.launch.py
+
+********************************
+marvin
+********************************
+rviz2 -d /home/scott/.rviz2/alpha.rviz
+
+cd ~/tk_ws
+
+. install/setup.bash
+
+ros2 launch alpha_bringup gui.launch.py

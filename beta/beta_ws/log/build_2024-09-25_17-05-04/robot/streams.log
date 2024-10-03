@@ -1,0 +1,22 @@
+[7.134s] Invoking command in '/home/jetson/beta_ws/src/robot': PYTHONPATH=/home/jetson/beta_ws/build/robot/prefix_override:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/beta_ws/build/robot/build install --record /home/jetson/beta_ws/build/robot/install.log --install-scripts $base/lib/robot --single-version-externally-managed
+[9.535s] running egg_info
+[9.539s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[9.542s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[9.546s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[9.549s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[9.552s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[9.813s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[9.823s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[9.824s] running build
+[9.825s] running build_py
+[9.826s] running install
+[9.831s] running install_lib
+[9.841s] running install_data
+[9.845s] running install_egg_info
+[9.858s] removing '/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info' (and everything under it)
+[9.862s] Copying ../../build/robot/robot.egg-info to /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info
+[9.870s] running install_scripts
+[10.033s] Installing motor_controller script to /home/jetson/beta_ws/install/robot/lib/robot
+[10.034s] Installing motor_driver script to /home/jetson/beta_ws/install/robot/lib/robot
+[10.037s] writing list of installed files to '/home/jetson/beta_ws/build/robot/install.log'
+[10.367s] Invoked command in '/home/jetson/beta_ws/src/robot' returned '0': PYTHONPATH=/home/jetson/beta_ws/build/robot/prefix_override:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/beta_ws/build/robot/build install --record /home/jetson/beta_ws/build/robot/install.log --install-scripts $base/lib/robot --single-version-externally-managed

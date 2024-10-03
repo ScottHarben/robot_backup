@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.005318] (-) JobUnselected: {'identifier': 'robot'}
+[0.006084] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.008590] (-) JobUnselected: {'identifier': 'robot_interfaces'}
+[0.009203] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.009673] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.092794] (-) TimerEvent: {}
+[0.193969] (-) TimerEvent: {}
+[0.294873] (-) TimerEvent: {}
+[0.396103] (-) TimerEvent: {}
+[0.497064] (-) TimerEvent: {}
+[0.598084] (-) TimerEvent: {}
+[0.702074] (-) TimerEvent: {}
+[0.804739] (-) TimerEvent: {}
+[0.905339] (-) TimerEvent: {}
+[1.006785] (-) TimerEvent: {}
+[1.107393] (-) TimerEvent: {}
+[1.209979] (-) TimerEvent: {}
+[1.315705] (-) TimerEvent: {}
+[1.416408] (-) TimerEvent: {}
+[1.517264] (-) TimerEvent: {}
+[1.618242] (-) TimerEvent: {}
+[1.720062] (-) TimerEvent: {}
+[1.821799] (-) TimerEvent: {}
+[1.922834] (-) TimerEvent: {}
+[2.023441] (-) TimerEvent: {}
+[2.124157] (-) TimerEvent: {}
+[2.225100] (-) TimerEvent: {}
+[2.326385] (-) TimerEvent: {}
+[2.426997] (-) TimerEvent: {}
+[2.527728] (-) TimerEvent: {}
+[2.628411] (-) TimerEvent: {}
+[2.728965] (-) TimerEvent: {}
+[2.830074] (-) TimerEvent: {}
+[2.930722] (-) TimerEvent: {}
+[3.032073] (-) TimerEvent: {}
+[3.133210] (-) TimerEvent: {}
+[3.234265] (-) TimerEvent: {}
+[3.334948] (-) TimerEvent: {}
+[3.440805] (-) TimerEvent: {}
+[3.542568] (-) TimerEvent: {}
+[3.643874] (-) TimerEvent: {}
+[3.702469] (robot_bringup) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_bringup', 'build', '--build-base', '/home/jetson/beta_ws/build/robot_bringup/build', 'install', '--record', '/home/jetson/beta_ws/build/robot_bringup/install.log', '--install-scripts', '$base/lib/robot_bringup', '--single-version-externally-managed'], 'cwd': '/home/jetson/beta_ws/src/robot_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.8.181 53080 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/jetson/beta_ws/install/robot_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'BROWSER': '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-cf799867-7973-46e3-a975-9dad2ac1bf10.sock', 'JETSON_L4T': '32.7.2', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/jetson/beta_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420623039757', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '10', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jetson/.vscode-server/cli/servers/Stable-dc96b837cf6bb4af9cd736aa3af08cf8279f7685/server/bin/remote-cli:/home/jetson/.local/bin:/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-d0bb850e46.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jetson/beta_ws/install/robot_interfaces:/home/jetson/beta_ws/install/robot_description:/home/jetson/beta_ws/install/robot_bringup:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/beta_ws/build/robot_bringup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.8.181 53080 192.168.8.117 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/beta_ws/build/robot_bringup/prefix_override:/home/jetson/beta_ws/install/robot_bringup/lib/python3.8/site-packages:/home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages:/home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages:/home/jetson/beta_ws/install/robot_bringup/lib/python3.8/site-packages:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:/home/jetson/beta_ws/install/beta/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6.2', 'CMAKE_PREFIX_PATH': '/home/jetson/beta_ws/install/robot_interfaces', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[3.744105] (-) TimerEvent: {}
+[3.844960] (-) TimerEvent: {}
+[3.945541] (-) TimerEvent: {}
+[4.046757] (-) TimerEvent: {}
+[4.148207] (-) TimerEvent: {}
+[4.250318] (-) TimerEvent: {}
+[4.351868] (-) TimerEvent: {}
+[4.452585] (-) TimerEvent: {}
+[4.553245] (-) TimerEvent: {}
+[4.653850] (-) TimerEvent: {}
+[4.755360] (-) TimerEvent: {}
+[4.856004] (-) TimerEvent: {}
+[4.892551] (robot_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[4.895921] (robot_bringup) StdoutLine: {'line': b'writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO\n'}
+[4.897936] (robot_bringup) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt\n'}
+[4.899697] (robot_bringup) StdoutLine: {'line': b'writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt\n'}
+[4.900192] (robot_bringup) StdoutLine: {'line': b'writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt\n'}
+[4.900572] (robot_bringup) StdoutLine: {'line': b'writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt\n'}
+[4.956156] (-) TimerEvent: {}
+[5.056758] (-) TimerEvent: {}
+[5.066830] (robot_bringup) StdoutLine: {'line': b"reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[5.073191] (robot_bringup) StdoutLine: {'line': b"writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'\n"}
+[5.079103] (robot_bringup) StdoutLine: {'line': b'running build\n'}
+[5.079999] (robot_bringup) StdoutLine: {'line': b'running build_py\n'}
+[5.082263] (robot_bringup) StdoutLine: {'line': b'running install\n'}
+[5.084421] (robot_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[5.088514] (robot_bringup) StdoutLine: {'line': b'running install_data\n'}
+[5.091152] (robot_bringup) StdoutLine: {'line': b'copying config/nav2_params.yaml -> /home/jetson/beta_ws/install/robot_bringup/share/robot_bringup/config\n'}
+[5.091863] (robot_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.098260] (robot_bringup) StdoutLine: {'line': b"removing '/home/jetson/beta_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[5.099706] (robot_bringup) StdoutLine: {'line': b'Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/jetson/beta_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info\n'}
+[5.105095] (robot_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[5.156927] (-) TimerEvent: {}
+[5.176353] (robot_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/beta_ws/build/robot_bringup/install.log'\n"}
+[5.257108] (-) TimerEvent: {}
+[5.277080] (robot_bringup) CommandEnded: {'returncode': 0}
+[5.362372] (-) TimerEvent: {}
+[5.395250] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[5.397675] (-) EventReactorShutdown: {}

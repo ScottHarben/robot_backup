@@ -1,0 +1,1 @@
+Invoking command in '/home/jetson/v2_ros2_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/alpha_ws/install/robot_description:/home/jetson/alpha_ws/install/robot_bringup:/home/jetson/alpha_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/v2_ros2_ws/build/robot_interfaces -- -j4 -l4

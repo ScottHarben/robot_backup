@@ -1,0 +1,2 @@
+Invoking command in '/home/jetson/ros2_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/rplidar_ros2
+Invoked command in '/home/jetson/ros2_ws/build/rplidar_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/rplidar_ros2

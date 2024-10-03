@@ -1,0 +1,11 @@
+[console_scripts]
+encoder_publisher = robot.encoder_publisher:main
+encoder_publisher_left = robot.encoder_publisher_left:main
+encoder_publisher_right = robot.encoder_publisher_right:main
+imu_controller = robot.imu_controller:main
+motor_controller = robot.motor_controller:main
+motor_driver = robot.motor_driver:main
+odom_publisher = robot.odom_publisher:main
+pid_controller = robot.pid_controller:main
+rpm_publisher = robot.rpm_publisher:main
+

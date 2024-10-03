@@ -1,0 +1,8 @@
+{
+  "package_name": "robot_interfaces",
+  "non_idl_tuples": [
+    "/home/jetson/ros2_ws/src/robot_interfaces:msg/TickCount.msg",
+    "/home/jetson/ros2_ws/src/robot_interfaces:msg/WheelRPM.msg",
+    "/home/jetson/ros2_ws/src/robot_interfaces:msg/DutyCycle.msg"
+  ]
+}

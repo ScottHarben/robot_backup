@@ -1,0 +1,135 @@
+[3.829s] Invoking command in '/home/jetson/beta_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/beta_ws/install/robot_description:/home/jetson/beta_ws/install/robot_bringup:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/beta_ws/build/robot_interfaces -- -j4 -l4
+[4.508s] [  2%] Built target robot_interfaces__cpp
+[4.538s] [ 12%] Built target robot_interfaces__rosidl_generator_c
+[4.775s] [ 23%] Built target robot_interfaces__rosidl_typesupport_cpp
+[4.872s] [ 38%] Built target robot_interfaces__rosidl_typesupport_c
+[4.894s] [ 43%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[4.949s] [ 53%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.062s] [ 64%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[5.276s] [ 74%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[5.566s] [ 74%] Built target robot_interfaces
+[5.768s] [ 76%] Built target robot_interfaces__py
+[6.143s] [ 84%] Built target robot_interfaces__python
+[6.517s] [ 89%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.523s] [ 94%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[6.577s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.708s] Invoked command in '/home/jetson/beta_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/beta_ws/install/robot_description:/home/jetson/beta_ws/install/robot_bringup:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/beta_ws/build/robot_interfaces -- -j4 -l4
+[8.168s] Invoking command in '/home/jetson/beta_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/beta_ws/install/robot_description:/home/jetson/beta_ws/install/robot_bringup:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/beta_ws/build/robot_interfaces
+[8.278s] -- Install configuration: ""
+[8.279s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[8.280s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces
+[8.280s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg
+[8.280s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/duty_cycle.h
+[8.281s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/tick_count.h
+[8.281s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[8.282s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__functions.h
+[8.282s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__functions.h
+[8.283s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.h
+[8.284s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__struct.h
+[8.285s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__functions.c
+[8.287s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.h
+[8.288s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__struct.h
+[8.289s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__functions.c
+[8.289s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.290s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[8.293s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[8.294s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[8.294s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces
+[8.294s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg
+[8.297s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.299s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[8.299s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_c.h
+[8.300s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_c.h
+[8.300s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.301s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces
+[8.311s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg
+[8.312s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.312s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[8.313s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_cpp.hpp
+[8.313s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_cpp.hpp
+[8.313s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/dds_fastrtps
+[8.314s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.314s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces
+[8.315s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg
+[8.315s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[8.315s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.c
+[8.315s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_c.h
+[8.316s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.c
+[8.316s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_c.h
+[8.317s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.323s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[8.323s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[8.324s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces
+[8.324s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg
+[8.329s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/tick_count.hpp
+[8.331s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.333s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/duty_cycle.hpp
+[8.333s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[8.334s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__traits.hpp
+[8.334s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__struct.hpp
+[8.335s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__traits.hpp
+[8.340s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__builder.hpp
+[8.341s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.hpp
+[8.341s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__struct.hpp
+[8.351s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.hpp
+[8.352s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__builder.hpp
+[8.353s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces
+[8.353s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg
+[8.353s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[8.354s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.cpp
+[8.354s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_cpp.hpp
+[8.355s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_cpp.hpp
+[8.355s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.cpp
+[8.356s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.356s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[8.366s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[8.367s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[8.369s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/__init__.py
+[8.713s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg
+[8.714s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/__init__.py
+[8.717s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_duty_cycle.py
+[8.718s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_tick_count.py
+[8.718s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_duty_cycle_s.c
+[8.718s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_tick_count_s.c
+[8.720s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[8.725s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[8.727s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[8.733s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/lib/librobot_interfaces__python.so
+[8.733s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.idl
+[8.733s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.idl
+[8.734s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.msg
+[8.734s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.msg
+[8.735s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[8.736s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[8.737s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[8.738s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[8.738s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[8.744s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[8.745s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[8.746s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[8.747s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[8.747s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[8.748s] -- Installing: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+[8.749s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[8.749s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport.cmake
+[8.749s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.755s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.755s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.759s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[8.759s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.761s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cppExport.cmake
+[8.763s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.763s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.768s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[8.769s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.770s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.770s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.771s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.771s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.772s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.786s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.786s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.787s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[8.787s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[8.787s] -- Up-to-date: /home/jetson/beta_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+[8.788s] Invoked command in '/home/jetson/beta_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/beta_ws/install/robot_description:/home/jetson/beta_ws/install/robot_bringup:/home/jetson/beta_ws/install/robot:/home/jetson/beta_ws/install/beta:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/beta_ws/build/robot_interfaces

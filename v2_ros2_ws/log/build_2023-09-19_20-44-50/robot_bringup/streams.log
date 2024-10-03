@@ -1,0 +1,17 @@
+[4.285s] Invoking command in '/home/jetson/ros2_ws/build/robot_bringup': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros2_ws/build/robot_bringup/build --no-deps install_data
+[5.234s] running develop
+[5.817s] running egg_info
+[5.818s] writing robot_bringup.egg-info/PKG-INFO
+[5.820s] writing dependency_links to robot_bringup.egg-info/dependency_links.txt
+[5.821s] writing entry points to robot_bringup.egg-info/entry_points.txt
+[5.823s] writing requirements to robot_bringup.egg-info/requires.txt
+[5.824s] writing top-level names to robot_bringup.egg-info/top_level.txt
+[5.973s] reading manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[5.977s] writing manifest file 'robot_bringup.egg-info/SOURCES.txt'
+[6.124s] running build_ext
+[6.126s] Creating /home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages/site.py
+[6.134s] Creating /home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages/robot-bringup.egg-link (link to .)
+[6.138s] 
+[6.139s] Installed /home/jetson/ros2_ws/build/robot_bringup
+[6.140s] running install_data
+[6.436s] Invoked command in '/home/jetson/ros2_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros2_ws/build/robot_bringup/build --no-deps install_data

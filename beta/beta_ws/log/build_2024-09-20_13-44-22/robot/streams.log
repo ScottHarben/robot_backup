@@ -1,0 +1,25 @@
+[2.509s] Invoking command in '/home/jetson/beta_ws/src/robot': PYTHONPATH=/home/jetson/beta_ws/build/robot/prefix_override:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/beta_ws/build/robot/build install --record /home/jetson/beta_ws/build/robot/install.log --install-scripts $base/lib/robot --single-version-externally-managed
+[3.374s] running egg_info
+[3.376s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[3.380s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[3.380s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[3.381s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[3.381s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[3.525s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[3.527s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[3.529s] running build
+[3.530s] running build_py
+[3.532s] copying robot/motor_driver.py -> /home/jetson/beta_ws/build/robot/build/lib/robot
+[3.533s] running install
+[3.533s] running install_lib
+[3.536s] copying /home/jetson/beta_ws/build/robot/build/lib/robot/motor_driver.py -> /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot
+[3.538s] byte-compiling /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot/motor_driver.py to motor_driver.cpython-38.pyc
+[3.542s] running install_data
+[3.545s] running install_egg_info
+[3.550s] removing '/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info' (and everything under it)
+[3.551s] Copying ../../build/robot/robot.egg-info to /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info
+[3.555s] running install_scripts
+[3.611s] Installing motor_controller script to /home/jetson/beta_ws/install/robot/lib/robot
+[3.611s] Installing motor_driver script to /home/jetson/beta_ws/install/robot/lib/robot
+[3.612s] writing list of installed files to '/home/jetson/beta_ws/build/robot/install.log'
+[3.713s] Invoked command in '/home/jetson/beta_ws/src/robot' returned '0': PYTHONPATH=/home/jetson/beta_ws/build/robot/prefix_override:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/beta_ws/build/robot/build install --record /home/jetson/beta_ws/build/robot/install.log --install-scripts $base/lib/robot --single-version-externally-managed

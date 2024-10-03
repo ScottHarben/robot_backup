@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<robot name="sam_bot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+<xacro:property name="base_width" value="0.1"/>
+<xacro:property name="base_length" value="0.175"/>
+<xacro:property name="base_height" value="0.088"/>
+<xacro:property name="base_xoff" value="0.05"/>
+
+<xacro:property name="wheel_radius" value="0.033"/>
+<xacro:property name="wheel_width" value="0.025"/>
+<xacro:property name="wheel_ygap" value="0.0125"/>
+
+<xacro:property name="axle_zoff" value="0.01"/>
+
+<xacro:property name="caster_xoff" value="0.02"/>
+
+<xacro:property name="laser_radius" value="0.035"/>
+<xacro:property name="laser_height" value="0.055"/>
+<xacro:property name="laser_zoff" value="0.0175"/>
+
+<link name="base_link">
+  <visual>
+    <geometry>
+      <box size="${base_length} ${base_width} ${base_height}"/>
+    </geometry>
+    <origin xyz="${-(base_xoff)} 0.0 0.0" rpy="0 0 0"/>
+    <material name="Cyan">
+      <color rgba="0 1.0 1.0 1.0"/>
+    </material>
+  </visual>
+</link>
+
+<link name="base_footprint"/>
+
+<joint name="base_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="base_footprint"/>
+  <origin xyz="0.0 0.0 ${-(wheel_radius+axle_zoff+(base_height/2))}" rpy="0 0 0"/>
+</joint>
+
+<xacro:macro name="wheel" params="prefix x_reflect y_reflect">
+  <link name="${prefix}_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="${pi/2} 0 0"/>
+      <geometry>
+          <cylinder radius="${wheel_radius}" length="${wheel_width}"/>
+      </geometry>
+      <material name="Gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="${prefix}_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="${prefix}_link"/>
+    <origin xyz="0.0 ${y_reflect*(base_width/2+wheel_ygap)} ${-(axle_zoff+(base_height/2))}" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+</xacro:macro>
+
+<xacro:wheel prefix="wheel_left" x_reflect="-1" y_reflect="1" />
+<xacro:wheel prefix="wheel_right" x_reflect="-1" y_reflect="-1" />
+
+<link name="front_caster">
+  <visual>
+    <geometry>
+      <cylinder radius="${wheel_radius/2}" length="${wheel_radius + axle_zoff}"/>
+    </geometry>
+    <origin xyz="0 0 ${-((wheel_radius + axle_zoff)/2)}" rpy="0 0 0"/>
+    <material name="Gray">
+      <color rgba="0.5 0.5 0.5 1.0"/>
+    </material>
+  </visual>
+</link>
+
+<joint name="caster_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="front_caster"/>
+  <origin xyz="${-(base_xoff + (base_length/2) - caster_xoff)} 0.0 ${-(base_height/2)}" rpy="0 0 0"/>
+</joint>
+
+<link name="laser">
+  <visual>
+    <geometry>
+      <cylinder radius="${laser_radius}" length="${laser_height}"/>
+    </geometry>
+    <origin xyz="0 0 ${-(laser_zoff)}" rpy="0 0 0"/>
+    <material name="Gray">
+      <color rgba="0.5 0.5 0.5 1.0"/>
+    </material>
+  </visual>
+</link>
+
+<joint name="laser_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="laser"/>
+  <origin xyz="0.0 0.0 ${(base_height/2)+(laser_height/2)+laser_zoff}" rpy="0 0 0"/>
+</joint>
+  
+</robot>
+
+
+

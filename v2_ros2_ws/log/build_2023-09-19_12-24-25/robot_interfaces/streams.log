@@ -1,0 +1,20 @@
+[2.495s] Invoking command in '/home/jetson/ros2_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/robot_interfaces -- -j4 -l4
+[2.650s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.756s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.758s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.652s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.673s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.699s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.569s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[4.571s]   rosidl_generate_interfaces() the passed file 'msg/WheelVelocity.msg'
+[4.574s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[4.576s]   '/home/jetson/ros2_ws/src/robot_interfaces'
+[4.578s] Call Stack (most recent call first):
+[4.579s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[4.581s] 
+[4.582s] 
+[4.590s] -- Configuring incomplete, errors occurred!
+[4.591s] See also "/home/jetson/ros2_ws/build/robot_interfaces/CMakeFiles/CMakeOutput.log".
+[4.617s] make: *** [Makefile:1228: cmake_check_build_system] Error 1
+[4.628s] Invoked command in '/home/jetson/ros2_ws/build/robot_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/robot_interfaces -- -j4 -l4

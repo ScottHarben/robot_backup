@@ -1,0 +1,41 @@
+[2.216s] Invoking command in '/home/jetson/beta_ws/src/robot': PYTHONPATH=/home/jetson/beta_ws/build/robot/prefix_override:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/beta_ws/build/robot/build install --record /home/jetson/beta_ws/build/robot/install.log --install-scripts $base/lib/robot --single-version-externally-managed
+[2.969s] running egg_info
+[2.971s] creating ../../build/robot/robot.egg-info
+[2.971s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[2.973s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[2.974s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[2.974s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[2.974s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[2.978s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[3.100s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[3.102s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[3.103s] running build
+[3.103s] running build_py
+[3.104s] creating /home/jetson/beta_ws/build/robot/build
+[3.105s] creating /home/jetson/beta_ws/build/robot/build/lib
+[3.105s] creating /home/jetson/beta_ws/build/robot/build/lib/robot
+[3.105s] copying robot/motor_controller.py -> /home/jetson/beta_ws/build/robot/build/lib/robot
+[3.106s] copying robot/__init__.py -> /home/jetson/beta_ws/build/robot/build/lib/robot
+[3.106s] copying robot/motor_driver.py -> /home/jetson/beta_ws/build/robot/build/lib/robot
+[3.106s] running install
+[3.108s] running install_lib
+[3.111s] creating /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot
+[3.112s] copying /home/jetson/beta_ws/build/robot/build/lib/robot/motor_controller.py -> /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot
+[3.112s] copying /home/jetson/beta_ws/build/robot/build/lib/robot/__init__.py -> /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot
+[3.113s] copying /home/jetson/beta_ws/build/robot/build/lib/robot/motor_driver.py -> /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot
+[3.114s] byte-compiling /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot/motor_controller.py to motor_controller.cpython-38.pyc
+[3.119s] byte-compiling /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot/__init__.py to __init__.cpython-38.pyc
+[3.119s] byte-compiling /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot/motor_driver.py to motor_driver.cpython-38.pyc
+[3.121s] running install_data
+[3.123s] creating /home/jetson/beta_ws/install/robot/share/ament_index
+[3.123s] creating /home/jetson/beta_ws/install/robot/share/ament_index/resource_index
+[3.124s] creating /home/jetson/beta_ws/install/robot/share/ament_index/resource_index/packages
+[3.124s] copying resource/robot -> /home/jetson/beta_ws/install/robot/share/ament_index/resource_index/packages
+[3.124s] copying package.xml -> /home/jetson/beta_ws/install/robot/share/robot
+[3.124s] running install_egg_info
+[3.129s] Copying ../../build/robot/robot.egg-info to /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info
+[3.131s] running install_scripts
+[3.188s] Installing motor_controller script to /home/jetson/beta_ws/install/robot/lib/robot
+[3.188s] Installing motor_driver script to /home/jetson/beta_ws/install/robot/lib/robot
+[3.189s] writing list of installed files to '/home/jetson/beta_ws/build/robot/install.log'
+[3.288s] Invoked command in '/home/jetson/beta_ws/src/robot' returned '0': PYTHONPATH=/home/jetson/beta_ws/build/robot/prefix_override:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/beta_ws/build/robot/build install --record /home/jetson/beta_ws/build/robot/install.log --install-scripts $base/lib/robot --single-version-externally-managed

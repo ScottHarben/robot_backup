@@ -1,0 +1,22 @@
+[3.876s] Invoking command in '/home/jetson/beta_ws/src/robot_bringup': PYTHONPATH=/home/jetson/beta_ws/build/robot_bringup/prefix_override:/home/jetson/beta_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/jetson/beta_ws/build/robot_bringup/build install --record /home/jetson/beta_ws/build/robot_bringup/install.log --install-scripts $base/lib/robot_bringup --single-version-externally-managed
+[5.249s] running egg_info
+[5.250s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[5.252s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[5.256s] writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+[5.256s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[5.258s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[5.454s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[5.459s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[5.462s] running build
+[5.462s] running build_py
+[5.465s] running install
+[5.470s] running install_lib
+[5.479s] running install_data
+[5.482s] copying launch/navigation_launch.py -> /home/jetson/beta_ws/install/robot_bringup/share/robot_bringup/launch
+[5.485s] copying config/nav2_params.yaml -> /home/jetson/beta_ws/install/robot_bringup/share/robot_bringup/config
+[5.486s] running install_egg_info
+[5.490s] removing '/home/jetson/beta_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info' (and everything under it)
+[5.492s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/jetson/beta_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info
+[5.496s] running install_scripts
+[5.579s] writing list of installed files to '/home/jetson/beta_ws/build/robot_bringup/install.log'
+[5.701s] Invoked command in '/home/jetson/beta_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/jetson/beta_ws/build/robot_bringup/prefix_override:/home/jetson/beta_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/jetson/beta_ws/build/robot_bringup/build install --record /home/jetson/beta_ws/build/robot_bringup/install.log --install-scripts $base/lib/robot_bringup --single-version-externally-managed

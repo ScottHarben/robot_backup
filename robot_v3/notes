@@ -1,0 +1,17 @@
+https://www.hackster.io/gatoninja236/scan-qr-codes-in-real-time-with-raspberry-pi-a5268b
+
+//Raspberry Pi
+sudo nano /boot/firmware/config.txt
+#camera_auto_detect=1
+gpu_mem=128 (minimum memory for camera)
+start_x=1 (enable the camera module)
+sudo reboot
+
+pip install RPi.GPIO
+sudo apt install rpi.gpio-common
+sudo adduser "${USER}" dialout
+sudo reboot
+
+time sync
+https://askubuntu.com/questions/14558/how-do-i-setup-a-local-ntp-server
+https://vitux.com/how-to-install-ntp-server-and-client-on-ubuntu/

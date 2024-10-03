@@ -1,0 +1,41 @@
+enable pwm on startup
+	# Enable PWM
+	sudo /home/jetson/enablepwm.sh
+	
+sudo visudo
+	jetson ALL=(ALL) NOPASSWD: /home/jetson/enablepwm.sh
+	
+enablepwm.sh 
+	(add bash tag and make executable)
+
+	# Enable Pin 32 / PWM0
+	sudo busybox devmem 0x700031fc 32 0x45
+	sudo busybox devmem 0x6000d504 32 0x2
+
+	# Enable Pin 33 / PWM2
+	sudo busybox devmem 0x70003248 32 0x46
+	sudo busybox devmem 0x6000d100 32 0x00
+	
+d435i permissions:
+	You need to install Intel Realsense permission scripts located in librealsense source directory.
+
+	For that, first, git clone the librealsense to a local folder
+
+		git clone https://github.com/IntelRealSense/librealsense
+
+	Next, run the following commands to copy the 99-realsense-libusb.rules files to the rules.d folder
+
+		sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
+
+	And, then udevadm control to modify the internal state of the running udev dameon to reload rules. Also, udevadm trigger to request device events from the kernel.
+
+		sudo udevadm control --reload-rules
+		sudo udevadm trigger
+
+host/remote time sync
+	https://robofoundry.medium.com/how-to-sync-time-between-robot-and-host-machine-for-ros2-ecbcff8aadc4
+	
+ros2 run depthimage_to_laserscan depthimage_to_laserscan_node --ros-args -r /depth:=/camera/depth/image_rect_raw -r /depth_camera_info:=/camera/depth/camera_info
+
+ros2 run pointcloud_to_laserscan pointcloud_to_laserscan_node --ros-args -r cloud_in:=/camera/depth/color/points -p target_frame:=camera_link
+

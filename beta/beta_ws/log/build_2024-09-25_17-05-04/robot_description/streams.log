@@ -1,0 +1,20 @@
+[7.303s] Invoking command in '/home/jetson/beta_ws/src/robot_description': PYTHONPATH=/home/jetson/beta_ws/build/robot_description/prefix_override:/home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/jetson/beta_ws/build/robot_description/build install --record /home/jetson/beta_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed
+[9.869s] running egg_info
+[9.874s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[9.878s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[9.880s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[9.880s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[9.881s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[10.254s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[10.258s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[10.259s] running build
+[10.259s] running build_py
+[10.260s] running install
+[10.262s] running install_lib
+[10.270s] running install_data
+[10.277s] running install_egg_info
+[10.283s] removing '/home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info' (and everything under it)
+[10.285s] Copying ../../build/robot_description/robot_description.egg-info to /home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages/robot_description-0.0.0-py3.8.egg-info
+[10.292s] running install_scripts
+[10.397s] writing list of installed files to '/home/jetson/beta_ws/build/robot_description/install.log'
+[10.519s] Invoked command in '/home/jetson/beta_ws/src/robot_description' returned '0': PYTHONPATH=/home/jetson/beta_ws/build/robot_description/prefix_override:/home/jetson/beta_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/jetson/beta_ws/build/robot_description/build install --record /home/jetson/beta_ws/build/robot_description/install.log --install-scripts $base/lib/robot_description --single-version-externally-managed

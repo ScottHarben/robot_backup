@@ -1,0 +1,20 @@
+[6.440s] Invoking command in '/home/jetson/ros2_ws/src/robot_bringup': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/jetson/ros2_ws/build/robot_bringup/build install --record /home/jetson/ros2_ws/build/robot_bringup/install.log --install-scripts $base/lib/robot_bringup --single-version-externally-managed
+[7.970s] running egg_info
+[7.973s] writing ../../build/robot_bringup/robot_bringup.egg-info/PKG-INFO
+[7.975s] writing dependency_links to ../../build/robot_bringup/robot_bringup.egg-info/dependency_links.txt
+[7.977s] writing entry points to ../../build/robot_bringup/robot_bringup.egg-info/entry_points.txt
+[7.977s] writing requirements to ../../build/robot_bringup/robot_bringup.egg-info/requires.txt
+[7.978s] writing top-level names to ../../build/robot_bringup/robot_bringup.egg-info/top_level.txt
+[8.160s] reading manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[8.164s] writing manifest file '../../build/robot_bringup/robot_bringup.egg-info/SOURCES.txt'
+[8.164s] running build
+[8.165s] running build_py
+[8.165s] running install
+[8.168s] running install_lib
+[8.176s] running install_data
+[8.178s] running install_egg_info
+[8.186s] removing '/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info' (and everything under it)
+[8.187s] Copying ../../build/robot_bringup/robot_bringup.egg-info to /home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages/robot_bringup-0.0.0-py3.8.egg-info
+[8.191s] running install_scripts
+[8.269s] writing list of installed files to '/home/jetson/ros2_ws/build/robot_bringup/install.log'
+[8.393s] Invoked command in '/home/jetson/ros2_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/jetson/ros2_ws/build/robot_bringup/build install --record /home/jetson/ros2_ws/build/robot_bringup/install.log --install-scripts $base/lib/robot_bringup --single-version-externally-managed

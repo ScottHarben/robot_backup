@@ -1,0 +1,33 @@
+[2.403s] Invoking command in '/home/jetson/beta_ws/src/beta': PYTHONPATH=/home/jetson/beta_ws/build/beta/prefix_override:/home/jetson/beta_ws/install/beta/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/beta build --build-base /home/jetson/beta_ws/build/beta/build install --record /home/jetson/beta_ws/build/beta/install.log --install-scripts $base/lib/beta --single-version-externally-managed
+[3.139s] running egg_info
+[3.140s] creating ../../build/beta/beta.egg-info
+[3.141s] writing ../../build/beta/beta.egg-info/PKG-INFO
+[3.142s] writing dependency_links to ../../build/beta/beta.egg-info/dependency_links.txt
+[3.143s] writing entry points to ../../build/beta/beta.egg-info/entry_points.txt
+[3.143s] writing requirements to ../../build/beta/beta.egg-info/requires.txt
+[3.144s] writing top-level names to ../../build/beta/beta.egg-info/top_level.txt
+[3.162s] writing manifest file '../../build/beta/beta.egg-info/SOURCES.txt'
+[3.283s] reading manifest file '../../build/beta/beta.egg-info/SOURCES.txt'
+[3.286s] writing manifest file '../../build/beta/beta.egg-info/SOURCES.txt'
+[3.287s] running build
+[3.287s] running build_py
+[3.288s] creating /home/jetson/beta_ws/build/beta/build
+[3.288s] creating /home/jetson/beta_ws/build/beta/build/lib
+[3.288s] creating /home/jetson/beta_ws/build/beta/build/lib/beta
+[3.289s] copying beta/__init__.py -> /home/jetson/beta_ws/build/beta/build/lib/beta
+[3.289s] running install
+[3.289s] running install_lib
+[3.292s] creating /home/jetson/beta_ws/install/beta/lib/python3.8/site-packages/beta
+[3.293s] copying /home/jetson/beta_ws/build/beta/build/lib/beta/__init__.py -> /home/jetson/beta_ws/install/beta/lib/python3.8/site-packages/beta
+[3.294s] byte-compiling /home/jetson/beta_ws/install/beta/lib/python3.8/site-packages/beta/__init__.py to __init__.cpython-38.pyc
+[3.298s] running install_data
+[3.300s] creating /home/jetson/beta_ws/install/beta/share/ament_index
+[3.300s] creating /home/jetson/beta_ws/install/beta/share/ament_index/resource_index
+[3.301s] creating /home/jetson/beta_ws/install/beta/share/ament_index/resource_index/packages
+[3.301s] copying resource/beta -> /home/jetson/beta_ws/install/beta/share/ament_index/resource_index/packages
+[3.301s] copying package.xml -> /home/jetson/beta_ws/install/beta/share/beta
+[3.302s] running install_egg_info
+[3.306s] Copying ../../build/beta/beta.egg-info to /home/jetson/beta_ws/install/beta/lib/python3.8/site-packages/beta-0.0.0-py3.8.egg-info
+[3.308s] running install_scripts
+[3.364s] writing list of installed files to '/home/jetson/beta_ws/build/beta/install.log'
+[3.456s] Invoked command in '/home/jetson/beta_ws/src/beta' returned '0': PYTHONPATH=/home/jetson/beta_ws/build/beta/prefix_override:/home/jetson/beta_ws/install/beta/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/beta build --build-base /home/jetson/beta_ws/build/beta/build install --record /home/jetson/beta_ws/build/beta/install.log --install-scripts $base/lib/beta --single-version-externally-managed

@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.003143] (robot) JobQueued: {'identifier': 'robot', 'dependencies': OrderedDict()}
+[0.005913] (robot) JobStarted: {'identifier': 'robot'}
+[0.099461] (-) TimerEvent: {}
+[0.200313] (-) TimerEvent: {}
+[0.300930] (-) TimerEvent: {}
+[0.401531] (-) TimerEvent: {}
+[0.502125] (-) TimerEvent: {}
+[0.602644] (-) TimerEvent: {}
+[0.703184] (-) TimerEvent: {}
+[0.803860] (-) TimerEvent: {}
+[0.904591] (-) TimerEvent: {}
+[1.005367] (-) TimerEvent: {}
+[1.106035] (-) TimerEvent: {}
+[1.206718] (-) TimerEvent: {}
+[1.307251] (-) TimerEvent: {}
+[1.407833] (-) TimerEvent: {}
+[1.508423] (-) TimerEvent: {}
+[1.609036] (-) TimerEvent: {}
+[1.709636] (-) TimerEvent: {}
+[1.810277] (-) TimerEvent: {}
+[1.910925] (-) TimerEvent: {}
+[2.011518] (-) TimerEvent: {}
+[2.112172] (-) TimerEvent: {}
+[2.212837] (-) TimerEvent: {}
+[2.219608] (robot) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robot', 'build', '--build-base', '/home/jetson/beta_ws/build/robot/build', 'install', '--record', '/home/jetson/beta_ws/build/robot/install.log', '--install-scripts', '$base/lib/robot', '--single-version-externally-managed'], 'cwd': '/home/jetson/beta_ws/src/robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'LC_TIME': 'en_US.UTF-8', 'SSH_AGENT_PID': '8637', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/beta_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '32.7.2', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Nano Developer Kit', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '8389', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jetson', 'JETSON_MODULE': 'NVIDIA Jetson Nano (4 GB ram)', 'JETSON_SERIAL_NUMBER': '1420623039757', 'JOURNAL_STREAM': '8:49497', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'JETSON_CODENAME': 'Porg', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'jetson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/jetson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/nano:@/tmp/.ICE-unix/8693,unix/nano:/tmp/.ICE-unix/8693', 'INVOCATION_ID': '41f36092444d406da2be45ac33bb3abb', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6458123f_1746_4984_938b_a160f1d9a264', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'GNOME_TERMINAL_SERVICE': ':1.79', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': 'p3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/jetson/beta_ws/build/robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/beta_ws/build/robot/prefix_override:/home/jetson/beta_ws/install/robot/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'JETSON_JETPACK': '4.6.2', 'JETSON_P_NUMBER': 'p3448-0000'}, 'shell': False}
+[2.313091] (-) TimerEvent: {}
+[2.413841] (-) TimerEvent: {}
+[2.514432] (-) TimerEvent: {}
+[2.615059] (-) TimerEvent: {}
+[2.715631] (-) TimerEvent: {}
+[2.816167] (-) TimerEvent: {}
+[2.916739] (-) TimerEvent: {}
+[2.974833] (robot) StdoutLine: {'line': b'running egg_info\n'}
+[2.976677] (robot) StdoutLine: {'line': b'creating ../../build/robot/robot.egg-info\n'}
+[2.977303] (robot) StdoutLine: {'line': b'writing ../../build/robot/robot.egg-info/PKG-INFO\n'}
+[2.978774] (robot) StdoutLine: {'line': b'writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt\n'}
+[2.979317] (robot) StdoutLine: {'line': b'writing entry points to ../../build/robot/robot.egg-info/entry_points.txt\n'}
+[2.979839] (robot) StdoutLine: {'line': b'writing requirements to ../../build/robot/robot.egg-info/requires.txt\n'}
+[2.980142] (robot) StdoutLine: {'line': b'writing top-level names to ../../build/robot/robot.egg-info/top_level.txt\n'}
+[2.983624] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[3.016877] (-) TimerEvent: {}
+[3.105311] (robot) StdoutLine: {'line': b"reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[3.107624] (robot) StdoutLine: {'line': b"writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'\n"}
+[3.108855] (robot) StdoutLine: {'line': b'running build\n'}
+[3.109257] (robot) StdoutLine: {'line': b'running build_py\n'}
+[3.110052] (robot) StdoutLine: {'line': b'creating /home/jetson/beta_ws/build/robot/build\n'}
+[3.110433] (robot) StdoutLine: {'line': b'creating /home/jetson/beta_ws/build/robot/build/lib\n'}
+[3.110822] (robot) StdoutLine: {'line': b'creating /home/jetson/beta_ws/build/robot/build/lib/robot\n'}
+[3.111185] (robot) StdoutLine: {'line': b'copying robot/motor_controller.py -> /home/jetson/beta_ws/build/robot/build/lib/robot\n'}
+[3.111514] (robot) StdoutLine: {'line': b'copying robot/__init__.py -> /home/jetson/beta_ws/build/robot/build/lib/robot\n'}
+[3.111807] (robot) StdoutLine: {'line': b'copying robot/motor_driver.py -> /home/jetson/beta_ws/build/robot/build/lib/robot\n'}
+[3.112075] (robot) StdoutLine: {'line': b'running install\n'}
+[3.114011] (robot) StdoutLine: {'line': b'running install_lib\n'}
+[3.116874] (robot) StdoutLine: {'line': b'creating /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot\n'}
+[3.117357] (-) TimerEvent: {}
+[3.117691] (robot) StdoutLine: {'line': b'copying /home/jetson/beta_ws/build/robot/build/lib/robot/motor_controller.py -> /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot\n'}
+[3.118302] (robot) StdoutLine: {'line': b'copying /home/jetson/beta_ws/build/robot/build/lib/robot/__init__.py -> /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot\n'}
+[3.118617] (robot) StdoutLine: {'line': b'copying /home/jetson/beta_ws/build/robot/build/lib/robot/motor_driver.py -> /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot\n'}
+[3.119488] (robot) StdoutLine: {'line': b'byte-compiling /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot/motor_controller.py to motor_controller.cpython-38.pyc\n'}
+[3.124657] (robot) StdoutLine: {'line': b'byte-compiling /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot/__init__.py to __init__.cpython-38.pyc\n'}
+[3.125245] (robot) StdoutLine: {'line': b'byte-compiling /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot/motor_driver.py to motor_driver.cpython-38.pyc\n'}
+[3.126451] (robot) StdoutLine: {'line': b'running install_data\n'}
+[3.128439] (robot) StdoutLine: {'line': b'creating /home/jetson/beta_ws/install/robot/share/ament_index\n'}
+[3.129010] (robot) StdoutLine: {'line': b'creating /home/jetson/beta_ws/install/robot/share/ament_index/resource_index\n'}
+[3.129371] (robot) StdoutLine: {'line': b'creating /home/jetson/beta_ws/install/robot/share/ament_index/resource_index/packages\n'}
+[3.129693] (robot) StdoutLine: {'line': b'copying resource/robot -> /home/jetson/beta_ws/install/robot/share/ament_index/resource_index/packages\n'}
+[3.130072] (robot) StdoutLine: {'line': b'copying package.xml -> /home/jetson/beta_ws/install/robot/share/robot\n'}
+[3.130368] (robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.134446] (robot) StdoutLine: {'line': b'Copying ../../build/robot/robot.egg-info to /home/jetson/beta_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info\n'}
+[3.137012] (robot) StdoutLine: {'line': b'running install_scripts\n'}
+[3.193248] (robot) StdoutLine: {'line': b'Installing motor_controller script to /home/jetson/beta_ws/install/robot/lib/robot\n'}
+[3.193925] (robot) StdoutLine: {'line': b'Installing motor_driver script to /home/jetson/beta_ws/install/robot/lib/robot\n'}
+[3.194914] (robot) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/beta_ws/build/robot/install.log'\n"}
+[3.217606] (-) TimerEvent: {}
+[3.293439] (robot) CommandEnded: {'returncode': 0}
+[3.317854] (-) TimerEvent: {}
+[3.340828] (robot) JobEnded: {'identifier': 'robot', 'rc': 0}
+[3.343138] (-) EventReactorShutdown: {}

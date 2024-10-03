@@ -1,0 +1,26 @@
+[4.379s] Invoking command in '/home/jetson/ros2_ws/build/robot': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros2_ws/build/robot/build --no-deps install_data
+[5.345s] running develop
+[5.963s] running egg_info
+[5.964s] writing robot.egg-info/PKG-INFO
+[5.967s] writing dependency_links to robot.egg-info/dependency_links.txt
+[5.968s] writing entry points to robot.egg-info/entry_points.txt
+[5.970s] writing requirements to robot.egg-info/requires.txt
+[5.971s] writing top-level names to robot.egg-info/top_level.txt
+[6.114s] reading manifest file 'robot.egg-info/SOURCES.txt'
+[6.119s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[6.312s] running build_ext
+[6.313s] Creating /home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages/site.py
+[6.321s] Creating /home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages/robot.egg-link (link to .)
+[6.325s] Installing encoder_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.341s] Installing encoder_publisher_left script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.341s] Installing encoder_publisher_right script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.342s] Installing imu_controller script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.342s] Installing motor_controller script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.345s] Installing motor_driver script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.345s] Installing odom_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.346s] Installing pid_controller script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.346s] Installing rpm_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot
+[6.347s] 
+[6.347s] Installed /home/jetson/ros2_ws/build/robot
+[6.348s] running install_data
+[6.562s] Invoked command in '/home/jetson/ros2_ws/build/robot' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jetson/ros2_ws/build/robot/build --no-deps install_data

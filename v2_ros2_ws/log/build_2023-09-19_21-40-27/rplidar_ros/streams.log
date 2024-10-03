@@ -1,0 +1,527 @@
+[0.166s] Invoking command in '/home/jetson/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/rplidar_ros
+[0.209s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.314s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.067s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.085s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.210s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.222s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.645s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.808s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.813s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.308s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.701s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.975s] -- Configuring done
+[3.034s] -- Generating done
+[3.039s] -- Build files have been written to: /home/jetson/ros2_ws/build/rplidar_ros
+[3.058s] Invoked command in '/home/jetson/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake /home/jetson/ros2_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jetson/ros2_ws/install/rplidar_ros
+[3.064s] Invoking command in '/home/jetson/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/rplidar_ros -- -j4 -l4
+[3.187s] [35m[1mScanning dependencies of target rplidar_client[0m
+[3.200s] [35m[1mScanning dependencies of target rplidar_composition[0m
+[3.202s] [35m[1mScanning dependencies of target rplidar_node[0m
+[3.307s] [  3%] [32mBuilding CXX object CMakeFiles/rplidar_client.dir/src/rplidar_client.cpp.o[0m
+[3.321s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/src/rplidar_node.cpp.o[0m
+[3.321s] [ 11%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[3.334s] [ 15%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/src/rplidar_node.cpp.o[0m
+[5.034s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[5.035s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.035s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[5.036s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[5.036s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[5.037s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.037s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[5.038s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[5.038s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[5.039s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.039s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[5.040s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[5.040s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[5.041s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.041s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[5.041s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[5.352s] [ 19%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[6.521s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kbool rp::arch::net::raw_serial::open(const char*, uint32_t, uint32_t)[m[K’:
+[6.521s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:97:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.521s]    97 | bool raw_serial::open(const char * portname, uint32_t baudrate, [01;35m[Kuint32_t flags[m[K)
+[6.525s]       |                                                                 [01;35m[K~~~~~~~~~^~~~~[m[K
+[6.527s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual void rp::arch::net::raw_serial::flush(_u32)[m[K’:
+[6.528s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:281:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflags[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.528s]   281 | void raw_serial::flush( [01;35m[K_u32 flags[m[K)
+[6.529s]       |                         [01;35m[K~~~~~^~~~~[m[K
+[6.529s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforsent(_u32, size_t*)[m[K’:
+[6.529s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:286:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.530s]   286 | int raw_serial::waitforsent([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[6.530s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[6.531s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:[m[K In member function ‘[01m[Kvirtual int rp::arch::net::raw_serial::waitforrecv(_u32, size_t*)[m[K’:
+[6.531s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_serial.cpp:292:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[6.531s]   292 | int raw_serial::waitforrecv([01;35m[K_u32 timeout[m[K, size_t * returned_size)
+[6.532s]       |                             [01;35m[K~~~~~^~~~~~~[m[K
+[6.793s] [ 23%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[7.813s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[7.814s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[7.816s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[7.817s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[7.819s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[7.821s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[7.822s]       |                [01;35m[K^[m[K
+[7.826s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[7.828s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[7.830s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[7.831s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[7.833s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[7.834s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[7.836s]       |                    [01;35m[K^[m[K
+[8.558s] [ 26%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[8.816s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[8.817s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[8.819s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[8.820s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[8.822s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.824s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[8.825s]       |                [01;35m[K^[m[K
+[8.829s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[8.831s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[8.833s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[8.834s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.836s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[8.837s]       |                    [01;35m[K^[m[K
+[8.884s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[8.885s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[8.885s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[8.885s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[8.889s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.890s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[8.890s]       |                [01;35m[K^[m[K
+[8.892s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[8.892s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar.h:36[m[K,
+[8.893s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/src/rplidar_node.cpp:38[m[K:
+[8.893s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[8.893s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[8.894s]       |                    [01;35m[K^[m[K
+[9.644s] [ 30%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/hal/thread.cpp.o[0m
+[10.693s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[10.694s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[10.694s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[10.694s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[10.698s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.699s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[10.699s]       |                [01;35m[K^[m[K
+[10.700s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[10.700s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[10.701s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[10.701s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[10.702s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[10.702s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[10.702s]       |                    [01;35m[K^[m[K
+[10.871s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[10.872s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[10.872s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:77:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[10.873s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))[01;35m[Kproc[m[K, data);
+[10.873s]       |                                                                             [01;35m[K^~~~[m[K
+[10.877s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[10.878s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[10.878s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[10.878s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[11.073s] [ 34%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/rplidar_driver.cpp.o[0m
+[12.156s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[12.158s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[12.158s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[12.159s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[12.159s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[12.160s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[12.160s]       |                [01;35m[K^[m[K
+[12.161s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[12.161s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[12.161s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[12.162s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[12.162s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[12.163s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[12.164s]       |                    [01;35m[K^[m[K
+[12.457s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[12.458s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[12.458s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[12.458s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[12.462s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[12.463s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[12.463s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[12.464s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[12.464s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[12.465s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[12.465s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[12.466s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[12.466s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[12.467s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[12.468s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[12.718s] [ 38%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_crc.cpp.o[0m
+[12.758s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[12.759s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[12.760s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[12.760s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[12.761s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[12.761s]       |                [01;35m[K^[m[K
+[12.766s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[12.766s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[12.766s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[12.767s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[12.767s]       |                    [01;35m[K^[m[K
+[12.831s] [ 42%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[13.976s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[13.977s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[13.977s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[13.978s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[13.978s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.983s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[13.984s]       |                [01;35m[K^[m[K
+[13.987s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[13.988s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[13.988s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[13.989s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[13.989s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.989s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[13.990s]       |                    [01;35m[K^[m[K
+[14.334s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[14.334s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:274:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.335s]   274 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[14.335s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.345s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)[m[K’:
+[14.347s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:287:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.348s]   287 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[14.348s]       |                                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.352s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[14.352s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:348:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.353s]   348 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[14.353s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[14.364s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[14.365s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:543:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.366s]   543 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[14.366s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.367s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)[m[K’:
+[14.368s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:588:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.368s]   588 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[14.368s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.370s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)[m[K’:
+[14.371s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:601:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.371s]   601 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[14.372s]       |                                                                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.372s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[14.372s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:636:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.373s]   636 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[14.373s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[14.374s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)[m[K’:
+[14.374s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:662:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.375s]   662 |         sl_result getHealth(sl_lidar_response_device_health_t& health, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[14.375s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.381s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[14.381s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:760:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.381s]   760 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[14.382s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[14.414s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[14.415s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1399:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[14.415s]  1399 |                     if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[14.416s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[14.416s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1408:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[14.416s]  1408 |                     if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[14.417s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[14.429s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[14.430s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1606:116:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K-Wignored-qualifiers[m[K]
+[14.430s]  1606 |                     const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance[01;35m[K)[m[K;
+[14.431s]       |                                                                                                                    [01;35m[K^[m[K
+[14.775s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[14.775s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:72:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[14.776s]    72 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[14.776s]       |                 [01;35m[K^~~~~~~[m[K
+[14.777s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[14.777s]    59 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[14.778s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[15.790s] [ 46%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[16.674s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[16.677s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[16.679s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[16.681s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[16.682s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[16.684s]       |                [01;35m[K^[m[K
+[16.688s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[16.690s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[16.692s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[16.693s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[16.695s]       |                    [01;35m[K^[m[K
+[16.938s] [ 50%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[17.641s] [ 53%] [32mBuilding CXX object CMakeFiles/rplidar_node.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[17.757s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[17.757s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[17.758s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[17.758s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[17.760s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[17.760s]       |                [01;35m[K^[m[K
+[17.764s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[17.764s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[17.765s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[17.765s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[17.766s]       |                    [01;35m[K^[m[K
+[17.787s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[17.788s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:94:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[17.788s]    94 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[17.789s]       |                        [01;35m[K~~~~~^~~~[m[K
+[17.999s] [ 57%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[18.010s] [ 61%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[18.458s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[18.460s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[18.461s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[18.464s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[18.466s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[18.468s]       |                [01;35m[K^[m[K
+[18.471s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[18.473s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[18.475s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[18.476s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[18.478s]       |                    [01;35m[K^[m[K
+[18.496s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[18.498s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:104:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[18.499s]   104 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[18.501s]       |                        [01;35m[K~~~~~^~~~[m[K
+[18.719s] [ 65%] [32m[1mLinking CXX executable rplidar_node[0m
+[19.202s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[19.203s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[19.203s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[19.204s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[19.204s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.204s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[19.211s]       |                [01;35m[K^[m[K
+[19.212s] [ 69%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/hal/thread.cpp.o[0m
+[19.217s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[19.218s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[19.218s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[19.219s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[19.222s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[19.222s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[19.223s]       |                    [01;35m[K^[m[K
+[19.635s] [ 69%] Built target rplidar_node
+[19.667s] [ 73%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/rplidar_driver.cpp.o[0m
+[20.031s] [ 76%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_crc.cpp.o[0m
+[20.073s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[20.075s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[20.077s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[20.078s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.080s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[20.082s]       |                [01;35m[K^[m[K
+[20.086s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_crc.h:36[m[K,
+[20.087s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_crc.cpp:33[m[K:
+[20.089s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.091s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[20.092s]       |                    [01;35m[K^[m[K
+[20.167s] [ 80%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_lidar_driver.cpp.o[0m
+[20.314s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[20.314s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[20.315s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[20.316s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[20.316s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.317s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[20.318s]       |                [01;35m[K^[m[K
+[20.321s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[20.322s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[20.322s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:49[m[K,
+[20.323s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[20.324s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.325s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[20.325s]       |                    [01;35m[K^[m[K
+[20.494s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[20.495s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[20.495s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:77:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[20.496s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))[01;35m[Kproc[m[K, data);
+[20.496s]       |                                                                             [01;35m[K^~~~[m[K
+[20.497s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In member function ‘[01m[Ku_result rp::hal::Thread::join(long unsigned int)[m[K’:
+[20.501s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:129:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.502s]   129 | u_result Thread::join([01;35m[Kunsigned long timeout[m[K)
+[20.502s]       |                       [01;35m[K~~~~~~~~~~~~~~^~~~~~~[m[K
+[20.695s] [ 84%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_serial_channel.cpp.o[0m
+[20.786s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[20.786s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[20.787s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[20.787s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[20.787s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.787s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[20.788s]       |                [01;35m[K^[m[K
+[20.789s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[20.789s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[20.789s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[20.789s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:33[m[K:
+[20.790s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[20.790s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[20.790s]       |                    [01;35m[K^[m[K
+[21.055s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::connect(const char*, _u32, _u32)[m[K’:
+[21.056s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:67:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.056s]    67 |     u_result RPlidarDriver::connect(const char *path, _u32 portOrBaud, [01;35m[K_u32 flag[m[K)
+[21.056s]       |                                                                        [01;35m[K~~~~~^~~~[m[K
+[21.060s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::reset(_u32)[m[K’:
+[21.060s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:101:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.061s]   101 |     u_result RPlidarDriver::reset([01;35m[K_u32 timeout[m[K)
+[21.061s]       |                                   [01;35m[K~~~~~^~~~~~~[m[K
+[21.061s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Ku_result rp::standalone::rplidar::RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t*, size_t&)[m[K’:
+[21.062s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodebuffer[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.062s]   180 |     u_result RPlidarDriver::getScanDataWithInterval([01;35m[Krplidar_response_measurement_node_t * nodebuffer[m[K, size_t & count)
+[21.063s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[21.063s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:180:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.064s]   180 |     u_result RPlidarDriver::getScanDataWithInterval(rplidar_response_measurement_node_t * nodebuffer, [01;35m[Ksize_t & count[m[K)
+[21.064s]       |                                                                                                       [01;35m[K~~~~~~~~~^~~~~[m[K
+[21.269s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:36[m[K,
+[21.270s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[21.270s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[21.270s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[21.271s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.271s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[21.271s]       |                [01;35m[K^[m[K
+[21.272s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:36[m[K,
+[21.272s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[21.273s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sdkcommon.h:49[m[K,
+[21.274s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:33[m[K:
+[21.274s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.275s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.275s]       |                    [01;35m[K^[m[K
+[21.314s] [ 88%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_tcp_channel.cpp.o[0m
+[21.457s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[21.457s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[21.457s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[21.458s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.458s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[21.463s]       |                [01;35m[K^[m[K
+[21.464s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[21.464s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_serial_channel.cpp:33[m[K:
+[21.464s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.465s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[21.465s]       |                    [01;35m[K^[m[K
+[21.584s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::reset(sl_u32)[m[K’:
+[21.585s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:274:32:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.585s]   274 |         sl_result reset([01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[21.585s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.596s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getAllSupportedScanModes(std::vector<sl::LidarScanMode>&, sl_u32)[m[K’:
+[21.596s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:287:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.597s]   287 |         sl_result getAllSupportedScanModes(std::vector<LidarScanMode>& outModes, [01;35m[Ksl_u32 timeoutInMs = DEFAULT_TIMEOUT[m[K)
+[21.597s]       |                                                                                  [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.601s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::startScan(bool, bool, sl_u32, sl::LidarScanMode*)[m[K’:
+[21.601s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:348:69:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.602s]   348 |         sl_result startScan(bool force, bool useTypicalScan, [01;35m[Ksl_u32 options = 0[m[K, LidarScanMode* outUsedScanMode = nullptr)
+[21.602s]       |                                                              [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[21.613s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::stop(sl_u32)[m[K’:
+[21.613s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:543:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.614s]   543 |         sl_result stop([01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[21.614s]       |                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.615s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getDeviceInfo(sl_lidar_response_device_info_t&, sl_u32)[m[K’:
+[21.616s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:588:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.616s]   588 |         sl_result getDeviceInfo(sl_lidar_response_device_info_t& info, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[21.616s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.617s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::checkMotorCtrlSupport(sl::MotorCtrlSupport&, sl_u32)[m[K’:
+[21.618s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:601:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.618s]   601 |         sl_result checkMotorCtrlSupport(MotorCtrlSupport & support, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[21.619s]       |                                                                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.619s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getFrequency(const sl::LidarScanMode&, const sl_lidar_response_measurement_node_hq_t*, size_t, float&)[m[K’:
+[21.620s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:636:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knodes[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.620s]   636 |         sl_result getFrequency(const LidarScanMode& scanMode, [01;35m[Kconst sl_lidar_response_measurement_node_hq_t* nodes[m[K, size_t count, float& frequency)
+[21.620s]       |                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[21.621s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getHealth(sl_lidar_response_device_health_t&, sl_u32)[m[K’:
+[21.622s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:662:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktimeout[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.622s]   662 |         sl_result getHealth(sl_lidar_response_device_health_t& health, [01;35m[Ksl_u32 timeout = DEFAULT_TIMEOUT[m[K)
+[21.622s]       |                                                                        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.632s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual sl_result sl::SlamtecLidarDriver::getMotorInfo(sl::LidarMotorInfo&, sl_u32)[m[K’:
+[21.633s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:760:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtimeoutInMs[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.633s]   760 |         sl_result getMotorInfo(LidarMotorInfo &motorInfo, [01;35m[Ksl_u32 timeoutInMs[m[K)
+[21.634s]       |                                                           [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[21.662s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_ultraCapsuleToNormal(const sl_lidar_response_ultra_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[21.662s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1399:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[21.663s]  1399 |                     if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[21.663s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[21.666s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1408:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[21.667s]  1408 |                     if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[21.667s]       |                          [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[21.671s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K In member function ‘[01m[Kvoid sl::SlamtecLidarDriver::_dense_capsuleToNormal(const sl_lidar_response_capsule_measurement_nodes_t&, sl_lidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[21.672s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:1606:116:[m[K [01;35m[Kwarning: [m[Ktype qualifiers ignored on cast result type [[01;35m[K-Wignored-qualifiers[m[K]
+[21.672s]  1606 |                     const int dist = static_cast<const int>(_cached_previous_dense_capsuledata.cabins[pos].distance[01;35m[K)[m[K;
+[21.673s]       |                                                                                                                    [01;35m[K^[m[K
+[21.719s] [ 92%] [32mBuilding CXX object CMakeFiles/rplidar_composition.dir/sdk/src/sl_udp_channel.cpp.o[0m
+[21.910s] [ 96%] [32m[1mLinking CXX executable rplidar_client[0m
+[21.996s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:[m[K At global scope:
+[21.996s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:72:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::convert(const sl_lidar_response_measurement_node_hq_t&, sl_lidar_response_measurement_node_t&)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[21.997s]    72 |     static void [01;35m[Kconvert[m[K(const sl_lidar_response_measurement_node_hq_t& from, sl_lidar_response_measurement_node_t& to)
+[21.997s]       |                 [01;35m[K^~~~~~~[m[K
+[21.998s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_lidar_driver.cpp:59:17:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid sl::printDeprecationWarn(const char*, const char*)[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[21.998s]    59 |     static void [01;35m[KprintDeprecationWarn[m[K(const char* fn, const char* replacement)
+[21.998s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[22.207s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[22.209s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[22.211s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[22.213s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.215s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[22.216s]       |                [01;35m[K^[m[K
+[22.222s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[22.223s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:33[m[K:
+[22.225s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.227s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[22.229s]       |                    [01;35m[K^[m[K
+[22.250s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::TcpChannel::setStatus(_u32)[m[K’:
+[22.251s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_tcp_channel.cpp:94:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.253s]    94 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[22.255s]       |                        [01;35m[K~~~~~^~~~[m[K
+[22.565s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:36[m[K,
+[22.565s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[22.566s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[22.566s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_protocol.h:58:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.567s]    58 |     sl_u8 data[[01;35m[K0[m[K];
+[22.572s]       |                [01;35m[K^[m[K
+[22.572s] In file included from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_driver.h:54[m[K,
+[22.573s]                  from [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:33[m[K:
+[22.573s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/./sdk/include/sl_lidar_cmd.h:312:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[22.573s]   312 |     sl_u8  payload[[01;35m[K0[m[K];
+[22.574s]       |                    [01;35m[K^[m[K
+[22.585s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:[m[K In member function ‘[01m[Kvoid sl::UdpChannel::setStatus(_u32)[m[K’:
+[22.585s] [01m[K/home/jetson/ros2_ws/src/rplidar_ros/sdk/src/sl_udp_channel.cpp:104:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kflag[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[22.585s]   104 |         void setStatus([01;35m[K_u32 flag[m[K){}
+[22.586s]       |                        [01;35m[K~~~~~^~~~[m[K
+[22.882s] [ 96%] Built target rplidar_client
+[23.035s] [100%] [32m[1mLinking CXX executable rplidar_composition[0m
+[23.731s] [100%] Built target rplidar_composition
+[23.763s] Invoked command in '/home/jetson/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/rplidar_ros -- -j4 -l4
+[23.885s] Invoking command in '/home/jetson/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/rplidar_ros
+[23.909s] -- Install configuration: ""
+[23.911s] -- Execute custom install script
+[23.913s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[23.914s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[23.915s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[23.915s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[23.918s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[23.918s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[23.918s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[23.919s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[23.919s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[23.919s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[23.920s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[23.920s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[23.920s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[23.920s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[23.921s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[23.921s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[23.921s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[23.922s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[23.922s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[23.922s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[23.923s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[23.923s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[23.924s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[23.926s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[23.926s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[23.927s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[23.928s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[23.929s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[23.930s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[23.931s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[23.932s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[23.932s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[23.933s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[23.934s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[23.934s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[23.935s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[23.936s] -- Symlinking: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[23.961s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[23.962s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.963s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.964s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[23.964s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[23.965s] -- Up-to-date symlink: /home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[23.980s] Invoked command in '/home/jetson/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/rplidar_ros

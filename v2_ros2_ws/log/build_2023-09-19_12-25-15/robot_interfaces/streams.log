@@ -1,0 +1,267 @@
+[2.501s] Invoking command in '/home/jetson/ros2_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/robot_interfaces -- -j4 -l4
+[2.618s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.709s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.503s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.530s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.326s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.903s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[5.420s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.473s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.578s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[5.584s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[5.670s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.670s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[5.671s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[5.724s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.818s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.827s] -- Added test 'lint_cmake' to check CMake code style
+[5.833s] -- Added test 'xmllint' to check XML markup files
+[5.852s] -- Configuring done
+[6.026s] -- Generating done
+[6.035s] -- Build files have been written to: /home/jetson/ros2_ws/build/robot_interfaces
+[6.112s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.117s] [35m[1mScanning dependencies of target robot_interfaces__cpp[0m
+[6.146s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.447s] [  4%] Built target robot_interfaces__cpp
+[7.483s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.491s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.496s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_generator_c[0m
+[7.519s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[7.545s] [ 12%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/tick_count__functions.c.o[0m
+[8.062s] [ 14%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/wheel_rpm__functions.c.o[0m
+[8.241s] [ 17%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_interfaces/msg/detail/duty_cycle__functions.c.o[0m
+[8.405s] [ 19%] [32m[1mLinking C shared library librobot_interfaces__rosidl_generator_c.so[0m
+[8.549s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_typesupport_cpp[0m
+[8.590s] [ 19%] Built target robot_interfaces__rosidl_generator_c
+[8.605s] [ 21%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/tick_count__type_support.cpp.o[0m
+[8.633s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.755s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_typesupport_introspection_cpp[0m
+[8.831s] [ 25%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/tick_count__type_support.cpp.o[0m
+[8.884s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[8.932s] [ 27%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/tick_count__type_support.cpp.o[0m
+[9.766s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_typesupport_c[0m
+[9.828s] [ 29%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/tick_count__type_support.cpp.o[0m
+[9.947s] [ 31%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/wheel_rpm__type_support.cpp.o[0m
+[10.043s] [ 34%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/wheel_rpm__type_support.cpp.o[0m
+[10.044s] [ 36%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/wheel_rpm__type_support.cpp.o[0m
+[10.065s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_interfaces/msg/duty_cycle__type_support.cpp.o[0m
+[10.171s] [ 40%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_c.so[0m
+[10.306s] [ 40%] Built target robot_interfaces__rosidl_typesupport_c
+[10.340s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_interfaces/msg/detail/duty_cycle__type_support.cpp.o[0m
+[10.607s] [ 44%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/wheel_rpm__type_support.cpp.o[0m
+[11.144s] [ 46%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_interfaces/msg/duty_cycle__type_support.cpp.o[0m
+[11.168s] [ 48%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_interfaces/msg/detail/dds_fastrtps/duty_cycle__type_support.cpp.o[0m
+[11.489s] [ 51%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[11.643s] [ 51%] Built target robot_interfaces__rosidl_typesupport_introspection_cpp
+[11.677s] [ 53%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[12.281s] [ 55%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_cpp.so[0m
+[12.399s] [ 55%] Built target robot_interfaces__rosidl_typesupport_cpp
+[12.779s] [ 57%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.892s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_typesupport_introspection_c[0m
+[12.938s] [ 59%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/tick_count__type_support.c.o[0m
+[12.958s] [ 61%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/duty_cycle__type_support.c.o[0m
+[12.964s] [ 63%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_interfaces/msg/detail/wheel_rpm__type_support.c.o[0m
+[13.076s] [ 65%] [32m[1mLinking C shared library librobot_interfaces__rosidl_typesupport_introspection_c.so[0m
+[13.095s] [ 65%] Built target robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[13.127s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[13.162s] [ 68%] Built target robot_interfaces__rosidl_typesupport_introspection_c
+[14.189s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c[0m
+[14.230s] [ 70%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/wheel_rpm__type_support_c.cpp.o[0m
+[14.249s] [ 74%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/tick_count__type_support_c.cpp.o[0m
+[14.250s] [ 74%] [32mBuilding CXX object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_interfaces/msg/detail/duty_cycle__type_support_c.cpp.o[0m
+[15.519s] [ 76%] [32m[1mLinking CXX shared library librobot_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[15.796s] [ 76%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c
+[15.854s] [ 76%] Built target robot_interfaces
+[15.884s] [35m[1mScanning dependencies of target robot_interfaces__py[0m
+[15.916s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[17.854s] [ 78%] Built target robot_interfaces__py
+[17.891s] [35m[1mScanning dependencies of target robot_interfaces__python[0m
+[17.949s] [ 80%] [32mBuilding C object CMakeFiles/robot_interfaces__python.dir/rosidl_generator_py/robot_interfaces/msg/_wheel_rpm_s.c.o[0m
+[17.952s] [ 82%] [32mBuilding C object CMakeFiles/robot_interfaces__python.dir/rosidl_generator_py/robot_interfaces/msg/_tick_count_s.c.o[0m
+[17.980s] [ 85%] [32mBuilding C object CMakeFiles/robot_interfaces__python.dir/rosidl_generator_py/robot_interfaces/msg/_duty_cycle_s.c.o[0m
+[18.416s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/librobot_interfaces__python.so[0m
+[18.529s] [ 87%] Built target robot_interfaces__python
+[18.563s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[18.563s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_typesupport_c__pyext[0m
+[18.565s] [35m[1mScanning dependencies of target robot_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[18.631s] [ 89%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[18.640s] [ 91%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[18.649s] [ 93%] [32mBuilding C object CMakeFiles/robot_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_interfaces/_robot_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[18.942s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.979s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[18.985s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[19.069s] [100%] Built target robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[19.100s] [100%] Built target robot_interfaces__rosidl_typesupport_c__pyext
+[19.184s] [100%] Built target robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[19.217s] Invoked command in '/home/jetson/ros2_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/robot_interfaces -- -j4 -l4
+[19.463s] Invoking command in '/home/jetson/ros2_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/robot_interfaces
+[19.488s] -- Install configuration: ""
+[19.489s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_interfaces
+[19.489s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces
+[19.490s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg
+[19.490s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/duty_cycle.h
+[19.491s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/wheel_velocity.h
+[19.491s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/tick_count.h
+[19.491s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/wheel_rpm.h
+[19.491s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[19.492s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__functions.h
+[19.492s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__functions.h
+[19.492s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__functions.h
+[19.493s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__type_support.h
+[19.493s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.h
+[19.493s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__struct.h
+[19.494s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__functions.c
+[19.494s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__functions.c
+[19.494s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__functions.c
+[19.495s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.h
+[19.495s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__struct.h
+[19.495s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__type_support.h
+[19.495s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__struct.h
+[19.496s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__functions.c
+[19.496s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__functions.h
+[19.496s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__struct.h
+[19.497s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[19.497s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.sh
+[19.498s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/library_path.dsv
+[19.498s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so
+[19.499s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_generator_c.so" to ""
+[19.499s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces
+[19.499s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg
+[19.500s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[19.500s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[19.500s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_fastrtps_c.h
+[19.500s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__rosidl_typesupport_fastrtps_c.h
+[19.501s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_c.h
+[19.501s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_c.h
+[19.501s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so
+[19.502s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[19.503s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces
+[19.503s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg
+[19.503s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[19.504s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[19.504s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__rosidl_typesupport_fastrtps_cpp.hpp
+[19.504s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_fastrtps_cpp.hpp
+[19.506s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_fastrtps_cpp.hpp
+[19.507s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_fastrtps_cpp.hpp
+[19.507s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/dds_fastrtps
+[19.507s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[19.509s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[19.509s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces
+[19.510s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg
+[19.510s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[19.510s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__type_support.c
+[19.511s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.c
+[19.511s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_c.h
+[19.511s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__rosidl_typesupport_introspection_c.h
+[19.511s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_introspection_c.h
+[19.512s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.c
+[19.512s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_c.h
+[19.512s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__type_support.c
+[19.513s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[19.513s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so
+[19.514s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[19.515s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so
+[19.516s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_c.so" to ""
+[19.517s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces
+[19.517s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg
+[19.518s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/tick_count.hpp
+[19.518s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[19.518s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/duty_cycle.hpp
+[19.518s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/wheel_velocity.hpp
+[19.519s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[19.519s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__traits.hpp
+[19.519s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__struct.hpp
+[19.520s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__builder.hpp
+[19.520s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__struct.hpp
+[19.520s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__type_support.hpp
+[19.521s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__struct.hpp
+[19.521s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__traits.hpp
+[19.521s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__builder.hpp
+[19.522s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__builder.hpp
+[19.522s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.hpp
+[19.522s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__type_support.hpp
+[19.523s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__traits.hpp
+[19.523s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__struct.hpp
+[19.523s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__traits.hpp
+[19.524s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.hpp
+[19.524s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__builder.hpp
+[19.524s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/wheel_rpm.hpp
+[19.524s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces
+[19.525s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg
+[19.525s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail
+[19.525s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__rosidl_typesupport_introspection_cpp.hpp
+[19.526s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__type_support.cpp
+[19.526s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__type_support.cpp
+[19.526s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_rpm__type_support.cpp
+[19.527s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/tick_count__rosidl_typesupport_introspection_cpp.hpp
+[19.527s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/wheel_velocity__rosidl_typesupport_introspection_cpp.hpp
+[19.527s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__rosidl_typesupport_introspection_cpp.hpp
+[19.528s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/include/robot_interfaces/msg/detail/duty_cycle__type_support.cpp
+[19.528s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so
+[19.529s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[19.531s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so
+[19.532s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__rosidl_typesupport_cpp.so" to ""
+[19.532s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.sh
+[19.532s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/pythonpath.dsv
+[19.533s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/__init__.py
+[19.635s] Compiling '/home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/__init__.py'...
+[19.653s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg
+[19.653s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/__init__.py
+[19.654s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_duty_cycle.py
+[19.654s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_wheel_velocity.py
+[19.654s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_wheel_rpm.py
+[19.655s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_tick_count.py
+[19.655s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_wheel_rpm_s.c
+[19.656s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_duty_cycle_s.c
+[19.656s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_wheel_velocity_s.c
+[19.656s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/msg/_tick_count_s.c
+[19.658s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[19.659s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so" to ""
+[19.661s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[19.662s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so" to ""
+[19.663s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[19.665s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages/robot_interfaces/robot_interfaces_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so" to ""
+[19.665s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__python.so
+[19.666s] -- Set runtime path of "/home/jetson/ros2_ws/install/robot_interfaces/lib/librobot_interfaces__python.so" to ""
+[19.667s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.idl
+[19.667s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/WheelRPM.idl
+[19.667s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.idl
+[19.668s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/TickCount.msg
+[19.668s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/WheelRPM.msg
+[19.668s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/msg/DutyCycle.msg
+[19.669s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_interfaces
+[19.669s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_interfaces
+[19.669s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.sh
+[19.670s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/ament_prefix_path.dsv
+[19.670s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.sh
+[19.670s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/environment/path.dsv
+[19.671s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.bash
+[19.671s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.sh
+[19.671s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.zsh
+[19.672s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/local_setup.dsv
+[19.672s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.dsv
+[19.672s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/ament_index/resource_index/packages/robot_interfaces
+[19.673s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport.cmake
+[19.674s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[19.675s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[19.675s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[19.677s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport.cmake
+[19.677s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[19.678s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_generator_cppExport.cmake
+[19.679s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[19.680s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[19.681s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport.cmake
+[19.681s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[19.682s] -- Installing: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[19.682s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.683s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[19.683s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[19.683s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.684s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[19.684s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[19.684s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig.cmake
+[19.685s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/cmake/robot_interfacesConfig-version.cmake
+[19.685s] -- Up-to-date: /home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.xml
+[19.699s] Invoked command in '/home/jetson/ros2_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/robot_interfaces

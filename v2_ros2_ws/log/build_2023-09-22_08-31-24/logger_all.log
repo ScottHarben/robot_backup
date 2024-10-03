@@ -1,0 +1,378 @@
+[2.244s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.244s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7d9562b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7d9562b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7d9567f0>)
+[2.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.403s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.404s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.404s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jetson/ros2_ws'
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.404s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.405s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[2.497s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[2.498s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[2.510s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot' with type 'ros.ament_python' and name 'robot'
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore'
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ignore_ament_install'
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_pkg']
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_pkg'
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['colcon_meta']
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'colcon_meta'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extensions ['ros']
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_bringup) by extension 'ros'
+[2.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_bringup' with type 'ros.ament_python' and name 'robot_bringup'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ignore_ament_install'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_pkg']
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_pkg'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['colcon_meta']
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'colcon_meta'
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extensions ['ros']
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_description) by extension 'ros'
+[2.518s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_description' with type 'ros.ament_python' and name 'robot_description'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ignore_ament_install'
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_pkg']
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_pkg'
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['colcon_meta']
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'colcon_meta'
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extensions ['ros']
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_interfaces) by extension 'ros'
+[2.523s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_interfaces' with type 'ros.ament_cmake' and name 'robot_interfaces'
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[2.527s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[2.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.642s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/jetson/ros2_ws/install
+[2.650s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 333 installed packages in /opt/ros/foxy
+[2.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.047s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[3.047s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[3.047s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.047s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.047s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[3.047s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[3.048s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[3.048s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.048s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.048s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/robot', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/robot', 'symlink_install': False, 'test_result_base': None}
+[3.052s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_args' from command line to 'None'
+[3.052s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target' from command line to 'None'
+[3.052s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.052s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.052s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[3.052s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[3.052s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[3.052s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.053s] Level 5:colcon.colcon_core.verb:set package 'robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.053s] DEBUG:colcon.colcon_core.verb:Building package 'robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/robot_bringup', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[3.056s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[3.057s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.057s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/robot_description', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/robot_description', 'symlink_install': False, 'test_result_base': None}
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_args' from command line to 'None'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target' from command line to 'None'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.061s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.062s] Level 5:colcon.colcon_core.verb:set package 'robot_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.062s] DEBUG:colcon.colcon_core.verb:Building package 'robot_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/robot_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/robot_interfaces', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/robot_interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.066s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[3.066s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[3.066s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.066s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[3.066s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[3.066s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[3.067s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[3.067s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[3.067s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.067s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jetson/ros2_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jetson/ros2_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/jetson/ros2_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[3.069s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.081s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.082s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/robot' with build type 'ament_python'
+[3.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'ament_prefix_path')
+[3.113s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot/share/robot/hook/ament_prefix_path.ps1'
+[3.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot/share/robot/hook/ament_prefix_path.dsv'
+[3.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot/share/robot/hook/ament_prefix_path.sh'
+[3.128s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.129s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.151s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/robot_bringup' with build type 'ament_python'
+[3.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'ament_prefix_path')
+[3.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.ps1'
+[3.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.dsv'
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/hook/ament_prefix_path.sh'
+[3.169s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.169s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.191s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jetson/ros2_ws/src/robot_description' with build type 'ament_python'
+[3.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'ament_prefix_path')
+[3.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.ps1'
+[3.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.dsv'
+[3.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_description/share/robot_description/hook/ament_prefix_path.sh'
+[3.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_ws/src/robot_interfaces' with build type 'ament_cmake'
+[3.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/robot_interfaces'
+[3.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.052s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/robot'
+[4.058s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.058s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.860s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/robot_bringup'
+[4.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.668s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jetson/ros2_ws/src/robot_description'
+[5.674s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.675s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/robot_interfaces -- -j4 -l4
+[7.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/robot_interfaces -- -j4 -l4
+[7.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/robot_interfaces
+[7.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/robot_description': PYTHONPATH=/home/jetson/ros2_ws/build/robot_description/prefix_override:/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros2_ws/build/robot_description/build
+[7.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/robot': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros2_ws/build/robot/build
+[7.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/robot_bringup': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros2_ws/build/robot_bringup/build
+[7.917s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[7.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/robot_interfaces
+[7.961s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces' for CMake module files
+[7.965s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces' for CMake config files
+[7.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[7.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[7.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[7.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[7.985s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/lib'
+[7.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[7.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[7.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[7.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[7.997s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/bin'
+[7.997s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[7.998s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages'
+[7.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'pythonpath')
+[8.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.ps1'
+[8.006s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.dsv'
+[8.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.sh'
+[8.010s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/bin'
+[8.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[8.024s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[8.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[8.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[8.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[8.041s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[8.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_interfaces)
+[8.331s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces' for CMake module files
+[8.334s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces' for CMake config files
+[8.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'cmake_prefix_path')
+[8.345s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.ps1'
+[8.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.dsv'
+[8.349s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/cmake_prefix_path.sh'
+[8.351s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/lib'
+[8.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'ld_library_path_lib')
+[8.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.ps1'
+[8.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.dsv'
+[8.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/ld_library_path_lib.sh'
+[8.361s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/bin'
+[8.362s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/lib/pkgconfig/robot_interfaces.pc'
+[8.362s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/lib/python3.8/site-packages'
+[8.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_interfaces', 'pythonpath')
+[8.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.ps1'
+[8.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.dsv'
+[8.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/hook/pythonpath.sh'
+[8.373s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_interfaces/bin'
+[8.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.ps1'
+[8.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.dsv'
+[8.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.sh'
+[8.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.bash'
+[8.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_interfaces/share/robot_interfaces/package.zsh'
+[8.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/robot_interfaces/share/colcon-core/packages/robot_interfaces)
+[8.393s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jetson/ros2_ws/src/rplidar_ros' with build type 'ament_cmake'
+[8.394s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jetson/ros2_ws/src/rplidar_ros'
+[8.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.401s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/rplidar_ros -- -j4 -l4
+[8.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/ros2_ws/build/rplidar_ros -- -j4 -l4
+[9.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/rplidar_ros
+[9.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[9.320s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros' for CMake module files
+[9.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/robot_description:/home/jetson/ros2_ws/install/robot_bringup:/home/jetson/ros2_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/ros2_ws/build/rplidar_ros
+[9.324s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros' for CMake config files
+[9.327s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[9.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[9.335s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[9.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[9.339s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/lib'
+[9.339s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/bin'
+[9.339s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[9.340s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/lib/python3.8/site-packages'
+[9.341s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/bin'
+[9.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[9.351s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[9.352s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[9.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[9.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[9.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[9.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/robot' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros2_ws/build/robot/build
+[9.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/robot': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/ros2_ws/build/robot/build install --record /home/jetson/ros2_ws/build/robot/install.log --single-version-externally-managed
+[9.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/robot_bringup' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros2_ws/build/robot_bringup/build
+[9.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/robot_bringup': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/jetson/ros2_ws/build/robot_bringup/build install --record /home/jetson/ros2_ws/build/robot_bringup/install.log --single-version-externally-managed
+[9.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/build/robot_description' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot_description/prefix_override:/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jetson/ros2_ws/build/robot_description/build
+[9.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jetson/ros2_ws/src/robot_description': PYTHONPATH=/home/jetson/ros2_ws/build/robot_description/prefix_override:/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/jetson/ros2_ws/build/robot_description/build install --record /home/jetson/ros2_ws/build/robot_description/install.log --single-version-externally-managed
+[9.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[9.581s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros' for CMake module files
+[9.584s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros' for CMake config files
+[9.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[9.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[9.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[9.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[9.598s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/lib'
+[9.598s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/bin'
+[9.598s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[9.599s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/lib/python3.8/site-packages'
+[9.600s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/rplidar_ros/bin'
+[9.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[9.610s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[9.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.sh'
+[9.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.bash'
+[9.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[9.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[10.659s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_bringup' for CMake module files
+[10.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/robot_bringup' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot_bringup/prefix_override:/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_bringup build --build-base /home/jetson/ros2_ws/build/robot_bringup/build install --record /home/jetson/ros2_ws/build/robot_bringup/install.log --single-version-externally-managed
+[10.662s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_bringup' for CMake config files
+[10.666s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_bringup/lib'
+[10.667s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_bringup/bin'
+[10.667s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_bringup/lib/pkgconfig/robot_bringup.pc'
+[10.668s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_bringup/lib/python3.8/site-packages'
+[10.668s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_bringup', 'pythonpath')
+[10.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.ps1'
+[10.675s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.dsv'
+[10.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/hook/pythonpath.sh'
+[10.678s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_bringup/bin'
+[10.678s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_bringup)
+[10.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/package.ps1'
+[10.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/package.dsv'
+[10.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/package.sh'
+[10.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/package.bash'
+[10.689s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_bringup/share/robot_bringup/package.zsh'
+[10.689s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/robot_bringup/share/colcon-core/packages/robot_bringup)
+[10.701s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot' for CMake module files
+[10.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/robot' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/ros2_ws/build/robot/build install --record /home/jetson/ros2_ws/build/robot/install.log --single-version-externally-managed
+[10.704s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot' for CMake config files
+[10.706s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot/lib'
+[10.706s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot/bin'
+[10.706s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot/lib/pkgconfig/robot.pc'
+[10.707s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages'
+[10.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath')
+[10.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot/share/robot/hook/pythonpath.ps1'
+[10.714s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot/share/robot/hook/pythonpath.dsv'
+[10.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot/share/robot/hook/pythonpath.sh'
+[10.716s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot/bin'
+[10.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[10.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot/share/robot/package.ps1'
+[10.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/robot/share/robot/package.dsv'
+[10.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot/share/robot/package.sh'
+[10.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot/share/robot/package.bash'
+[10.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot/share/robot/package.zsh'
+[10.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/robot/share/colcon-core/packages/robot)
+[10.736s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_description' for CMake module files
+[10.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jetson/ros2_ws/src/robot_description' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot_description/prefix_override:/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/jetson/ros2_ws/build/robot_description/build install --record /home/jetson/ros2_ws/build/robot_description/install.log --single-version-externally-managed
+[10.741s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_description' for CMake config files
+[10.743s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_description/lib'
+[10.743s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_description/bin'
+[10.743s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_description/lib/pkgconfig/robot_description.pc'
+[10.744s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_description/lib/python3.8/site-packages'
+[10.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath')
+[10.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_description/share/robot_description/hook/pythonpath.ps1'
+[10.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jetson/ros2_ws/install/robot_description/share/robot_description/hook/pythonpath.dsv'
+[10.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jetson/ros2_ws/install/robot_description/share/robot_description/hook/pythonpath.sh'
+[10.753s] Level 1:colcon.colcon_core.environment:checking '/home/jetson/ros2_ws/install/robot_description/bin'
+[10.753s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[10.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_description/share/robot_description/package.ps1'
+[10.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jetson/ros2_ws/install/robot_description/share/robot_description/package.dsv'
+[10.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_description/share/robot_description/package.sh'
+[10.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_description/share/robot_description/package.bash'
+[10.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/jetson/ros2_ws/install/robot_description/share/robot_description/package.zsh'
+[10.764s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jetson/ros2_ws/install/robot_description/share/colcon-core/packages/robot_description)
+[10.765s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.766s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.766s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.789s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.789s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.790s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.830s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.Notifications exited with status 1
+[10.830s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.835s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.ps1'
+[10.839s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_ps1.py'
+[10.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.ps1'
+[10.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.sh'
+[10.855s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jetson/ros2_ws/install/_local_setup_util_sh.py'
+[10.856s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.sh'
+[10.863s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.bash'
+[10.865s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.bash'
+[10.871s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jetson/ros2_ws/install/local_setup.zsh'
+[10.875s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jetson/ros2_ws/install/setup.zsh'

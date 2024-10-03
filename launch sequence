@@ -1,0 +1,112 @@
+***************************************************************
+Alpha
+***************************************************************
+marvin: 
+	ros2 launch alpha gui
+
+hal: 
+	cd ~/alpha_ws
+	sudo pigpiod
+	ros2 launch robot_bringup alpha.launch.py 
+
+rviz2 -d /home/scott/.rviz/alpha.rviz
+
+
+***************************************************************
+Plastic bot
+***************************************************************
+marvin
+
+	ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+	rviz2
+
+hal
+
+	X - ros2 launch robot_description display.launch.py
+
+	X - ros2 launch rplidar_ros2 rplidar_launch.py
+	
+	X - ros2 launch robot_bringup robot.launch.py
+	
+	X - ros2 launch robot_bringup slam_toolbox.launch.py
+		
+		while above is running:
+		ros2 run nav2_map_server map_saver_cli -f "map_name" --ros-args -p save_map_timeout:=10000.0
+	
+	[close slam_toolbox]
+	[relaunch necessary files]
+	
+	X - ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom
+	
+	ros2 launch nav2_bringup bringup_launch.py use_sim_time:=False autostart:=True map:=/home/scott/alpha_ws/house.yaml params_file:=/home/scott/alpha_ws/src/robot_bringup/config/nav2_params.yaml
+	
+	
+	rviz2 -d /home/scott/.rviz2/alpha.rviz
+
+	
+	ros2 run tf2_tools view_frames.py
+	
+	
+	
+!*******************************!
+		NEW
+!*******************************!
+
+marvin
+	teleop
+	rviz2
+
+hal
+	mapping
+		map [location]
+	navigation
+		navigate [location]
+		
+		
+		
+		
+		
+
+
+
+min_vel_x: 0.03
+      min_vel_y: 0.0
+      max_vel_x: 0.14
+      max_vel_y: 0.0
+      max_vel_theta: 0.7
+      min_speed_xy: 0.03
+      max_speed_xy: 0.14
+      min_speed_theta: 0.2
+      acc_lim_x: 0.2
+      acc_lim_y: 0.0
+      acc_lim_theta: 0.5
+      decel_lim_x: -0.2
+      decel_lim_y: 0.0
+      decel_lim_theta: -0.5
+      
+      
+      cost_scaling_factor: 5.0 #higher = decreases quickly as we move away from an object
+        inflation_radius: 0.65 #higher radius to make the path plan go through middle of doorways
+        
+        
+        max_velocity: [0.14, 0.0, 0.7]
+    min_velocity: [-0.14, 0.0, -0.7]
+    max_accel: [0.2, 0.0, 0.5]
+    max_decel: [-0.2, 0.0, -0.5]
+    
+    
+    plugin: "nav2_rotation_shim_controller::RotationShimController"
+      primary_controller: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
+      angular_dist_threshold: 0.785
+      forward_sampling_distance: 0.5
+      rotate_to_heading_angular_vel: 1.8
+      max_angular_accel: 3.2
+      simulate_ahead_time: 1.0
+      rotate_to_goal_heading: false
+      
+      
+       # Add high threshold velocity for turtlebot 3 issue.
+      # https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues/75
+			
+

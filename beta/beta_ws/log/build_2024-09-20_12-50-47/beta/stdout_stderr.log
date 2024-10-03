@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/beta/beta.egg-info
+writing ../../build/beta/beta.egg-info/PKG-INFO
+writing dependency_links to ../../build/beta/beta.egg-info/dependency_links.txt
+writing entry points to ../../build/beta/beta.egg-info/entry_points.txt
+writing requirements to ../../build/beta/beta.egg-info/requires.txt
+writing top-level names to ../../build/beta/beta.egg-info/top_level.txt
+writing manifest file '../../build/beta/beta.egg-info/SOURCES.txt'
+reading manifest file '../../build/beta/beta.egg-info/SOURCES.txt'
+writing manifest file '../../build/beta/beta.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/beta_ws/build/beta/build
+creating /home/jetson/beta_ws/build/beta/build/lib
+creating /home/jetson/beta_ws/build/beta/build/lib/beta
+copying beta/__init__.py -> /home/jetson/beta_ws/build/beta/build/lib/beta
+running install
+running install_lib
+creating /home/jetson/beta_ws/install/beta/lib/python3.8/site-packages/beta
+copying /home/jetson/beta_ws/build/beta/build/lib/beta/__init__.py -> /home/jetson/beta_ws/install/beta/lib/python3.8/site-packages/beta
+byte-compiling /home/jetson/beta_ws/install/beta/lib/python3.8/site-packages/beta/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/jetson/beta_ws/install/beta/share/ament_index
+creating /home/jetson/beta_ws/install/beta/share/ament_index/resource_index
+creating /home/jetson/beta_ws/install/beta/share/ament_index/resource_index/packages
+copying resource/beta -> /home/jetson/beta_ws/install/beta/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/beta_ws/install/beta/share/beta
+running install_egg_info
+Copying ../../build/beta/beta.egg-info to /home/jetson/beta_ws/install/beta/lib/python3.8/site-packages/beta-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/jetson/beta_ws/build/beta/install.log'

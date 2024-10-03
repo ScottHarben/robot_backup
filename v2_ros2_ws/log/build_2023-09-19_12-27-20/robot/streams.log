@@ -1,0 +1,32 @@
+[4.742s] Invoking command in '/home/jetson/ros2_ws/src/robot': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/ros2_ws/build/robot/build install --record /home/jetson/ros2_ws/build/robot/install.log --install-scripts $base/lib/robot --single-version-externally-managed
+[5.723s] running egg_info
+[5.726s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[5.726s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[5.727s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[5.728s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[5.728s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[5.866s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[5.870s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[5.870s] running build
+[5.871s] running build_py
+[5.873s] copying robot/rpm_publisher.py -> /home/jetson/ros2_ws/build/robot/build/lib/robot
+[5.874s] running install
+[5.877s] running install_lib
+[5.881s] copying /home/jetson/ros2_ws/build/robot/build/lib/robot/rpm_publisher.py -> /home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages/robot
+[5.884s] byte-compiling /home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages/robot/rpm_publisher.py to rpm_publisher.cpython-38.pyc
+[5.890s] running install_data
+[5.892s] running install_egg_info
+[5.898s] removing '/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info' (and everything under it)
+[5.900s] Copying ../../build/robot/robot.egg-info to /home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info
+[5.903s] running install_scripts
+[5.974s] Installing encoder_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot
+[5.974s] Installing encoder_publisher_left script to /home/jetson/ros2_ws/install/robot/lib/robot
+[5.975s] Installing encoder_publisher_right script to /home/jetson/ros2_ws/install/robot/lib/robot
+[5.975s] Installing imu_controller script to /home/jetson/ros2_ws/install/robot/lib/robot
+[5.976s] Installing motor_controller script to /home/jetson/ros2_ws/install/robot/lib/robot
+[5.976s] Installing motor_driver script to /home/jetson/ros2_ws/install/robot/lib/robot
+[5.977s] Installing odom_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot
+[5.977s] Installing pid_controller script to /home/jetson/ros2_ws/install/robot/lib/robot
+[5.978s] Installing rpm_publisher script to /home/jetson/ros2_ws/install/robot/lib/robot
+[5.978s] writing list of installed files to '/home/jetson/ros2_ws/build/robot/install.log'
+[6.075s] Invoked command in '/home/jetson/ros2_ws/src/robot' returned '0': PYTHONPATH=/home/jetson/ros2_ws/build/robot/prefix_override:/home/jetson/ros2_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/jetson/ros2_ws/build/robot/build install --record /home/jetson/ros2_ws/build/robot/install.log --install-scripts $base/lib/robot --single-version-externally-managed

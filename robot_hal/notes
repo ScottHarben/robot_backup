@@ -1,0 +1,41 @@
+d435i permissions:
+	You need to install Intel Realsense permission scripts located in librealsense source directory.
+
+	For that, first, git clone the librealsense to a local folder
+
+		git clone https://github.com/IntelRealSense/librealsense
+
+	Next, run the following commands to copy the 99-realsense-libusb.rules files to the rules.d folder
+
+		sudo cp config/99-realsense-libusb.rules /etc/udev/rules.d/
+
+	And, then udevadm control to modify the internal state of the running udev dameon to reload rules. Also, udevadm trigger to request device events from the kernel.
+
+		sudo udevadm control --reload-rules
+		sudo udevadm trigger
+		
+d435i IMU data in rviz
+	ros2 launch realsense2_camera rs_launch.py enable_accel:=true enable_gyro:=true unite_imu_method:=1
+	
+	
+tf frames
+	ros2 run tf2_tools view_frames	
+	scp -r frames_2023-06-23_12.03.14.pdf scott@10.0.0.35:~/Documents/frames/
+	
+static
+	ros2 run tf2_ros static_transform_publisher 0 0 0 0 0 0 map odom
+
+*****************
+SECURE BOOT PWD
+Secur3B00t
+*****************
+
+
+sudo pigpiod
+
+
+realsense-viewer
+
+terminator
+
+4.9.253
